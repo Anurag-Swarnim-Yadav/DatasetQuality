@@ -4,7 +4,7 @@
 ## RQ1
 Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
 
-Note: The trained models will be released seperatelt.
+Note: The trained models will be released separately.
 
 
 
