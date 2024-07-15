@@ -7,6 +7,13 @@
 ## RQ1
 Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
 
+| Models           	| PP Reported 	| PP Replicated 	|
+|------------------	|-------------	|---------------	|
+| VulRepair/CodeT5 	| 44%; 44.96% 	| 40.42%        	|
+| CodeBERT         	| 31%; 32.94% 	| 33.20%        	|
+| GraphCodeBERT    	| 37.98%      	| 38.51%        	|
+| UniXcoder        	| 40.62%      	| 40.96%        	|
+
 Note: The trained models will be released separately.
 
 
