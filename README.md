@@ -26,7 +26,8 @@ Note: The trained models will be released separately.
 | GraphCodeBERT    	| 5.31%   	| 13%              	|
 | UniXcoder        	| 4.82%   	| 12%              	|
 
-
+Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and 
+% of Replication shows the fraction of perfect prediction in our replicated results from the VulRepair dataset.
 
 
 
