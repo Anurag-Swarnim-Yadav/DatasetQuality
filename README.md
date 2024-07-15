@@ -17,6 +17,16 @@ Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
 Note: The trained models will be released separately.
 
 
+## RQ2A
+
+| Models           	| PP RQ2A 	| % of Replication 	|
+|------------------	|---------	|------------------	|
+| VulRepair/CodeT5 	| 8.91%   	| 22%              	|
+| CodeBERT         	| 5.58%   	| 17%              	|
+| GraphCodeBERT    	| 5.31%   	| 13%              	|
+| UniXcoder        	| 4.82%   	| 12%              	|
+
+
 
 
 
