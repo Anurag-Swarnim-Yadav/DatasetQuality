@@ -31,6 +31,19 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 
+## RQ2B
+
+| Models           	| PP RQ2A 	| % of Replication 	|
+|------------------	|---------	|------------------	|
+| VulRepair/CodeT5 	| 13.17%  	| 33%              	|
+| CodeBERT         	| 8.83%   	| 27%              	|
+| GraphCodeBERT    	| 9.22%   	| 24%              	|
+| UniXcoder        	| 9.10%   	| 22%              	|
+
+
+
+
+
 ## RQ4B
 In this research question we first determined if the sampels have correct CWE tags. If the sample has incorrect CWE tag, we determine the correct tag based on manual analysis of the sample.
 We also deteming if the corresponding fix is complete based on the manual analsyis.
