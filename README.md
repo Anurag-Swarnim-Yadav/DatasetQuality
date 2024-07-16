@@ -67,3 +67,16 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 In this research question we first determined if the sampels have correct CWE tags. If the sample has incorrect CWE tag, we determine the correct tag based on manual analysis of the sample.
 We also deteming if the corresponding fix is complete based on the manual analsyis.
 <a href ="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4B/Top-10-CWEs-Manual-Analysis.csv"> Top 10 CWEs Analysis for Accuracy and Completeness</a>
+
+
+| Rank 	| CWE Type 	| Name                       	| RQ2B Samples 	| Accurate 	| Complete 	| Accurate & Complete 	|
+|------	|----------	|----------------------------	|--------------	|----------	|----------	|---------------------	|
+| 1    	| CWE-787  	| Out-of-bounds Write        	| 33           	| 15       	| 18       	| 12                  	|
+| 2    	| CWE-79   	| Cross-site Scripting       	| 0            	| 0        	| 0        	| 0                   	|
+| 5    	| CWE-78   	| OS Command Injection       	| 1            	| 0        	| 0        	| 0                   	|
+| 6    	| CWE-89   	| SQL Injection              	| 1            	| 1        	| 1        	| 1                   	|
+| 7    	| CWE-416  	| Use After Free             	| 29           	| 11       	| 18       	| 7                   	|
+| 8    	| CWE-22   	| Path Traversa              	| 2            	| 1        	| 0        	| 0                   	|
+| 9    	| CWE-352  	| Cross-Site Request Forgery 	| 2            	| 2        	| 1        	| 1                   	|
+| 10   	| CWE-434  	| Dangerous File Type        	| -            	| -        	| -        	| -                   	|
+|      	|          	| Total                      	| 68           	| 30       	| 38       	| 21                  	|
