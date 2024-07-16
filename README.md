@@ -91,3 +91,8 @@ We also deteming if the corresponding fix is complete based on the manual analsy
 | CodeBERT      	| 3.0%     	| 12.5% 	| 4.6%     	| 17.3% 	| 5.36%    	| 18.9% 	| 11.76%    	| 5.38%  	| 24.55% 	|
 | GraphCodeBERT 	| 2.2%     	| 11.5% 	| 4.6%     	| 16.9% 	| 5.8%     	| 19.0% 	| 11.76%    	| 6.25%  	| 25.42% 	|
 | UniXcoder     	| 1.9%     	| 12.9% 	| 5.2%     	| 18.1% 	| 6.6%     	| 19.7% 	| 11.31%    	| 6.18%  	| 26.07% 	|
+
+
+
+
+![%PP as a Function of Beam Size for RQ5](sunrise.jpg)
