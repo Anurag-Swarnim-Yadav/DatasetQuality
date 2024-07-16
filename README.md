@@ -95,4 +95,4 @@ We also deteming if the corresponding fix is complete based on the manual analsy
 
 
 
-![%PP as a Function of Beam Size for RQ5](sunrise.jpg)
+![%PP as a Function of Beam Size for RQ5](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ5-Beam-Sizes.png)
