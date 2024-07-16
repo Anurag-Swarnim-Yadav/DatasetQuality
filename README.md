@@ -80,3 +80,14 @@ We also deteming if the corresponding fix is complete based on the manual analsy
 | 9    	| CWE-352  	| Cross-Site Request Forgery 	| 2            	| 2        	| 1        	| 1                   	|
 | 10   	| CWE-434  	| Dangerous File Type        	| -            	| -        	| -        	| -                   	|
 |      	|          	| Total                      	| 68           	| 30       	| 38       	| 21                  	|
+
+
+## RQ5
+
+| Models        	| Beam = 1 	|       	| Beam = 3 	|       	| Beam = 5 	|       	| Beam = 50 	|        	|        	|
+|---------------	|----------	|-------	|----------	|-------	|----------	|-------	|-----------	|--------	|--------	|
+| Datasets      	| BF       	| TL    	| BF       	| TL    	| BF       	| TL    	| BF        	| VR     	| TL     	|
+| VulRepair     	| 3.6%     	| 13.5% 	| 7.4%     	| 19.0% 	| 7.6%     	| 20.2% 	| 6.55%     	| 10.27% 	| 18.67% 	|
+| CodeBERT      	| 3.0%     	| 12.5% 	| 4.6%     	| 17.3% 	| 5.36%    	| 18.9% 	| 11.76%    	| 5.38%  	| 24.55% 	|
+| GraphCodeBERT 	| 2.2%     	| 11.5% 	| 4.6%     	| 16.9% 	| 5.8%     	| 19.0% 	| 11.76%    	| 6.25%  	| 25.42% 	|
+| UniXcoder     	| 1.9%     	| 12.9% 	| 5.2%     	| 18.1% 	| 6.6%     	| 19.7% 	| 11.31%    	| 6.18%  	| 26.07% 	|
