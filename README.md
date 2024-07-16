@@ -94,5 +94,8 @@ We also deteming if the corresponding fix is complete based on the manual analsy
 
 Note: BF = Bug-Fix, TL = Transfer Learning, VR = Vulnerability Repair
 
+BF (Bug-Fix): The models are trained on the bug-fix dataset and tested on the RQ3B vulnerability dataset.
+TL (Transfer Learning): The models are initially trained on the bug-fix dataset and subsequently fine-tuned on the RQ3B vulnerability dataset.
+
 
 ![%PP as a Function of Beam Size for RQ5](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ5-Beam-Sizes.png)
