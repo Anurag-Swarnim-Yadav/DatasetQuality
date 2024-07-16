@@ -92,7 +92,7 @@ We also deteming if the corresponding fix is complete based on the manual analsy
 | GraphCodeBERT 	| 2.2%     	| 11.5% 	| 4.6%     	| 16.9% 	| 5.8%     	| 19.0% 	| 11.76%    	| 6.25%  	| 25.42% 	|
 | UniXcoder     	| 1.9%     	| 12.9% 	| 5.2%     	| 18.1% 	| 6.6%     	| 19.7% 	| 11.31%    	| 6.18%  	| 26.07% 	|
 
-
+Note: BF = Bug-Fix, TL = Transfer Learning, VR = Vulnerability Repair
 
 
 ![%PP as a Function of Beam Size for RQ5](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ5-Beam-Sizes.png)
