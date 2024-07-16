@@ -33,7 +33,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ## RQ2B
 
-| Models           	| PP RQ2A 	| % of Replication 	|
+| Models           	| PP RQ2B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 13.17%  	| 33%              	|
 | CodeBERT         	| 8.83%   	| 27%              	|
