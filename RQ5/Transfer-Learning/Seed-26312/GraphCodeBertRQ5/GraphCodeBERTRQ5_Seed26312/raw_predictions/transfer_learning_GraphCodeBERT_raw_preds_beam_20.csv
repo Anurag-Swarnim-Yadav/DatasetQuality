@@ -1,0 +1,673 @@
+,raw_predictions,correctly_predicted
+0,<S2SV_ModStart> op_mutex ) ; kfree_skb ( skb ) ;,1
+1,<S2SV_ModStart> prevhdr ) ; if ( unfrag_ip6hlen < 0 ) return ERR_PTR ( unfrag_ip6hlen ) ;,0
+2,<S2SV_ModStart> * writer = <S2SV_ModEnd> gf_list_get ( writers,0
+3,<S2SV_ModStart> -> child ; if ( item > 0 ) { <S2SV_ModStart> 0 ) { <S2SV_ModEnd> c = c <S2SV_ModStart> -> next ; },0
+4,"<S2SV_ModStart> u64 nr, <S2SV_ModEnd> struct pt_regs * <S2SV_ModStart>, nr, <S2SV_ModEnd> & data,",1
+5,<S2SV_ModStart> { # ifndef _MSC_VER <S2SV_ModEnd> char buf [,0
+6,"<S2SV_ModStart> fdct16 ( const tran_low_t <S2SV_ModEnd> in [ 16 <S2SV_ModStart> 16 ], tran_low_t <S2SV_ModEnd> out [ 16 <S2SV_ModStart> ] ) { tran_low_t <S2SV_ModEnd> step1 [ 8 <S2SV_ModStart> 8 ] ; tran_low_t <S2SV_ModEnd> step3 [ 8 <S2SV_ModStart> 8 ] ; tran_low_t <S2SV_ModEnd> temp1, temp2 <S2SV_ModStart> ] ; { tran_low_t <S2SV_ModEnd> s0, s1 <S2SV_ModStart>, s7 ; tran_low_t <S2SV_ModEnd> t0, t1 <S2SV_ModStart>, t3 ; tran_low_t <S2SV_ModEnd> x0, x1",0
+7,<S2SV_ModStart> ( ) == 0x48454150 <S2SV_ModEnd> ) { #,0
+8,,0
+9,"<S2SV_ModStart>. left ; lua_pushnumber <S2SV_ModEnd> ( L,",0
+10,"<S2SV_ModStart> void encode_mv_component ( vpx_writer <S2SV_ModEnd> * w, <S2SV_ModStart> 0 ) ; vpx_write <S2SV_ModEnd> ( w, <S2SV_ModStart> ++ i ) vpx_write <S2SV_ModEnd> ( w, <S2SV_ModStart> ( usehp ) vpx_write <S2SV_ModEnd> ( w,",1
+11,<S2SV_ModStart> == 16 ) { <S2SV_ModStart> = COAP_BLOCK_SIZE_16 ; } <S2SV_ModStart> == 32 ) { <S2SV_ModStart> = COAP_BLOCK_SIZE_32 ; } <S2SV_ModStart> == 64 ) { <S2SV_ModStart> = COAP_BLOCK_SIZE_64 ; } <S2SV_ModStart> == 256 ) { <S2SV_ModStart> = COAP_BLOCK_SIZE_256 ; } <S2SV_ModStart> == 512 ) { <S2SV_ModStart> = COAP_BLOCK_SIZE_512 ; },0
+12,"<S2SV_ModStart> ( ndo, ""%04x, <S2SV_blank> "" <S2SV_ModEnd>, EXTRACT_16BITS ( <S2SV_ModStart> EXTRACT_16BITS ( ptr <S2SV_ModEnd> ) ) ) <S2SV_ModStart> ( ndo, ""%04x <S2SV_blank> "" <S2SV_ModEnd>, EXTRACT_16BITS ( <S2SV_ModStart> EXTRACT_16BITS ( ptr <S2SV_ModEnd> ) ) ) <S2SV_ModStart> ( length > 2 <S2SV_ModEnd> ) { ND_PRINT <S2SV_ModStart> * ) ptr <S2SV_ModEnd> ) ; }",0
+13,<S2SV_ModStart> <S2SV_null> <S2SV_null> static int <S2SV_ModEnd> construct_get_dest_keyring ( struct <S2SV_ModStart> * authkey ; int ret = 0 ; <S2SV_ModStart> ( dest_keyring ) { ret = - 1 ; break ; } <S2SV_ModEnd> } case KEY_REQKEY_DEFL_THREAD_KEYRING,0
+14,<S2SV_ModStart> = NULL ; ( void ) spcred ;,0
+15,<S2SV_ModStart> int len ; if (! tm ) return NULL ;,0
+16,<S2SV_ModStart> length ) ; if ( length > AUTH_PASS_LEN ) { <S2SV_ModStart> ) ) ; },0
+17,<S2SV_ModStart> e == p || e == p,0
+18,"<S2SV_ModStart> ) &&! capable_wrt_inode_uidgid <S2SV_ModEnd> ( inode, <S2SV_ModStart> ) &&! capable_wrt_inode_uidgid <S2SV_ModEnd> ( inode, <S2SV_ModStart> ) &&! capable_wrt_inode_uidgid <S2SV_ModEnd> ( inode,",1
+19,<S2SV_ModStart> = 0 ; TEMP_FAILURE_RETRY ( <S2SV_ModStart> & timeout ) ),1
+20,,0
+21,<S2SV_ModStart> + size <= ext4_i_size_read <S2SV_ModEnd> ( inode ),0
+22,"<S2SV_ModStart> alg ) { <S2SV_ModEnd> if (! <S2SV_ModStart> CRYPTO_ALG_NEED_FALLBACK ) ) request_module <S2SV_ModEnd> ( ""%s-all"",",0
+23,<S2SV_ModStart> = GIT_PKT_NG ; if ( len < 0 ) goto out_err ;,0
+24,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+25,<S2SV_ModStart> avio_feof ( pb ) ; avio_feof ( pb,0
+26,"<S2SV_ModStart> mntent, path, rootfs",1
+27,<S2SV_ModStart> - ENODEV ; <S2SV_ModEnd> switch ( io <S2SV_ModStart> EIO ; } io -> io_cleanup = mem_cleanup ;,1
+28,<S2SV_ModStart> MagickRealType ) ( <S2SV_ModEnd> pixel & ( <S2SV_ModStart> pixel & ( <S2SV_ModEnd> pixel * value,0
+29,<S2SV_ModStart> ) ) ; <S2SV_ModEnd> return ret?,0
+30,<S2SV_ModStart> vpx_codec_err_t res ; vpx_codec_enc_cfg_map_t <S2SV_ModEnd> * map ;,0
+31,<S2SV_ModStart> ) ; } kfree ( table ) ;,1
+32,"<S2SV_ModStart> int frame_out, double <S2SV_ModEnd> dx_time ) {",0
+33,<S2SV_ModStart> ; if ( DBIc_ACTIVE ( imp_sth ) ) { if ( <S2SV_ModStart> NULL ) ; },0
+34,,0
+35,<S2SV_ModStart> ; value = ast2obj_expr ( o -> annotation ) ; if (! value ) goto failed ; Py_DECREF ( value ) ; value =,0
+36,<S2SV_ModStart> page && ( ( <S2SV_ModStart> ) == 0 ) <S2SV_ModStart> page && ( ( <S2SV_ModStart> ) > 0 ),0
+37,"<S2SV_ModStart> int low_var_thresh, VP8_COMMON * const cm, <S2SV_ModStart>.5 ) ; <S2SV_ModEnd> unsigned char * <S2SV_ModStart> pp_limits_buffer ; ; <S2SV_ModEnd> ( void ) <S2SV_ModStart> ) flag ; memset <S2SV_ModEnd> ( limits, <S2SV_ModStart> 16 * mb_cols, 0",0
+38,"<S2SV_ModStart> ext4_xattr_cache_insert ( struct mb2_cache <S2SV_ModEnd> * ext4_mb_cache, <S2SV_ModStart> ) ; struct mb2_cache <S2SV_ModEnd> * ce ; <S2SV_ModStart> ; ce = mb2_cache_entry_alloc ( ext4_mb_cache <S2SV_ModEnd>, GFP_NOFS ) <S2SV_ModStart> error ) { mb2_cache_entry_free <S2SV_ModEnd> ( ce ) <S2SV_ModStart> ""already <S2SV_blank> in <S2SV_blank> cache"" ) ; mb2_cache_entry_release <S2SV_ModEnd> ( ce ) <S2SV_ModStart> hash ) ; mb2_cache_entry_release <S2SV_ModEnd> ( ce )",0
+39,<S2SV_ModStart> ) ) ; free ( uri ) ;,0
+40,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+41,"<S2SV_ModStart> ( ndo, ""%s"", rpl_tstr <S2SV_ModEnd> ) ) ;",1
+42,"<S2SV_ModStart> ) N_ ( ""%s"",",0
+43,"<S2SV_ModStart> { ret = posix_acl_update_mode ( inode <S2SV_ModEnd>, & new_mode <S2SV_ModStart>, & new_mode, & acl ) ; if ( ret <S2SV_ModEnd> ) goto out",0
+44,,0
+45,<S2SV_ModStart> FLAG_MATCHED ) || ( <S2SV_ModStart> dp == datalen ||! datalen ),0
+46,"<S2SV_ModStart> size_t * acl_len, struct kvec * iov <S2SV_ModStart> int status ; <S2SV_ModEnd> if ( ( <S2SV_ModStart> int status ; <S2SV_ModEnd> if ( ( <S2SV_ModStart> ) goto out <S2SV_ModEnd> ; if ( <S2SV_ModStart> attrlen ) ; <S2SV_ModEnd> } else status",0
+47,"<S2SV_ModStart> * TICK_NSEC ; u32 <S2SV_ModEnd> rem ; value <S2SV_ModStart> -> tv_sec = div_u64_rem <S2SV_ModEnd> ( nsec,",1
+48,"<S2SV_ModStart> { owner = ssplit <S2SV_ModEnd> ( auth, <S2SV_ModStart> } group = ssplit <S2SV_ModEnd> ( tok,",1
+49,<S2SV_ModStart> ; # if CONFIG_MEM_MANAGER <S2SV_ModEnd> int number_aau ; <S2SV_ModStart> ADDRESS_STORAGE_SIZE ) ; <S2SV_ModEnd> if ( addr,0
+50,<S2SV_ModStart> int res ; long long <S2SV_ModEnd> export_index_table [ indexes,0
+51,<S2SV_ModStart> } else return apr_psprintf <S2SV_ModEnd> ( cmd ->,0
+52,<S2SV_ModStart> ; if ( 1 <S2SV_ModEnd> ) { # <S2SV_ModStart> } if ( 1 <S2SV_ModEnd> ) { },0
+53,"<S2SV_ModStart> 1 ; } SSL_get_ex_data ( ssl, index_ssl_cli ) ; <S2SV_ModStart> 1 ; } <S2SV_ModEnd> return 0 ;",0
+54,"<S2SV_ModStart> ; if ( memcmp_safe <S2SV_ModEnd> ( cmac,",0
+55,<S2SV_ModStart> cpi ) { <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+56,"<S2SV_ModStart> define EOFOp 0x07 <S2SV_ModEnd> char magick [ <S2SV_ModStart> ; do { memset ( magick, 0, sizeof ( magick ) ) ;",0
+57,<S2SV_ModStart> err_free_buf ; } usb_free_urb ( usbinterface ) ;,0
+58,"<S2SV_ModStart> * stateid, fmode_t fmode <S2SV_ModEnd> ) { write_seqlock <S2SV_ModStart>, stateid, fmode <S2SV_ModEnd> ) ; write_sequnlock",1
+59,"<S2SV_ModStart> * dir = ""/etc"" <S2SV_ModEnd> ; if (",0
+60,"<S2SV_ModStart>, ps_bitstrm, 1 <S2SV_ModEnd> ) ; ps_codec",0
+61,<S2SV_ModStart> ( ) ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+62,<S2SV_ModStart> void vp9_setup_dst_planes ( <S2SV_ModEnd> const YV12_BUFFER_CONFIG * <S2SV_ModStart> mi_col ) { <S2SV_ModEnd> int i ; <S2SV_ModStart> i ) { <S2SV_ModEnd> setup_pred_plane ( &,0
+63,"<S2SV_ModStart> * ctx, <S2SV_ModEnd> va_list args )",1
+64,<S2SV_ModStart> ) get_block = ocfs2_get_block <S2SV_ModEnd> ; else get_block,0
+65,"<S2SV_ModStart>, strparm )!= <S2SV_ModEnd> 2 ) {",0
+66,,0
+67,,0
+68,<S2SV_ModStart> size ) ; if (! px -> ft ) { return FALSE ; },1
+69,"<S2SV_ModStart> u_char * dat, u_int length <S2SV_ModStart>, val_l ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ; <S2SV_ModStart> ) ) ; length = 0 ;",0
+70,"<S2SV_ModStart> void ) { <S2SV_ModEnd> test_checkout_fails ( ""refs/heads/git_tilde1"" <S2SV_ModStart> "".git/foobar"" ) ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>",0
+71,"<S2SV_ModStart> const buffers [ 4 <S2SV_ModEnd> ] = { <S2SV_ModStart> src -> u_buffer <S2SV_ModEnd>, src -> <S2SV_ModStart> src -> uv_stride <S2SV_ModEnd> } ; for",0
+72,<S2SV_ModStart> ( sk ) <S2SV_ModEnd> ; for (,1
+73,"<S2SV_ModStart> ) ) ; memcpy <S2SV_ModEnd> ( sortlist,",1
+74,<S2SV_ModStart> ( user ) ; if (! user ) return 0,0
+75,<S2SV_ModStart> * data ; size_t <S2SV_ModEnd> sl = strlen,1
+76,,0
+77,<S2SV_ModStart> NULL ; } dst_state -> curframe = src -> curframe ;,0
+78,,0
+79,<S2SV_ModStart> maxn ) { <S2SV_ModEnd> # ifdef DEBUG,0
+80,<S2SV_ModStart> if ( len <= <S2SV_ModEnd> sizeof ( *,0
+81,<S2SV_ModStart> rq ) ; <S2SV_ModEnd> prev -> sched_class,1
+82,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> void addModuleArgument ( <S2SV_ModStart> zArg ) { <S2SV_ModEnd> char * *,0
+83,<S2SV_ModStart> ) ) { if ( interp_window_coeff ),0
+84,<S2SV_ModStart> ) p += ( UChar * ),0
+85,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> void bfq_idle_slice_timer_body (,0
+86,,1
+87,"<S2SV_ModStart>, 1, <S2SV_ModEnd> regs, address",1
+88,<S2SV_ModStart> diffPtr + x >= <S2SV_ModEnd> diffBlock + diffBlockLength <S2SV_ModStart> diffPtr + x >= <S2SV_ModEnd> diffBlock + diffBlockLength,0
+89,"<S2SV_ModStart>, fl6, rcu_dereference ( <S2SV_ModStart> np -> opt )",0
+90,"<S2SV_ModStart>, number_data_bands, exception,",0
+91,<S2SV_ModStart> data ) { ( void ) data ; ( void ) data ;,0
+92,"<S2SV_ModStart> * self, size_t <S2SV_ModEnd> new_size ) { <S2SV_ModStart> new_size ) { size_t <S2SV_ModEnd> i ; assert",1
+93,"<S2SV_ModStart> write_delta_q ( struct vpx_write_bit_buffer <S2SV_ModEnd> * wb, <S2SV_ModStart> 0 ) { vpx_wb_write_bit <S2SV_ModEnd> ( wb, <S2SV_ModStart> 1 ) ; vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> 4 ) ; vpx_wb_write_bit <S2SV_ModEnd> ( wb, <S2SV_ModStart> } else { vpx_wb_write_bit <S2SV_ModEnd> ( wb,",1
+94,"<S2SV_ModStart> vp8_mv_reduction ( cpi, cpi",0
+95,"<S2SV_ModStart> string, const size_t <S2SV_ModEnd> length ) {",1
+96,<S2SV_ModStart> exit ; } <S2SV_ModEnd> timeout = sock_rcvtimeo,1
+97,"<S2SV_ModStart> msicap, msgnum <S2SV_ModEnd> ) ; return",0
+98,<S2SV_ModStart> } if ( server. masterhost &&,0
+99,<S2SV_ModStart> vpx_codec_err_t res ; <S2SV_ModEnd> res = validate_config,0
+100,<S2SV_ModStart> cpi ) { <S2SV_ModEnd> vp9_init_plane_quantizers ( cpi,0
+101,<S2SV_ModStart> info -> si_code <S2SV_ModEnd> ) return -,0
+102,<S2SV_ModStart> ptr -> size <S2SV_ModEnd> ; tmp_str =,1
+103,<S2SV_ModStart>. get_glob_hdrs ( get_alg_priv ( ctx ) <S2SV_ModEnd> ) ; },1
+104,"<S2SV_ModStart> * state, fmode_t fmode <S2SV_ModEnd> ) { if <S2SV_ModStart> -> state == fmode <S2SV_ModEnd> ) return ; <S2SV_ModStart> ( mode & fmode <S2SV_ModEnd> )!= ( <S2SV_ModStart> ( mode & fmode <S2SV_ModEnd> ) ) { <S2SV_ModStart> -> state = fmode <S2SV_ModEnd> ; } <S2SV_null>",0
+105,<S2SV_ModStart> read_info ) ; <S2SV_ModEnd> if ( EOFBlob,1
+106,<S2SV_ModStart> 0 ; } memset <S2SV_ModEnd> ( elem.,0
+107,"<S2SV_ModStart>, i, <S2SV_ModEnd> JPC_QCX_GETEXPN ( qcd <S2SV_ModStart>, i, <S2SV_ModEnd> JPC_QCX_GETMANT ( qcd",0
+108,<S2SV_ModStart> avctx -> height <S2SV_ModEnd> ) ; if,0
+109,<S2SV_ModStart> length - 1 <S2SV_ModEnd> ) ; return,1
+110,"<S2SV_ModStart> noffset, NULL, 0",0
+111,"<S2SV_ModStart> rx_kfifo, CX23888_IR_RX_KFIFO_SIZE + 1",0
+112,<S2SV_ModStart> vpx_codec_dec_cfg_t * cfg __attribute__ ( ( unused ) ) <S2SV_ModStart> else if ( <S2SV_ModEnd> flags & VPX_CODEC_USE_XMA <S2SV_ModStart> flags & VPX_CODEC_USE_POSTPROC <S2SV_ModEnd> ) { memset,0
+113,<S2SV_ModStart> ; value |= TJA1100_CONFIG1_MII_MODE_RMII_25MHZ <S2SV_ModEnd> ; tja1100WritePhyReg (,0
+114,<S2SV_ModStart> & RTCF_LOCAL ) { rcu_read_unlock ( ) ; <S2SV_ModStart> goto out ; },0
+115,<S2SV_ModStart> else if ( <S2SV_ModEnd> flags & VPX_CODEC_USE_XMA <S2SV_ModStart> flags & VPX_CODEC_USE_PSNR <S2SV_ModEnd> ) res =,0
+116,<S2SV_ModStart> - EOPNOTSUPP ; <S2SV_ModEnd> err = 0,1
+117,"<S2SV_ModStart>, arg -> fmode <S2SV_ModEnd> ) ; RESERVE_SPACE",1
+118,<S2SV_ModStart> <S2SV_null> <S2SV_null> static int <S2SV_ModEnd> modify_bar_registration ( struct <S2SV_ModStart> ) ; return 0 <S2SV_ModStart> break ; } return 0 ;,0
+119,<S2SV_ModStart> len + 1 + 1,0
+120,"<S2SV_ModStart> ; s = osStrchr <S2SV_ModEnd> ( token,",1
+121,<S2SV_ModStart> goto trunc ; ND_TCHECK_16BITS ( & lshp -> ls_type ) ; ND_TCHECK_16BITS ( & lshp -> ls_type ) ;,0
+122,<S2SV_ModStart> } else { if ( len < opipe -> nrbufs ),0
+123,"<S2SV_ModStart> void vp9_tree_probs_from_distribution ( vpx_tree <S2SV_ModEnd> tree, unsigned",1
+124,<S2SV_ModStart> -> fd = TEMP_FAILURE_RETRY ( <S2SV_ModStart> | O_CLOEXEC ) ),0
+125,"<S2SV_ModStart> * costs, vpx_tree <S2SV_ModEnd> tree, const <S2SV_ModStart> tree, const vpx_prob <S2SV_ModEnd> * probs, <S2SV_ModStart> ) { const vpx_prob <S2SV_ModEnd> prob = probs <S2SV_ModStart> ) ; const vpx_tree_index <S2SV_ModEnd> ii = tree",1
+126,"<S2SV_ModStart> void write_buffer_16x16 ( tran_low_t <S2SV_ModEnd> * output,",1
+127,"<S2SV_ModStart> 4, c <S2SV_ModEnd> ) ; if",0
+128,,0
+129,<S2SV_ModStart> ( ) ; <S2SV_ModEnd> return flags &,0
+130,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> PREDICTION_MODE <S2SV_ModEnd> vp9_left_block_mode ( const,1
+131,,0
+132,<S2SV_ModStart> -> flags & CLIENT_CLOSE_AFTER_REPLY <S2SV_ModEnd> ) break ;,0
+133,<S2SV_ModStart> get_blocks_flags = EXT4_GET_BLOCKS_CREATE <S2SV_ModEnd> ; blks =,0
+134,,0
+135,"<S2SV_ModStart> ; separator = osStrchr <S2SV_ModEnd> ( token, <S2SV_ModStart> { separator = osStrchr <S2SV_ModEnd> ( token,",1
+136,<S2SV_ModStart> pc ) { memcpy <S2SV_ModEnd> ( pc ->,1
+137,"<S2SV_ModStart> __u16 size, const <S2SV_ModStart> data ) { return <S2SV_ModEnd> usb_control_msg ( pegasus <S2SV_ModStart>, indx, <S2SV_ModEnd> size, 100 <S2SV_ModStart> ret ) ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>",0
+138,"<S2SV_ModStart> mod_ty Module ( asdl_seq <S2SV_ModEnd> * body,",0
+139,"<S2SV_ModStart>, int64_t ts_end <S2SV_ModEnd> ) { struct <S2SV_ModStart> write_idx ) ; <S2SV_ModEnd> if ( ctx <S2SV_ModStart> write_idx ) ; <S2SV_ModEnd> for ( row <S2SV_ModStart> } else { vpx_copy_and_extend_frame <S2SV_ModEnd> ( src, <S2SV_ModStart> img ) ; <S2SV_ModEnd> buf -> ts_start",0
+140,<S2SV_ModStart>. sharpness ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+141,<S2SV_ModStart> ( ) ; <S2SV_ModEnd> } break ;,0
+142,"<S2SV_ModStart> = getnum ( L,",1
+143,"<S2SV_ModStart> ) break ; status = SetImageExtent ( image, image -> columns, image -> rows ) ; if ( status == MagickFalse ) { InheritException ( exception, & image -> exception ) ; return ( DestroyImageList ( image ) ) ; }",1
+144,"<S2SV_ModStart> (! ctx <S2SV_ModEnd> ) ) res <S2SV_ModStart>. decode ( <S2SV_ModEnd> data, data_sz",0
+145,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> int isofs_read_inode (,0
+146,"<S2SV_ModStart> STROKING ) { sprintf ( outputbuffer <S2SV_ModEnd>, "" <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> K"", <S2SV_ModStart> } else { sprintf ( outputbuffer <S2SV_ModEnd>, "" <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> k"", <S2SV_ModStart> ; } } sendClean ( outputbuffer ) ;",0
+147,<S2SV_ModStart> self ) { if ( self -> dict ),0
+148,<S2SV_ModStart> 0 ; a && <S2SV_ModEnd> i < count,0
+149,,0
+150,<S2SV_ModStart> in ) { jas_uchar <S2SV_ModEnd> buf [ RAS_MAGICLEN,1
+151,<S2SV_ModStart> & flags ) <S2SV_ModEnd> err = verify_compat_iovec <S2SV_ModStart> ; } else <S2SV_ModEnd> err = verify_iovec <S2SV_ModStart> msg_sys -> msg_control <S2SV_ModEnd> ; if (,0
+152,<S2SV_ModStart> ) ; struct buffer_head * bh = mp -> mp_bh [ 0 ] ; struct <S2SV_ModStart> end_of_metadata = height <S2SV_ModEnd> ; int eob,0
+153,<S2SV_ModStart> ( ) ) <S2SV_ModEnd> ; } if,0
+154,"<S2SV_ModStart> -> parent, ""%s"",",0
+155,"<S2SV_ModStart> { if ( copy_file_safe <S2SV_ModEnd> ( ""/etc/skel/.zshrc"", <S2SV_ModStart> { if ( copy_file_safe <S2SV_ModEnd> ( ""/etc/skel/.zshrc"", <S2SV_ModStart> { if ( copy_file_safe <S2SV_ModEnd> ( ""/etc/skel/.cshrc"", <S2SV_ModStart> { if ( copy_file_safe <S2SV_ModEnd> ( ""/etc/skel/.cshrc"",",0
+156,<S2SV_ModStart> msix_tab_size ) { <S2SV_ModEnd> bzero ( msixcap,1
+157,"<S2SV_ModStart> if (! js_doregexec ( J, <S2SV_ModEnd> re -> prog",1
+158,<S2SV_ModStart> case OFreshOID : { <S2SV_ModStart> 1 ) ) ; } <S2SV_ModEnd> sp -- ;,0
+159,"<S2SV_ModStart> ( interface, KSZ8851_IER <S2SV_ModEnd> ) ; ksz8851WriteReg <S2SV_ModStart> ( interface, KSZ8851_IER <S2SV_ModEnd>, 0 ) <S2SV_ModStart> ( isr & KSZ8851_ISR <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_ISR <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_ISR <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_ISR <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_ISR <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_TXMIR <S2SV_ModEnd> ) & TXMIR_TXMA_MASK <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_IER <S2SV_ModEnd> )!= 0 <S2SV_ModStart> ( isr & KSZ8851_",0
+160,"<S2SV_ModStart> void encode_quantization ( VP9_COMMON <S2SV_ModEnd> * cm, <S2SV_ModStart> cm, struct vpx_write_bit_buffer <S2SV_ModEnd> * wb ) <S2SV_ModStart> wb ) { vpx_wb_write_literal <S2SV_ModEnd> ( wb,",0
+161,"<S2SV_ModStart> ; if ( TEMP_FAILURE_RETRY ( <S2SV_ModStart> p_buf, msglen )",1
+162,"<S2SV_ModStart> ( fp, out,",0
+163,"<S2SV_ModStart> ( ) ; memcpy <S2SV_ModEnd> ( t1_buf_array,",0
+164,,0
+165,"<S2SV_ModStart> key_ref ) ; if ( test_bit ( KEY_FLAG_NEGATIVE, & key -> flags ) ) { ret = - ENOKEY ; goto error2 ; }",1
+166,<S2SV_ModStart> ps_dec -> u4_first_slice_in_pic || ps_dec -> u4_first_slice_in_pic,0
+167,<S2SV_ModStart> var_off ) ; <S2SV_ModEnd> switch ( opcode,0
+168,<S2SV_ModStart> cifs_sb ) ; <S2SV_ModEnd> if (!,0
+169,<S2SV_ModStart> ( sk ) <S2SV_ModEnd> ) { rt,0
+170,,0
+171,<S2SV_ModStart> = new_cols ; <S2SV_ModEnd> vterm_allocator_free ( screen,1
+172,,0
+173,<S2SV_ModStart> ) ; struct dump_dir <S2SV_ModEnd> * dd =,0
+174,<S2SV_ModStart> bytesPerPixel + bytesPerPixel * bytesPerPixel,0
+175,"<S2SV_ModStart> u_char * dat, u_int length <S2SV_ModStart> ) dat ; if ( length < 2 ) { ND_PRINT ( ( ndo, ""AVP <S2SV_blank> too <S2SV_blank> short"" ) ) ; return ; }",1
+176,"<S2SV_ModStart> check_here, mv_stride <S2SV_ModEnd> ) ; if",0
+177,,0
+178,"<S2SV_ModStart> ), & _dh <S2SV_ModEnd> ) ; BUG_ON",1
+179,"<S2SV_ModStart> net, struct ip_options_rcu * rcu <S2SV_ModEnd>, struct ip_options <S2SV_ModStart> & 3 ) rcu <S2SV_ModEnd> -> __data [ <S2SV_ModStart> = IPOPT_END ; rcu <S2SV_ModEnd> -> optlen = <S2SV_ModStart> ( net, rcu <S2SV_ModEnd>, NULL )",0
+180,"<S2SV_ModStart> connection == NULL || strcasecmp ( connection, ""Connection"" ) == 0",0
+181,<S2SV_ModStart> * findalldevs_if ; size_t <S2SV_ModEnd> nif = 0,0
+182,"<S2SV_ModStart>, client_uid, DEFAULT_DUMP_DIR_MODE <S2SV_ModEnd> ) ; if",0
+183,<S2SV_ModStart> -> columns - 3 <S2SV_ModEnd> ) ; x,0
+184,"<S2SV_ModStart> ) { BN_ULONG <S2SV_ModEnd> c1, c2",1
+185,"<S2SV_ModStart> ) ; } status = SetImageExtent ( image, image -> columns, image -> rows ) ; if ( status == MagickFalse ) { InheritException ( exception, & image -> exception ) ; return ( DestroyImageList ( image ) ) ; }",1
+186,"<S2SV_ModStart> ( ndo, ""%s"", bp [ 3 ] <S2SV_ModEnd> ) ) ;",0
+187,<S2SV_ModStart>! dumpable && <S2SV_ModEnd> ptrace_has_cap ( __task_cred,0
+188,<S2SV_ModStart> maxval ) { jas_matind_t i ; jas_matind_t <S2SV_ModEnd> j ; jas_seqent_t <S2SV_ModStart> * data ; jas_matind_t <S2SV_ModEnd> rowstep ; if,1
+189,<S2SV_ModStart> i1_nal_type ) { ps_parse -> s_sei_params. i1_sei_parameters_present_flag = 1 ;,0
+190,<S2SV_ModStart> sdma_unfreeze_wq ) ; mutex_init ( & dd -> sdma_lock ) ;,0
+191,"<S2SV_ModStart> name, int *",0
+192,<S2SV_ModStart> } pairs = palloc64 <S2SV_ModEnd> ( pcount *,0
+193,"<S2SV_ModStart> val ) ; ruleadd <S2SV_ModEnd> ( r,",0
+194,<S2SV_ModStart> if ( clen < <S2SV_ModEnd> c -> bcnt,0
+195,"<S2SV_ModStart> * input, tran_low_t <S2SV_ModEnd> * output, <S2SV_ModStart> DCT_DCT ) { vpx_fdct16x16_c <S2SV_ModEnd> ( input, <S2SV_ModStart> } else { tran_low_t <S2SV_ModEnd> out [ 256 <S2SV_ModStart> 256 ] ; tran_low_t <S2SV_ModEnd> * outptr = <S2SV_ModStart>, j ; tran_low_t <S2SV_ModEnd> temp_in [ 16",0
+196,"<S2SV_ModStart> = g_strdup_printf ( ""%s"",",0
+197,,0
+198,"<S2SV_ModStart> ( ndo, ""%s"", tstr <S2SV_ModEnd> ) ) ;",0
+199,"<S2SV_ModStart> userData, target <S2SV_ModEnd> ) ; ctxt",0
+200,"<S2SV_ModStart> S, ""POST <S2SV_blank> %s <S2SV_blank> HTTP/1.0\\r\\n"" ""Content-Type: <S2SV_blank> application/x-www-form-urlencoded\\r\\n"" ""Content-Length: <S2SV_blank> %ld\\r\\n"" <S2SV_ModEnd> ""%s"", request",0
+201,"<S2SV_ModStart> ) ; } copy_file_as_user <S2SV_ModEnd> ( src, <S2SV_ModStart> src, dest <S2SV_ModEnd> ) ; if",0
+202,<S2SV_ModStart>!= BFA_STATUS_OK ) { kfree ( fcstats ) ; <S2SV_ModStart> return NULL ; },1
+203,"<S2SV_ModStart> -> x = Min <S2SV_ModEnd> ( 1.0f, <S2SV_ModStart> -> y = Min <S2SV_ModEnd> ( 1.0f, <S2SV_ModStart> -> y = Min <S2SV_ModEnd> ( 1.0f, <S2SV_ModStart> -> z = Min <S2SV_ModEnd> ( 1.0f,",0
+204,<S2SV_ModStart> ; rec -> sasl_username <S2SV_ModEnd> = src -> <S2SV_ModStart> ; rec -> sasl_password <S2SV_ModEnd> = src ->,0
+205,<S2SV_ModStart> frames_till_gf_update_due ; } memset <S2SV_ModEnd> ( cpi ->,1
+206,"<S2SV_ModStart> c ; size_t <S2SV_ModEnd> o, datao",0
+207,<S2SV_ModStart> ) ) ; <S2SV_ModEnd> mi_check_print_error ( param,0
+208,"<S2SV_ModStart> olen ) { char * ns = malloc ( strlen ( string ) + 1 ) <S2SV_ModEnd> ; char * <S2SV_ModStart> ; CURLcode res <S2SV_ModEnd> ; while ( <S2SV_ModStart> in, 1, & ns",0
+209,<S2SV_ModStart> ; RAnalOp next_op = { 0 },1
+210,<S2SV_ModStart> ; def -> <S2SV_ModEnd> session_setup = usm_session_init,0
+211,"<S2SV_ModStart>, sp, sub,",0
+212,<S2SV_ModStart> idx ] ; <S2SV_ModEnd> switch ( action,0
+213,<S2SV_ModStart> 8 ) ; * pixels ++ = 0 ;,0
+214,"<S2SV_ModStart> timer ) ; list_for_each_entry_safe <S2SV_ModEnd> ( slave, <S2SV_ModStart> open_list ) { list_del_init <S2SV_ModEnd> ( & slave_active_lock",0
+215,<S2SV_ModStart> -> u4_bitoffset = ih264d_read_mmco_commands <S2SV_ModEnd> ( ps_dec ),0
+216,<S2SV_ModStart> decode ) { int64_t <S2SV_ModEnd> widthOverflow = gifFilePtr <S2SV_ModStart> -> originalWidth ; int64_t <S2SV_ModEnd> heightOverflow = gifFilePtr <S2SV_ModStart> -> originalHeight ; int64_t <S2SV_ModEnd> heightOverflow = gifFilePtr,0
+217,<S2SV_ModStart> || cherokee_buffer_is_empty ( <S2SV_ModEnd> conn -> validator,0
+218,<S2SV_ModStart> bus ] ; <S2SV_ModEnd> si = &,0
+219,"<S2SV_ModStart>, timeo ) <S2SV_ModEnd> ; if (",1
+220,<S2SV_ModStart> ; isspace ( ( unsigned char ) <S2SV_ModStart> isspace ( * ( unsigned char ),0
+221,<S2SV_ModStart> ; result = TEMP_FAILURE_RETRY ( <S2SV_ModStart> uipc_main. read_set ),0
+222,<S2SV_ModStart> msixcap msixcap ; <S2SV_ModEnd> pci_msix_table_init ( dev,0
+223,"<S2SV_ModStart> decode_unsigned_max ( struct vpx_read_bit_buffer <S2SV_ModEnd> * rb, <S2SV_ModStart> int data = vpx_rb_read_literal <S2SV_ModEnd> ( rb,",1
+224,<S2SV_ModStart> == NULL ) { retval = KRB5KDC_ERR_PREAUTH_FAILED ; <S2SV_ModStart> goto cleanup ; },0
+225,<S2SV_ModStart> cpi ) { const MV_REFERENCE_FRAME frame_type = get_frame_type ( cpi ) ; <S2SV_ModStart> ( cpi -> <S2SV_ModEnd> tx_size_search_method == USE_FULL_RD <S2SV_ModStart> ( cpi -> <S2SV_ModEnd> tx_size_search_method == USE_FULL_RD,0
+226,<S2SV_ModStart> if ( magfact >= <S2SV_ModEnd> max_ii ) {,0
+227,<S2SV_ModStart> ; if ( buf2 <S2SV_ModEnd> -> size <,0
+228,<S2SV_ModStart> ) + size <S2SV_ModEnd> ; if (,0
+229,<S2SV_ModStart> ; if ( protocol < 0 || protocol > SK_PROTOCOL_MAX ) return - EINVAL ; if (,1
+230,"<S2SV_ModStart>, 1, <S2SV_ModEnd> regs, address",0
+231,"<S2SV_ModStart> bd_event_add_io ( b <S2SV_ModEnd>, b ->",0
+232,<S2SV_ModStart> ( ) ; errors += test_string_formatting ( ) ;,0
+233,<S2SV_ModStart> -> lun ) sas_eh_defer_cmd <S2SV_ModEnd> ( cmd ),0
+234,,0
+235,<S2SV_ModStart> iv ) ; <S2SV_ModEnd> while ( walk,1
+236,<S2SV_ModStart> Rec. RecordLength - 1,0
+237,,1
+238,<S2SV_ModStart> 0 ) ; if (! res ) return - EINVAL ;,1
+239,<S2SV_ModStart> if ( position >= <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header + <S2SV_ModEnd> psf -> header,0
+240,<S2SV_ModStart> u4_ofst ) ; ps_cabac -> u4_offset = 0 ;,0
+241,"<S2SV_ModStart>, & off, NULL",0
+242,<S2SV_ModStart> perf_event_context * ctx <S2SV_ModEnd> ; struct task_struct <S2SV_ModStart> event ) ; <S2SV_ModEnd> } raw_spin_unlock_irq (,0
+243,<S2SV_ModStart> -> post_proc_flag = <S2SV_ModEnd> ctx -> dbg_color_ref_frame_flag <S2SV_ModStart> ctx -> dbg_color_ref_frame_flag <S2SV_ModEnd> ; flags -> <S2SV_ModStart>. noise_level ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+244,<S2SV_ModStart> sizeof ( struct olsr_common <S2SV_ModEnd> ) ) ;,0
+245,<S2SV_ModStart> end_time ) { <S2SV_ModEnd> struct vpx_usec_timer timer <S2SV_ModStart> = 0 ; <S2SV_ModEnd> vpx_usec_timer_start ( & <S2SV_ModStart> timer ) ; <S2SV_ModEnd> return res ;,1
+246,"<S2SV_ModStart> ) ) { <S2SV_ModEnd> exit ( 1 <S2SV_ModStart> 0 ) ; <S2SV_ModEnd> copy_file ( src <S2SV_ModStart> src, dest <S2SV_ModEnd> ) ; if",0
+247,<S2SV_ModStart> ; if ( ptr_hbe_txposer -> core_frame_length < 1024 ) ptr_hbe_txposer -> core_frame_length = 1024 ; if (,0
+248,<S2SV_ModStart> prov_spec = parsed_require_line <S2SV_ModEnd> ; spec =,0
+249,<S2SV_ModStart> 0 ) { quantum_info = DestroyImageList ( image ) ;,0
+250,<S2SV_ModStart> (! proto_end || proto_end < url,0
+251,<S2SV_ModStart> end = path ; * end = '\\0',0
+252,<S2SV_ModStart> ( server. bgrewritechildpid <S2SV_ModEnd> == - 1,0
+253,<S2SV_ModStart> channel ) ; <S2SV_ModEnd> set_description ( client,1
+254,<S2SV_ModStart> book -> dim && i < n,1
+255,<S2SV_ModStart> action ) { ( void ) r ;,0
+256,<S2SV_ModStart> this_h ) { <S2SV_ModEnd> sf -> x_scale_fp,0
+257,<S2SV_ModStart> (! sock <S2SV_ModEnd> ) OE_RAISE_ERRNO (,0
+258,<S2SV_ModStart> sk ) ; <S2SV_ModEnd> lock_sock ( sk,0
+259,<S2SV_ModStart> ( & sctp_net_ops ) ; unregister_pernet_subsys ( & sctp_net_ops,0
+260,<S2SV_ModStart> <S2SV_null> <S2SV_null> static int <S2SV_ModEnd> show_psnr ( struct <S2SV_ModStart> index ) ; return 0 ;,0
+261,<S2SV_ModStart> { dst_name = safe_calloc <S2SV_ModEnd> ( strlen (,1
+262,"<S2SV_ModStart> ( ) ; <S2SV_ModEnd> TRACE_DEBUG ( ""CIDER=0x%04"" <S2SV_ModStart> ( interface, KSZ8851_CIDER <S2SV_ModEnd> ) ) ; <S2SV_ModStart> ( interface, KSZ8851_REG_CIDER <S2SV_ModEnd> ) ) ; <S2SV_ModStart> ( interface, KSZ8851_MARM <S2SV_ModEnd> )!= KSZ8851_REV_A3_ID <S2SV_ModStart> ERROR_OUT_OF_MEMORY ; } <S2SV_ModEnd> return ERROR_SUCCESS ;",0
+263,"<S2SV_ModStart> skip } ; vpx_foreach_transformed_block_in_plane <S2SV_ModEnd> ( xd,",0
+264,"<S2SV_ModStart> BOOTSTAGE_SUB_FORMAT ) ; ret = fit_check_format ( fit, IMAGE_SIZE_INVAL ) ; if ( ret < 0 <S2SV_ModEnd> ) { printf <S2SV_ModStart> ) ; return ret <S2SV_ModEnd> ; } bootstage_mark",0
+265,"<S2SV_ModStart> 0 ) { TEMP_FAILURE_RETRY ( <S2SV_ModStart> uinput_fd, UI_DEV_DESTROY )",1
+266,<S2SV_ModStart> ( rc -> avg_frame_bandwidth <S2SV_ModEnd> * rc -> <S2SV_ModStart> ( rc -> avg_frame_bandwidth <S2SV_ModEnd> * rc -> <S2SV_ModStart> = rc -> avg_frame_bandwidth <S2SV_ModEnd> ; # endif,1
+267,<S2SV_ModStart> ) if ( strchr <S2SV_ModEnd> ( argv [,0
+268,<S2SV_ModStart> o ) { Py_RETURN_NONE <S2SV_ModEnd> ; } switch,1
+269,<S2SV_ModStart> ib ] ; <S2SV_ModEnd> dequant_ptr = d,1
+270,"<S2SV_ModStart> FN_REFLEN ] ; memset ( buff, 0, sizeof ( buff ) ) ;",1
+271,<S2SV_ModStart> decrypt_cb ) { size_t <S2SV_ModEnd> n = ( <S2SV_ModStart> n = ( size_t <S2SV_ModEnd> ) ( data_end,0
+272,<S2SV_ModStart> ; gss_buffer_desc client_name = GSS_C_EMPTY_BUFFER ; gss_buffer_desc service_name = GSS_C_EMPTY_BUFFER <S2SV_ModEnd> ; OM_uint32 minor_stat <S2SV_ModStart> errmsg ) ; exit_func : <S2SV_ModStart> service_name ) ; <S2SV_ModEnd> free_server_handle ( handle,1
+273,"<S2SV_ModStart> int * returnintra, int * returndistortion <S2SV_ModStart>, best_sse = * returndistortion <S2SV_ModEnd>, best_rd_sse = <S2SV_ModStart>, best_rd_sse = * returndistortion <S2SV_ModEnd> ; # endif",0
+274,<S2SV_ModStart> goto error ; h -> size = 0 ;,0
+275,"<S2SV_ModStart> u1_level_idc, u1_seq_parameter_set_id = 0",0
+276,"<S2SV_ModStart> * ctx, <S2SV_ModEnd> va_list args ) <S2SV_ModStart> * ) ; <S2SV_ModEnd> if ( vp9_set_size_literal",0
+277,"<S2SV_ModStart> out ) { int64 <S2SV_ModEnd> bitspersample, samplesperpixel <S2SV_ModStart>, samplesperpixel ; int64 <S2SV_ModEnd> input_photometric ; uint32",0
+278,,0
+279,<S2SV_ModStart> unsigned int link_count = 0,0
+280,<S2SV_ModStart> TX_SIZE tx_size_uv = get_uv_tx_size <S2SV_ModEnd> ( mbmi ) <S2SV_ModStart> ++ ) { memset <S2SV_ModEnd> ( & lfm,0
+281,<S2SV_ModStart> mq_ops ) { <S2SV_ModEnd> flush_rq -> tag,0
+282,<S2SV_ModStart> uint8_t val ; if ( addr + sizeof ( val ) > vdev -> config_len ) { return ( uint32_t ) - 1 ; } <S2SV_ModStart> -> config ) <S2SV_ModEnd> ; val =,1
+283,"<S2SV_ModStart> { option = ssplit <S2SV_ModEnd> ( option,",1
+284,<S2SV_ModStart> || * replySize < <S2SV_ModEnd> ( int ),0
+285,"<S2SV_ModStart> ) calloc ( num_versions + 1,",0
+286,<S2SV_ModStart> 0x02 ) ; <S2SV_ModEnd> r = sc_transmit_apdu,0
+287,"<S2SV_ModStart> ( hw, <S2SV_ModEnd> & ctxt )",0
+288,<S2SV_ModStart> ; } } return - 1 ;,1
+289,<S2SV_ModStart> * streams ; jas_uchar <S2SV_ModEnd> * dataptr ;,1
+290,"<S2SV_ModStart> ) ; } memcpy <S2SV_ModEnd> ( dst_buffer,",0
+291,"<S2SV_ModStart> ) ; } if ( status == MagickFalse ) { <S2SV_ModStart> ""ImproperImageHeader"" ) ; }",0
+292,"<S2SV_ModStart> len ) { return decode_unicode_with_escapes <S2SV_ModEnd> ( c, <S2SV_ModStart> len ) { <S2SV_ModEnd> } <S2SV_null> <S2SV_null>",0
+293,"<S2SV_ModStart> BUF buffer ; <S2SV_ModEnd> enum { YES <S2SV_ModStart> ; int setimes <S2SV_ModEnd> ; char ch <S2SV_ModStart> ""Unexpected <S2SV_blank> off_t/time_t <S2SV_blank> size"" ) ; setimes = 0 <S2SV_ModEnd> ; mask =",0
+294,"<S2SV_ModStart> int write_bit_gte ( vpx_writer <S2SV_ModEnd> * w, <S2SV_ModStart> test ) { vpx_write_literal <S2SV_ModEnd> ( w,",1
+295,"<S2SV_ModStart> alloc_fail ; } memset ( & oci -> temp_scale_frame, 0, sizeof ( MODE_INFO ) ) ;",0
+296,<S2SV_ModStart> ) return ; memcpy <S2SV_ModEnd> ( & t_above <S2SV_ModStart> ) ) ; memcpy <S2SV_ModEnd> ( & t_left,1
+297,,0
+298,<S2SV_ModStart> ] ) ; <S2SV_ModEnd> vterm_allocator_free ( screen,1
+299,"<S2SV_ModStart> { err = TEMP_FAILURE_RETRY ( <S2SV_ModStart>, & delay )",1
+300,"<S2SV_ModStart> one, offset = 0",0
+301,"<S2SV_ModStart> -> host, ssplit <S2SV_ModEnd> ( sclone (",1
+302,"<S2SV_ModStart>. cmp = key_default_cmp <S2SV_ModEnd>,. match_data",1
+303,<S2SV_ModStart>! ntime ) goto out ; <S2SV_ModEnd> cg_wlock ( &,0
+304,"<S2SV_ModStart> ssize_t ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> transmitted_length, length )",1
+305,"<S2SV_ModStart> unused ) { <S2SV_ModEnd> _Py_IDENTIFIER ( __dict__ <S2SV_ModStart> __dict__ ) ; return Py_BuildValue ( ""O()O"" <S2SV_ModEnd>, Py_TYPE ( <S2SV_ModStart> ( self ) <S2SV_ModEnd> ) ; }",0
+306,"<S2SV_ModStart> ) & desc, sizeof ( * desc )",1
+307,<S2SV_ModStart> perf_event * ) <S2SV_ModEnd> ; switch (,0
+308,"<S2SV_ModStart> * cm, vpx_reader <S2SV_ModEnd> * r, <S2SV_ModStart> * r, PREDICTION_MODE <S2SV_ModEnd> y_mode ) { <S2SV_ModStart> ) { const PREDICTION_MODE <S2SV_ModEnd> uv_mode = read_intra_mode",0
+309,"<S2SV_ModStart> - EINVAL ; memset ( & ctx, 0, sizeof ( ctx ) ) ;",0
+310,<S2SV_ModStart> iv ) ; rb_free ( self ) ;,0
+311,<S2SV_ModStart> s ) ; <S2SV_ModEnd> return 0 ;,1
+312,<S2SV_ModStart> ; if ( <S2SV_ModEnd> iframe -> state,0
+313,<S2SV_ModStart> ( ) ; <S2SV_ModEnd> return 0 ;,0
+314,"<S2SV_ModStart> void pack_mb_tokens ( vpx_writer <S2SV_ModEnd> * w, <S2SV_ModStart> t, const vpx_extra_bit <S2SV_ModEnd> * stop ) <S2SV_ModStart> t ] ; vpx_write_tree <S2SV_ModEnd> ( w, <S2SV_ModStart> ) ; } vpx_write_bit <S2SV_ModEnd> ( w,",0
+315,<S2SV_ModStart> ; struct vpx_write_bit_buffer * <S2SV_ModStart> ; struct vpx_write_bit_buffer * <S2SV_ModStart> = wb ; vpx_wb_write_literal <S2SV_ModEnd> ( & wb <S2SV_ModStart> += uncompressed_hdr_size ; vpx_wb_write_literal <S2SV_ModEnd> ( & saved_wb,0
+316,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> int dev_get_valid_name (,1
+317,<S2SV_ModStart> _U_ ) { ND_TCHECK ( * ext ) ; <S2SV_ModStart> * typedata ; <S2SV_ModEnd> UNALIGNED_MEMCPY ( &,0
+318,<S2SV_ModStart> cmpt -> height + 1,0
+319,<S2SV_ModStart> urb ) ; usb_free_urb ( urb ) ;,1
+320,"<S2SV_ModStart> ; WORD32 xt0_0, xt0_0, xt1_0, xt1_0, xt1_0, xt1_0, xt2_0, xt2_0, xt2_0, xt2_0 <S2SV_ModEnd> ; WORD32 xh0_0 <S2SV_ModStart>, xt1_0, xt1_0, xt1_0, xt2_0, xt2_0, xt2_0, xt2_0 <S2SV_ModEnd> ; WORD32 si10",0
+321,"<S2SV_ModStart> ) { return mnt_mount_entry_on_sysfs <S2SV_ModEnd> ( mntent,",0
+322,"<S2SV_ModStart> cm, struct vpx_write_bit_buffer <S2SV_ModEnd> * wb ) <S2SV_ModStart> -> display_height ; vpx_wb_write_bit <S2SV_ModEnd> ( wb, <S2SV_ModStart> scaling_active ) { vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> 16 ) ; vpx_wb_write_literal <S2SV_ModEnd> ( wb,",1
+323,"<S2SV_ModStart> ( env, server_name_val, req_server_name_val <S2SV_ModEnd> ( req )",0
+324,<S2SV_ModStart> endif int col_type <S2SV_ModEnd> ; MYSQL_BIND *,0
+325,<S2SV_ModStart> need = 0 <S2SV_ModEnd> ; if (,0
+326,"<S2SV_ModStart> char * str <S2SV_ModEnd>, int radix <S2SV_ModStart> val ) ) strcpy <S2SV_ModEnd> ( str, <S2SV_ModStart> val ) ) strcpy <S2SV_ModEnd> ( str, <S2SV_ModStart> < 0 ) strcpy <S2SV_ModEnd> ( str, <S2SV_ModStart> ""-Infinity"", len ) ; else strcpy <S2SV_ModEnd> ( str, <S2SV_ModStart> str, ""Infinity"" <S2SV_ModEnd> ) ; }",0
+327,<S2SV_ModStart> ; if ( <S2SV_ModEnd> ( fast_pool ->,0
+328,"<S2SV_ModStart> LEX_ID ) { strncpy <S2SV_ModEnd> ( str, <S2SV_ModStart> len ) ; strncpy <S2SV_ModEnd> ( str, <S2SV_ModStart> LEX_STR ) { strncpy <S2SV_ModEnd> ( str, <S2SV_ModStart> len ) ; strncpy <S2SV_ModEnd> ( str, <S2SV_ModStart> len ) ; strncpy <S2SV_ModEnd> ( str,",0
+329,,1
+330,<S2SV_ModStart> options ) { SvcInternal_t <S2SV_ModEnd> * const si,1
+331,"<S2SV_ModStart> int i, vpx_tree <S2SV_ModEnd> tree, unsigned",1
+332,<S2SV_ModStart> ( s1 ) <S2SV_ModEnd> ) ; },0
+333,"<S2SV_ModStart> { parse_global_option ( CMD_PRINT_HELP <S2SV_ModEnd>, NULL, <S2SV_ModStart> { parse_global_option ( CMD_PRINT_DEFAULTS <S2SV_ModEnd>, NULL, <S2SV_ModStart> ; parse_service_option ( CMD_PRINT_DEFAULTS <S2SV_ModEnd>, NULL,",0
+334,<S2SV_ModStart> o ) { Py_RETURN_NONE <S2SV_ModEnd> ; } switch,1
+335,"<S2SV_ModStart> RC_LOG_SERIOUS, ""received <S2SV_blank> packet <S2SV_blank> from <S2SV_blank> %s"" <S2SV_ModEnd>, str_endpoint (",0
+336,<S2SV_ModStart> = e_error ; <S2SV_ModEnd> ps_op -> s_ivd_video_decode_op_t,0
+337,<S2SV_ModStart> <S2SV_null> <S2SV_null> static void <S2SV_ModEnd> print_string ( cJSON <S2SV_ModStart> ) { return <S2SV_ModEnd> print_string_ptr ( item <S2SV_ModStart> valuestring ) ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+338,"<S2SV_ModStart>. encode ( get_alg_priv ( ctx ) <S2SV_ModEnd>, img, <S2SV_ModStart>. encode ( get_alg_priv ( ctx ) <S2SV_ModEnd>, img,",1
+339,<S2SV_ModStart> term. rows0 + 1,0
+340,<S2SV_ModStart> < cols + 17 <S2SV_ModEnd> ; i ++,0
+341,<S2SV_ModStart> i -> width + i -> width,0
+342,"<S2SV_ModStart> void encode_term_subexp ( vpx_writer <S2SV_ModEnd> * w, <S2SV_ModStart> ) ) { vpx_write_literal <S2SV_ModEnd> ( w, <S2SV_ModStart> ) ) { vpx_write_literal <S2SV_ModEnd> ( w, <S2SV_ModStart> ) ) { vpx_write_literal <S2SV_ModEnd> ( w,",1
+343,"<S2SV_ModStart>, ps_bitstrm, 1 <S2SV_ModEnd> ) ; ps_codec",0
+344,<S2SV_ModStart> ) ) { va_end ( argptr ) ;,0
+345,"<S2SV_ModStart>. length ) { <S2SV_ModStart> ""ImproperImageHeader"" ) ; }",0
+346,"<S2SV_ModStart> 0 ; } copy_file_as_user <S2SV_ModEnd> ( src, <S2SV_ModStart> 0600 ) ; <S2SV_ModEnd> fs_logger2 ( ""clone"" <S2SV_ModStart> ""clone"", dest <S2SV_ModEnd> ) ; return",1
+347,<S2SV_ModStart> BLOCK_8X8 : return vpx_mse8x8 <S2SV_ModEnd> ; case BLOCK_16X8 <S2SV_ModStart> BLOCK_16X8 : return vpx_mse16x8 <S2SV_ModEnd> ; case BLOCK_8X16 <S2SV_ModStart> BLOCK_8X16 : return vpx_mse8x16 <S2SV_ModEnd> ; default : <S2SV_ModStart> default : return vpx_mse16x16 <S2SV_ModEnd> ; } },0
+348,<S2SV_ModStart> retval ) { if (! retval ) return retval ;,0
+349,"<S2SV_ModStart> flags ) ; memset ( v4l2_buf, 0, sizeof ( v4l2_buf ) ) ;",0
+350,<S2SV_ModStart> size ) { ASSERT_NO_SIZE_OVERFLOW ( size ) ;,1
+351,<S2SV_ModStart> -> serviceId == EXTRACT_16BITS <S2SV_ModEnd> ( & rxh,1
+352,<S2SV_ModStart> = bss_desc ; if ( req_ssid -> ssid_len < sizeof ( struct host_cmd_ds_802_11_ad_hoc_start ) ) return - 1 ;,0
+353,<S2SV_ModStart> ( error ) { kmem_free ( sbuf ) ; <S2SV_ModStart> return error ; },1
+354,"<S2SV_ModStart> struct l2cap_conf_rfc rfc <S2SV_ModEnd> ; void * <S2SV_ModStart> sk ) ; <S2SV_ModEnd> if ( pi <S2SV_ModStart> = L2CAP_MODE_ERTM ; rfc. mode = L2CAP_MODE_ERTM ; rfc. txwin_size = L2CAP_DEFAULT_RX_WINDOW ; rfc. max_transmit = L2CAP_DEFAULT_MAX_RECEIVE ; rfc. monitor_timeout = cpu_to_le16 ( L2CAP_DEFAULT_MONITOR_TO ) ; rfc. max_pdu_size = L2CAP_DEFAULT_MAX_RX_APDU ; l2cap_add_conf_opt ( & ptr, L2CAP_CONF_RFC, sizeof ( rfc ), ( unsigned long ) & rfc <S2SV_ModEnd> ) ; break",0
+355,"<S2SV_ModStart> do ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> r, MSG_WAITALL )",1
+356,<S2SV_ModStart> u1_nal_unit_type = 0 <S2SV_ModEnd> ; ps_dec ->,0
+357,<S2SV_ModStart> ( pair!= NULL <S2SV_ModEnd> ) { mprAddItem,0
+358,"<S2SV_ModStart> * delegation, fmode_t fmode <S2SV_ModEnd> ) { struct <S2SV_ModStart> -> type & fmode )!= fmode <S2SV_ModEnd> ) goto no_delegation_unlock <S2SV_ModStart> -> stateid, fmode <S2SV_ModEnd> ) ; ret <S2SV_ModStart> NULL ) { __update_open_stateid ( state, fmode <S2SV_ModEnd>, NULL, <S2SV_ModStart> NULL ) { __update_open_stateid ( state, fmode <S2SV_ModEnd>, NULL,",0
+359,"<S2SV_ModStart> ) ; return TEMP_FAILURE_RETRY ( <S2SV_ModStart>, 0 ) )",1
+360,,0
+361,<S2SV_ModStart> } if ( pmd_none_or_trans_huge_or_clear_bad <S2SV_ModEnd> ( pmd ),1
+362,<S2SV_ModStart> '\\0' ) { <S2SV_ModEnd> username [ index <S2SV_ModStart> ; } } <S2SV_ModEnd> ( void ),0
+363,"<S2SV_ModStart> int read_segment_id ( vpx_reader <S2SV_ModEnd> * r, <S2SV_ModStart> ) { return vpx_read_tree <S2SV_ModEnd> ( r,",1
+364,"<S2SV_ModStart> i ) { memset <S2SV_ModEnd> ( dst_ptr1, <S2SV_ModStart> extend_left ) ; memset <S2SV_ModEnd> ( dst_ptr2, <S2SV_ModStart> i ) { memcpy <S2SV_ModEnd> ( dst_ptr1, <S2SV_ModStart> i ) { memcpy <S2SV_ModEnd> ( dst_ptr2,",1
+365,"<S2SV_ModStart> perf_event * event <S2SV_ModEnd>, struct perf_sample_data",1
+366,"<S2SV_ModStart> ; buf2 = smb_fdata2 <S2SV_ModEnd> ( ndo,",0
+367,"<S2SV_ModStart> ( interface, KSZ8851_TXMIR <S2SV_ModEnd> ) & TXMIR_TXMA_MASK <S2SV_ModStart> ( interface, KSZ8851_RXQCR <S2SV_ModEnd> ) ; header <S2SV_ModStart> ( interface, KSZ8851_RXQCR <S2SV_ModEnd>, RXQCR_SDA ) <S2SV_ModStart> ( interface, KSZ8851_RXQCR <S2SV_ModEnd>, RXQCR_SDA ) <S2SV_ModStart> ( interface, KSZ8851_RXQCR <S2SV_ModEnd>, TXQCR_METFE ) <S2SV_ModStart> ( interface, KSZ8851_TXMIR <S2SV_ModEnd> ) & TXMIR_TXMA_MASK",0
+368,<S2SV_ModStart> ( ) ; mono_gc_invoke_finalizers ( ) ;,0
+369,,0
+370,<S2SV_ModStart> ( unlikely ( pmd_trans_huge <S2SV_ModEnd> ( * pmd,0
+371,"<S2SV_ModStart>, frames ; unsigned <S2SV_ModStart> ; usage ( <S2SV_ModEnd> ) ; return <S2SV_ModStart> ; usage ( <S2SV_ModEnd> ) ; return <S2SV_ModStart> ; usage ( <S2SV_ModEnd> ) ; return <S2SV_ModStart> ; usage ( <S2SV_ModEnd> ) ; return <S2SV_ModStart> ; usage ( <S2SV_ModEnd> ) ; return",0
+372,"<S2SV_ModStart> i, result <S2SV_ModEnd> ; PyObject *",1
+373,<S2SV_ModStart> vpx_codec_alg_priv * priv <S2SV_ModEnd> ; unsigned int <S2SV_ModStart> VPX_CODEC_MEM_ERROR ; } priv <S2SV_ModEnd> -> sz = <S2SV_ModStart> -> base ; priv <S2SV_ModEnd> -> cfg = <S2SV_ModStart> enc ) { priv <S2SV_ModEnd> -> cfg = <S2SV_ModStart> enc = & priv <S2SV_ModEnd> -> cfg ; <S2SV_ModStart> ++ ) ; priv <S2SV_ModEnd> -> pkt_list =,0
+374,<S2SV_ModStart> ++ ; } <S2SV_ModEnd> pixel -> freq,0
+375,<S2SV_ModStart> 0 ) { memset <S2SV_ModEnd> ( ( void <S2SV_ModStart> ) ) ; memset <S2SV_ModEnd> ( ctx ->,0
+376,<S2SV_ModStart> icbTag. strategyType == cpu_to_le16 ( 4096 ),0
+377,"<S2SV_ModStart> ( interface, ENC28J60_MIREGADR <S2SV_ModEnd>, address & <S2SV_ModStart> ( interface, ENC28J60_MIWRL <S2SV_ModEnd>, LSB ( <S2SV_ModStart> ( interface, ENC28J60_MIWRH <S2SV_ModEnd>, MSB ( <S2SV_ModStart> ( interface, ENC28J60_MISTAT ) & ENC28J60_MISTAT_BUSY <S2SV_ModEnd> )!= 0",1
+378,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> int bad_format_imginfo (,0
+379,,0
+380,<S2SV_ModStart> = object_length ; new_object. length = object_length ;,0
+381,"<S2SV_ModStart> { separator = osStrchr <S2SV_ModEnd> ( token,",1
+382,<S2SV_ModStart> ; if ( key_is_positive <S2SV_ModEnd> ( key ),1
+383,,0
+384,<S2SV_ModStart> ) ; } <S2SV_ModEnd> if (!,0
+385,<S2SV_ModStart> 4 ) ; size_t <S2SV_ModEnd> num_properties = GETINT32 <S2SV_ModStart> ; j < <S2SV_ModEnd> num_properties ; j,0
+386,<S2SV_ModStart> ; act = vpx_variance16x16 <S2SV_ModEnd> ( x ->,0
+387,"<S2SV_ModStart> * ctx, <S2SV_ModEnd> va_list args )",0
+388,"<S2SV_ModStart>, length, ( size_t )",0
+389,"<S2SV_ModStart> ; if ( CHILD ( n, 1 ) &&",0
+390,,0
+391,<S2SV_ModStart> -> flags = NS_FALSE <S2SV_ModEnd> ; result =,0
+392,<S2SV_ModStart> ; int ret = - EFAULT,0
+393,<S2SV_ModStart> ; message -> interface = queueItem -> interface ; message ->,1
+394,<S2SV_ModStart> se_device * remote_dev = NULL,0
+395,<S2SV_ModStart> if ( header && header,0
+396,"<S2SV_ModStart> * ctx, <S2SV_ModEnd> va_list args )",0
+397,"<S2SV_ModStart> ""ImproperImageHeader"" ) ; <S2SV_ModEnd> if ( (",0
+398,"<S2SV_ModStart> size, 0 <S2SV_ModEnd> ) ; if",1
+399,<S2SV_ModStart> ) AcquireQuantumMemory ( ( unsigned char * ),0
+400,"<S2SV_ModStart> * ctx, <S2SV_ModEnd> va_list args ) <S2SV_ModStart> vpx_ref_frame_t * ) ; ( void ) ctx",0
+401,,0
+402,"<S2SV_ModStart>, u4_y_offset ; const <S2SV_ModStart> ) ; else { <S2SV_ModStart> ) ; } }",0
+403,<S2SV_ModStart> VP9_LAST_FLAG ) { <S2SV_ModEnd> if (!,0
+404,<S2SV_ModStart> n ) { jas_matind_t i ; jas_matind_t <S2SV_ModEnd> j ; jas_seqent_t <S2SV_ModStart> * rowstart ; jas_matind_t <S2SV_ModEnd> rowstep ; jas_seqent_t,1
+405,,0
+406,"<S2SV_ModStart> ++ ) { memcpy ( dst, src, 8 ) ; <S2SV_ModEnd> src += src_stride",1
+407,<S2SV_ModStart> { rowstoread = ( <S2SV_ModStart> ) % rowsperstrip ) <S2SV_ModStart> { rowstoread = ( <S2SV_ModStart> ) % rowsperstrip ),0
+408,<S2SV_ModStart> ; } } <S2SV_ModEnd> return 0 ;,0
+409,<S2SV_ModStart> x ) { <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header. ptr [ <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header. indx <S2SV_ModEnd> ++ ] = <S2SV_ModStart> x ; } <S2SV_ModEnd> <S2SV_null> <S2SV_null> <S2SV_null>,0
+410,<S2SV_ModStart> num & ( 1U <S2SV_ModEnd> << ( number,0
+411,"<S2SV_ModStart>, 1, ""%s"",",0
+412,,0
+413,<S2SV_ModStart> = 0 ; <S2SV_ModEnd> return 1 ;,0
+414,"<S2SV_ModStart> 0, 0 <S2SV_ModEnd> ) ; if",0
+415,"<S2SV_ModStart> sock, sk ) ; memset ( sa, 0, sizeof ( * sa )",1
+416,<S2SV_ModStart> MT_CPTYPE_PASSSALT ) { <S2SV_ModEnd> send_auth ( username,0
+417,<S2SV_ModStart> ) { goto bail <S2SV_ModEnd> ; } if <S2SV_ModStart> ) ; goto bail <S2SV_ModEnd> ; } else <S2SV_ModStart> ) ; goto bail <S2SV_ModEnd> ; } } <S2SV_ModStart> ) ; goto bail <S2SV_ModEnd> ; } imap_exec <S2SV_ModStart> ) ; goto bail <S2SV_ModEnd> ; } imap_exec <S2SV_ModStart> ) ; goto bail <S2SV_ModEnd> ; } imap_close_connection <S2SV_ModStart> ) ; goto bail <S2SV_ModEnd> ; } imap_close_connection,0
+418,<S2SV_ModStart> crypto_report_kpp rkpp ; strncpy <S2SV_ModEnd> ( rkpp.,1
+419,<S2SV_ModStart> 0 ) { close ( gpsd_sock ) ; return ;,0
+420,"<S2SV_ModStart>, & rlen, 0",1
+421,"<S2SV_ModStart> * slavename ; memset ( & md5data, 0, sizeof ( md5data ) ) ;",0
+422,"<S2SV_ModStart> ; if ( PyUnicode_CompareWithASCIIString <S2SV_ModEnd> ( name, <S2SV_ModStart> { if ( PyUnicode_CompareWithASCIIString <S2SV_ModEnd> ( name,",0
+423,<S2SV_ModStart> off } ; ( void ) str ;,0
+424,<S2SV_ModStart> in ) { jas_uchar <S2SV_ModEnd> buf [ 2,1
+425,<S2SV_ModStart> credssp ) ; transport -> credssp = NULL ;,1
+426,"<S2SV_ModStart> size_t s ; memset ( & n -> entries [ tcount ], 0, sizeof ( MnoteFujiEntry ) ) ;",1
+427,<S2SV_ModStart> bd_addr ) { if ( bd_addr == NULL ) return BT_STATUS_NOT_READY ;,0
+428,"<S2SV_ModStart> i ; int avail, <S2SV_ModStart> 4 ) ; avail = <S2SV_ModEnd> buf -> len <S2SV_ModStart> buf -> len ; expect = <S2SV_ModEnd> buf -> len <S2SV_ModStart> buf -> len <S2SV_ModEnd> ; if (",0
+429,<S2SV_ModStart> x ) { <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header. ptr [ <S2SV_ModEnd> psf -> header <S2SV_ModStart> psf -> header. indx <S2SV_ModEnd> ++ ] = <S2SV_ModStart> psf -> header. ptr <S2SV_ModStart> [ psf -> header. indx <S2SV_ModEnd> ++ ] = <S2SV_ModStart> psf -> header. ptr <S2SV_ModStart> [ psf -> header. indx <S2SV_ModEnd> ++ ] = <S2SV_ModStart> ) ; } <S2SV_ModEnd> <S2SV_null> <S2SV_null> <S2SV_null>,1
+430,<S2SV_ModStart> epoll_ ) ; if ( count > OE_SSIZE_MAX ) { ret = - EINVAL ; OE_RAISE_ERRNO ( OE_EINVAL ) ; return ret ; },0
+431,"<S2SV_ModStart> = parse_global_option ( CMD_INITIALIZE <S2SV_ModEnd>, NULL,",0
+432,<S2SV_ModStart> return 0 ; case MAGIC_PARAM_ELF_EXCEPTION_MAX : * ( size_t * ) val = ms -> elf_exception_max ; return 0 ;,0
+433,<S2SV_ModStart> * journal = jbd2_journal_invalidatepage <S2SV_ModEnd> ( page ->,0
+434,<S2SV_ModStart> 1 ) ; if (! trak ) goto exit ;,0
+435,"<S2SV_ModStart> 17 ] ; size_t <S2SV_ModEnd> plen ; md5_state_t <S2SV_ModStart> ; # endif memset <S2SV_ModEnd> ( md5data + <S2SV_ModStart>, password, sizeof ( md5data ) <S2SV_ModEnd> ) ; md5data <S2SV_ModStart> = '\\0' ; memset <S2SV_ModEnd> ( md5data + <S2SV_ModStart> state ) ; memset <S2SV_ModEnd> ( & state",0
+436,<S2SV_ModStart> ; if ( <S2SV_ModEnd> Prefix!= NULL,1
+437,<S2SV_ModStart> ; if ( i < NCH ( n ) &&,1
+438,<S2SV_ModStart> ( ) ; g_hash_table_remove_all ( headers ) ;,0
+439,"<S2SV_ModStart> row ) { memcpy <S2SV_ModEnd> ( dst,",0
+440,,0
+441,"<S2SV_ModStart>, obj_tlen ; u_int <S2SV_ModEnd> hexdump ; u_int",0
+442,"<S2SV_ModStart> mbmi, const MV <S2SV_ModEnd> * mvs [",0
+443,<S2SV_ModStart> ( encoder -> codec_interface <S2SV_ModEnd> ( ) ),0
+444,"<S2SV_ModStart> ; if ( skb_expand_head_safe <S2SV_ModEnd> ( skb_out,",0
+445,"<S2SV_ModStart> ) return ; <S2SV_ModEnd> DEBUGMSGTL ( ( <S2SV_ModStart> NULL, NULL <S2SV_ModEnd> ) ; }",0
+446,"<S2SV_ModStart> { fd = TEMP_FAILURE_RETRY ( <S2SV_ModStart> ], O_RDWR ) <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, TEMP_FAILURE_RETRY ( <S2SV_ModStart> ( fd, T",0
+447,<S2SV_ModStart> i ++ ) vpx_free_frame_buffer <S2SV_ModEnd> ( & ctx,1
+448,"<S2SV_ModStart> 1 ) { vpx_lpf_vertical_16 <S2SV_ModEnd> ( s, <S2SV_ModStart> 1 ) { vpx_lpf_vertical_8 <S2SV_ModEnd> ( s, <S2SV_ModStart> 1 ) { vpx_lpf_vertical_8 <S2SV_ModEnd> ( s, <S2SV_ModStart> 1 ) { vpx_lpf_vertical_4 <S2SV_ModEnd> ( s,",0
+449,<S2SV_ModStart> krb5_error_code iakerb_alloc_context ( iakerb_ctx_id_t <S2SV_ModEnd> * pctx ) <S2SV_ModStart> pctx ) { iakerb_ctx_id_t <S2SV_ModEnd> ctx ; *,0
+450,"<S2SV_ModStart> = DirectClass ; if ( image == ( Image * ) NULL ) image = screen ; else AppendImageToList ( & image, screen ) ; <S2SV_ModStart> ) ; } <S2SV_ModEnd> bitmapDC = CreateCompatibleDC",1
+451,<S2SV_ModStart> START_CODE_LEN ) ; <S2SV_ModEnd> u4_start_code = impeg2d_bit_stream_nxt,0
+452,"<S2SV_ModStart> ""ipc_flood_duration_ms"" ) ) { ret = <S2SV_ModEnd> - EINVAL ; <S2SV_ModStart> - EINVAL ; goto out ; }",1
+453,<S2SV_ModStart> ; } } <S2SV_ModEnd> return NULL ;,0
+454,<S2SV_ModStart> ) ] ; size_t <S2SV_ModEnd> tmp ; if,0
+455,,0
+456,<S2SV_ModStart> decContainer_t * ) H264SwDecCalloc <S2SV_ModEnd> ( sizeof (,0
+457,<S2SV_ModStart> drop ; } <S2SV_ModEnd> opt -> optlen,0
+458,"<S2SV_ModStart> ) break ; status = SetImageExtent ( image, image -> columns, image -> rows ) ; if ( status == MagickFalse ) { InheritException ( exception, & image -> exception ) ; return ( DestroyImageList ( image ) ) ; }",1
+459,"<S2SV_ModStart> goto errout ; memset ( info, 0, sizeof ( * info ) ) ;",0
+460,<S2SV_ModStart> krb5_key_data * key_data = NULL,0
+461,"<S2SV_ModStart> * self, size_t <S2SV_ModEnd> idx, PyObject",1
+462,<S2SV_ModStart> ] ) ; if ( nByte > 0 ) { <S2SV_ModStart> 1 ) ; },0
+463,<S2SV_ModStart> filp ) { <S2SV_ModEnd> return 0 ;,0
+464,"<S2SV_ModStart> * orelse, string type_comment, <S2SV_ModStart> orelse = orelse ; p -> v. AsyncFor. type_comment = type_comment",0
+465,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+466,,0
+467,<S2SV_ModStart> UINT error ; ( void ),0
+468,"<S2SV_ModStart> -> socket, ""%s"", <S2SV_ModStart> -> socket, ""%s"",",1
+469,<S2SV_ModStart> struct flowi6 fl6 = { 0 },0
+470,<S2SV_ModStart> ; MATLAB_KO : clone_info = DestroyImageInfo ( clone_info ) ;,0
+471,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+472,<S2SV_ModStart> ; int len <S2SV_ModEnd> ; bn_t t <S2SV_ModStart> 8 ) ; <S2SV_ModEnd> case RSA_DEC : <S2SV_ModStart> 0 ] ; <S2SV_ModEnd> do { m_len <S2SV_ModStart> 8 ) ; <S2SV_ModEnd> case RSA_SIG :,0
+473,"<S2SV_ModStart> vpx_codec_alg_priv_t * ctx <S2SV_ModEnd>, va_list args",1
+474,<S2SV_ModStart> ( psf = psf_allocate ( <S2SV_ModEnd> ) ) ==,1
+475,<S2SV_ModStart> void fix_interp_filter ( VP9_COMMON * const <S2SV_ModEnd> cm ) {,0
+476,<S2SV_ModStart> & cpi -> td. <S2SV_ModStart> = 0 ; memset <S2SV_ModEnd> ( xd -> <S2SV_ModStart> subsampling_y ) ; memset <S2SV_ModEnd> ( xd ->,0
+477,<S2SV_ModStart> ; retval = htc_request_check_host_hdr <S2SV_ModEnd> ( hp ),0
+478,"<S2SV_ModStart> define EOFOp 0x07 <S2SV_ModEnd> char magick [ <S2SV_ModStart> ; do { memset ( image, 0, sizeof ( image ) ) ;",0
+479,<S2SV_ModStart> int ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> sizeof ( tETH_HDR ),1
+480,<S2SV_ModStart> ; ps_dec -> u2_cur_slice_num = 0 ; ps_dec ->,0
+481,"<S2SV_ModStart> int mptctl_getiocinfo ( MPT_ADAPTER * ioc, <S2SV_ModStart> * karg ; <S2SV_ModEnd> struct pci_dev * <S2SV_ModStart> karg ) ; <S2SV_ModEnd> if ( (",0
+482,<S2SV_ModStart> ) AcquireQuantumMemory ( ( size_t ),0
+483,<S2SV_ModStart> } else { <S2SV_ModEnd> } break ; <S2SV_ModStart> } else { <S2SV_ModEnd> } break ;,0
+484,"<S2SV_ModStart> ; if ( tcount < 4 ) { exif_log ( en -> log, EXIF_LOG_CODE_CORRUPT_DATA, ""ExifMnoteDataFuji"", ""Short <S2SV_blank> MakerNote"" ) ; return ; } if (",0
+485,<S2SV_ModStart> 1 ) ; if ( nimages > 1 ) { <S2SV_ModStart> 1 ) ; },0
+486,"<S2SV_ModStart> void ) { CRYPTO_THREAD_write_lock ( fds, 1 ) ; <S2SV_ModStart> 1 ) ; <S2SV_ModEnd> opt = service_options <S2SV_ModStart>. next ; <S2SV_ModEnd> if ( opt <S2SV_ModStart> 0 ; } <S2SV_ModEnd> SSL_CTX_flush_sessions ( opt <S2SV_ModStart> servname ) ; <S2SV_ModEnd> CRYPTO_THREAD_unlock ( stunnel_locks",0
+487,<S2SV_ModStart> void ) { recovery_delete_character ( ) ;,0
+488,,0
+489,"<S2SV_ModStart> ) break ; status = SetImageExtent ( image, image -> columns, image -> columns ) ; if ( status == MagickFalse ) { InheritException ( exception, & image -> exception ) ; return ( DestroyImageList ( image ) ) ; }",0
+490,"<S2SV_ModStart> { WORD32 i, r_idx <S2SV_ModStart> ; i < r_idx <S2SV_ModEnd> ; i ++",0
+491,,0
+492,<S2SV_ModStart> sk ) ; other = unix_peer ( sk ) ; <S2SV_ModStart> other ) { <S2SV_ModEnd> if ( unix_peer <S2SV_ModStart> wait ) ; <S2SV_ModEnd> writable = 0 <S2SV_ModStart> = 0 ; <S2SV_ModEnd> sock_put ( other,0
+493,"<S2SV_ModStart> h ) { sprintf ( outputbuffer <S2SV_ModEnd>, ""\\n <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> re"", <S2SV_ModStart> h ) ; sendClean ( outputbuffer ) ;",1
+494,<S2SV_ModStart> ( OM_uint32 ) KRB5_BAD_MSIZE <S2SV_ModEnd> ; return GSS_S_DEFECTIVE_TOKEN,0
+495,"<S2SV_ModStart> * ctx, <S2SV_ModEnd> va_list args ) <S2SV_ModStart> vp9_ref_frame_t * ) ; ( void ) ctx",0
+496,<S2SV_ModStart> plug ) ; <S2SV_ModEnd> put_ioctx ( ctx,0
+497,,0
+498,"<S2SV_ModStart> s } ; <S2SV_ModEnd> uECC_word_t * p <S2SV_ModStart> curve ) ; if ( uECC_vli_isZero ( p, num_words ) ) { return 0 ; }",0
+499,"<S2SV_ModStart> ( ndo, ""%s"", rpl_tstr <S2SV_ModEnd> ) ) ;",1
+500,<S2SV_ModStart> ; } else if ( buf ) <S2SV_ModStart> ; } } else { free ( buf ) ; },0
+501,,0
+502,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,1
+503,"<S2SV_ModStart>, * pixd = NULL <S2SV_ModStart> == NULL ) { <S2SV_ModStart> NULL ) ; }",0
+504,"<S2SV_ModStart> = 256 ; memset ( v_fn_ptr, 0, sizeof ( v_fn_ptr ) ) ;",0
+505,<S2SV_ModStart> * data ; size_t <S2SV_ModEnd> overhead = 16 <S2SV_ModStart> + 1 ; size_t <S2SV_ModEnd> size = overhead,1
+506,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+507,"<S2SV_ModStart> i, target_bits_per_mb, target_bits_per_mb <S2SV_ModStart> int bits_per_mb_at_this_q = <S2SV_ModEnd> vp9_rc_bits_per_mb ( cm <S2SV_ModStart> frame_type, i <S2SV_ModEnd> ) ; if",0
+508,<S2SV_ModStart> ; value |= TJA1101_CONFIG1_MII_MODE_RMII_25MHZ <S2SV_ModEnd> ; tja1101WritePhyReg (,0
+509,<S2SV_ModStart> ; if ( i < NCH ( n ) &&,1
+510,"<S2SV_ModStart> int dst_stride, PREDICTION_MODE <S2SV_ModEnd> mode, TX_SIZE <S2SV_ModStart> int i ; PREDICTION_MODE <S2SV_ModEnd> ( 16, <S2SV_ModStart> plane ] ; <S2SV_ModEnd> if ( plane",0
+511,<S2SV_ModStart> ++ ; } current ++ <S2SV_ModEnd> ; } if,0
+512,<S2SV_ModStart> i_completed_io_list ) ; spin_lock_init ( & ei -> i_completed_io_list ) ;,0
+513,"<S2SV_ModStart> cpi, struct vpx_write_bit_buffer <S2SV_ModEnd> * wb ) <S2SV_ModStart> -> common ; vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> wb ) ; vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> wb ) ; vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> KEY_FRAME ) { vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> KEY_FRAME ) { vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> } else { vpx_wb_write_literal <S2SV_ModEnd> ( wb, <S2SV_ModStart> } else { vpx_wb_write_literal <S2SV_ModEnd> ( wb,",0
+514,"<S2SV_ModStart> ( stderr, ""Rrd_graph_options: <S2SV_blank> %s\\n"" <S2SV_ModEnd>, strerror (",0
+515,<S2SV_ModStart> ; p = osStrchr <S2SV_ModEnd> ( context -> <S2SV_ModStart> { q = osStrchr <S2SV_ModEnd> ( p +,1
+516,<S2SV_ModStart> ; if ( i < NCH ( n ) &&,1
+517,"<S2SV_ModStart> KEY_FRAME ) { memcpy <S2SV_ModEnd> ( pc -> <S2SV_ModStart>. mvc, vpx_default_mv_context, sizeof ( vpx_default_mv_context ) ) ; vpx_memcpy <S2SV_ModEnd> ( pc -> <S2SV_ModStart> pc ) ; memset <S2SV_ModEnd> ( xd -> <S2SV_ModStart> = SEGMENT_DELTADATA ; memset <S2SV_ModEnd> ( xd -> <S2SV_ModStart> ) ) ; memset <S2SV_ModEnd> ( xd ->",0
+518,,0
+519,"<S2SV_ModStart> VALUE read_memory ( VALUE klass, VALUE <S2SV_ModEnd> content ) { <S2SV_ModStart> content ) ) <S2SV_ModEnd> ; VALUE errors",0
+520,"<S2SV_ModStart> ( LOG_ERR, ""%s"", <S2SV_ModStart> ( LOG_ERR, ""%s"",",0
+521,<S2SV_ModStart> ; out += 3 <S2SV_ModEnd> ; } state <S2SV_ModStart> ; out += 3 <S2SV_ModEnd> ; } state,1
+522,<S2SV_ModStart> err = - EINVAL <S2SV_ModEnd> ; if (,0
+523,<S2SV_ModStart> POLL_IN ) ; <S2SV_ModEnd> perf_event_wakeup ( handle,0
+524,,0
+525,"<S2SV_ModStart> { print_as ( ""Notification <S2SV_blank> setup <S2SV_blank> failed, <S2SV_blank> won\'t <S2SV_blank> be <S2SV_blank> able <S2SV_blank> to <S2SV_blank> reconnect <S2SV_blank> after <S2SV_blank> failure"" <S2SV_ModEnd> ) ; if",0
+526,,0
+527,"<S2SV_ModStart> * n, const <S2SV_ModStart> const node * const <S2SV_ModStart> is_async ) { const <S2SV_ModStart>, LINENO ( const",0
+528,<S2SV_ModStart> int i ; flush_tlb <S2SV_ModEnd> ( ) ;,0
+529,"<S2SV_ModStart> { tr_error ( ""sn_coap_parser_options_parse <S2SV_blank> - <S2SV_blank> packet_data_pptr <S2SV_blank> failed!"" <S2SV_ModEnd> ) ; return",0
+530,<S2SV_ModStart> argv [ i - 1,0
+531,<S2SV_ModStart> ; row < raw_width <S2SV_ModEnd> ; row ++,0
+532,<S2SV_ModStart> len ) ; <S2SV_ModEnd> param -> data_size,0
+533,"<S2SV_ModStart> ""ImproperImageHeader"" ) ; quantum_info = DestroyQuantumInfo ( quantum_info ) ;",0
+534,<S2SV_ModStart> ( bfqq ) __bfq_idle_slice_timer_body <S2SV_ModEnd> ( bfqq ),0
+535,<S2SV_ModStart> ; length += <S2SV_ModEnd> update_prepare_bounds ( context,0
+536,"<S2SV_ModStart> old_upperdir, new_type <S2SV_ModEnd> ) ; if",0
+537,"<S2SV_ModStart> int plane ; vpx_foreach_transformed_block_in_plane <S2SV_ModEnd> ( xd,",0
+538,"<S2SV_ModStart> * cpi, ThreadData * td, <S2SV_ModStart> ( cpi, td <S2SV_ModEnd>, mi_row, <S2SV_ModStart> ( cpi, td <S2SV_ModEnd>, mi_row,",0
+539,<S2SV_ModStart> * err = mysofa_load <S2SV_ModEnd> ( & reader,0
+540,<S2SV_ModStart> -> ranges = safe_calloc <S2SV_ModEnd> ( sizeof (,0
+541,<S2SV_ModStart> ; if ( <S2SV_ModEnd> flags & VP8_EFLAG_NO_UPD_GF <S2SV_ModStart> flags & VP8_EFLAG_FORCE_GF <S2SV_ModEnd> ) { ctx,0
+542,"<S2SV_ModStart> ""ImproperImageHeader"" ) ; if ( clone_info!= ( ExceptionInfo * ) NULL )",0
+543,<S2SV_ModStart>! head ) <S2SV_ModEnd> return - EINVAL <S2SV_ModStart> - EINVAL ; <S2SV_ModEnd> hlist_add_head_rcu ( &,0
+544,"<S2SV_ModStart> * pptr, u_int <S2SV_ModEnd> len ) {",0
+545,<S2SV_ModStart> outputbuffer ) ; <S2SV_ModEnd> res -> outputbuffer,0
+546,"<S2SV_ModStart> ) src_pitch ; memcpy <S2SV_ModEnd> ( dest,",1
+547,<S2SV_ModStart> tokbuf ) ; <S2SV_ModEnd> return true ;,0
+548,"<S2SV_ModStart> iad_num ) ; if ( n < 0 ) { dev_err ( ddev, ""invalid <S2SV_blank> descriptor <S2SV_blank> for <S2SV_blank> config <S2SV_blank> index <S2SV_blank> %d\\n"", cfgidx ) ; return - EINVAL ; }",0
+549,"<S2SV_ModStart> 0, 0 <S2SV_ModEnd> ) ; if",0
+550,<S2SV_ModStart> ; distortion = vpx_variance16x16 <S2SV_ModEnd> ( * (,1
+551,"<S2SV_ModStart> ( interface, ENC624J600_ECON2, ENC624J600_ECON2_ETHEN <S2SV_ModEnd> | ECON2_STRCH ) <S2SV_ModStart> ( interface, ENC624J600_MAADR1 <S2SV_ModEnd> ) ; interface <S2SV_ModStart> ( interface, ENC624J600_MAADR2 <S2SV_ModEnd> ) ; interface <S2SV_ModStart> ( interface, ENC624J600_MAADR2 <S2SV_ModEnd> ) ; interface <S2SV_ModStart> ( interface, ENC624J600_MAADR2 <S2SV_ModEnd>, temp ) <S2SV_ModStart> ( interface, ENC624J600_MAADR2 <S2SV_ModEnd>, temp ) <S2SV_ModStart> ( interface, ENC624J600_MAADR2 <S2SV_ModEnd>, temp ) <S2SV_ModStart> ( interface, ENC624J600_MAADR2 <S2SV_ModEnd>, temp )",0
+552,<S2SV_ModStart> -> header ) + 1 <S2SV_ModStart> -> header ) + 1 <S2SV_ModStart> -> header ) + 1 <S2SV_ModStart> -> header ) + 1,0
+553,<S2SV_ModStart> ; else { <S2SV_ModEnd> ctx -> iface,0
+554,<S2SV_ModStart> { sf -> <S2SV_ModEnd> recode_loop = ( <S2SV_ModStart> { sf -> <S2SV_ModEnd> tx_size_search_method = vp9_frame_is_boosted <S2SV_ModStart> ; sf -> <S2SV_ModEnd> mode_skip_start = 10 <S2SV_ModStart> { sf -> <S2SV_ModEnd> mode_skip_start = 10,0
+555,"<S2SV_ModStart> int ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart>, - 1 )",1
+556,<S2SV_ModStart> + 2 * L -> stacksize <S2SV_ModEnd> ; if (,0
+557,<S2SV_ModStart> o ) { Py_RETURN_NONE <S2SV_ModEnd> ; } result,1
+558,"<S2SV_ModStart>, * s <S2SV_ModEnd> ; int quote",0
+559,<S2SV_ModStart> * input_ptr ; <S2SV_ModEnd> vpx_codec_err_t res = <S2SV_ModStart> break ; } <S2SV_ModEnd> if ( strcmp <S2SV_ModStart> ) break ; <S2SV_ModEnd> SvcInternal * const,0
+560,<S2SV_ModStart> ) ; } fclose ( mvs ) ;,0
+561,<S2SV_ModStart> self ) { size_t <S2SV_ModEnd> i ; PyObject,1
+562,,1
+563,<S2SV_ModStart> ) ) { if ( imp_dbh -> pmysql ),1
+564,"<S2SV_ModStart> ) || ( TEMP_FAILURE_RETRY ( <S2SV_ModStart>, & size ) <S2SV_ModStart> ( need_close || TEMP_FAILURE_RETRY ( <S2SV_ModStart>, & size )",0
+565,<S2SV_ModStart> struct ieee_802_11_phdr phdr = { 0 },0
+566,<S2SV_ModStart> ; sh = safe_calloc <S2SV_ModEnd> ( hdrlen +,0
+567,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> void nsc_encode_argb_to_aycocg (,0
+568,<S2SV_ModStart> ( - EINVAL ) ; kfree ( inverts,0
+569,,0
+570,"<S2SV_ModStart> TX_MODE read_tx_mode ( vpx_reader <S2SV_ModEnd> * r ) <S2SV_ModStart> TX_MODE tx_mode = vpx_read_literal <S2SV_ModEnd> ( r, <S2SV_ModStart> ) tx_mode += vpx_read_bit <S2SV_ModEnd> ( r )",1
+571,"<S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_free <S2SV_ModStart> } # line 106 <S2SV_ModEnd> ""re_grammar.c"" break ; <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy <S2SV_ModStart> : # line 106 <S2SV_ModEnd> ""re_grammar.y"" { yr_re_node_destroy",0
+572,,0
+573,<S2SV_ModStart> pSelect -> pSrc ; assert ( pSelect -> nSrc > 0 ),0
+574,<S2SV_ModStart> ; serv = kthread_create <S2SV_ModEnd> ( & nfs4_callback_program,0
+575,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+576,<S2SV_ModStart> ; gss_buffer_desc client_name = GSS_C_EMPTY_BUFFER ; gss_buffer_desc service_name = GSS_C_EMPTY_BUFFER <S2SV_ModEnd> ; OM_uint32 minor_stat <S2SV_ModStart> prime_arg ) ; exit_func : <S2SV_ModStart> service_name ) ; <S2SV_ModEnd> free_server_handle ( handle,1
+577,"<S2SV_ModStart> ssize_t ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> msg, MSG_DONTWAIT )",1
+578,"<S2SV_ModStart> do ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> s, 0 )",1
+579,<S2SV_ModStart> = NULL ; char * prop_name = NULL ; <S2SV_ModStart> -> name ; char * path = xml_get_path ( xml ) ; <S2SV_ModStart> } else { <S2SV_ModEnd> path = xml_get_path,0
+580,<S2SV_ModStart> <S2SV_null> static const SvcInternal_t <S2SV_ModEnd> * get_const_svc_internal ( <S2SV_ModStart> return ( const SvcInternal_t <S2SV_ModEnd> * ) svc_ctx,1
+581,"<S2SV_ModStart> & tmp, 1 <S2SV_ModEnd> TSRMLS_CC ) ;",0
+582,<S2SV_ModStart> char buffer [ 80 <S2SV_ModEnd> ] ; int,0
+583,<S2SV_ModStart> buf ; { <S2SV_ModEnd> return TRUE ;,0
+584,"<S2SV_ModStart> long long directory_table_end = 0, table_start = 0 <S2SV_ModEnd> ; if ( <S2SV_ModStart> == 0 ) { <S2SV_ModStart> return FALSE ; } <S2SV_ModStart> == 0 ) { <S2SV_ModStart> return FALSE ; } <S2SV_ModStart> == FALSE ) { <S2SV_ModStart> return FALSE ; } <S2SV_ModStart> == FALSE ) { <S2SV_ModStart> return FALSE ; } <S2SV_ModStart> == FALSE ) { <S2SV_ModStart> return FALSE ; }",0
+585,"<S2SV_ModStart> rule * rule, u_int mode <S2SV_ModStart> ; env -> mode = mode ; env ->",0
+586,<S2SV_ModStart> -> seg ; vpx_clear_system_state <S2SV_ModEnd> ( ) ; <S2SV_ModStart> int segment ; memset <S2SV_ModEnd> ( cpi -> <S2SV_ModStart> ; } } vpx_clear_system_state ( ) ;,0
+587,,0
+588,"<S2SV_ModStart> } logfile_fd = fopen <S2SV_ModEnd> ( log_path,",0
+589,<S2SV_ModStart> ; } # else ( void ) cpi ; #,1
+590,,0
+591,"<S2SV_ModStart> ; if ( lookup_attr_id <S2SV_ModEnd> ( obj, <S2SV_ModStart> ; tmp = _PyObject_GetAttrId <S2SV_ModEnd> ( obj, <S2SV_ModStart> ; tmp = _PyObject_GetAttrId <S2SV_ModEnd> ( obj, <S2SV_ModStart> ; tmp = _PyObject_GetAttrId <S2SV_ModEnd> ( obj, <S2SV_ModStart> ; tmp = _PyObject_GetAttrId <S2SV_ModEnd> ( obj,",0
+592,"<S2SV_ModStart> void write_intra_mode ( vpx_writer <S2SV_ModEnd> * w, <S2SV_ModStart> * w, PREDICTION_MODE <S2SV_ModEnd> mode, const <S2SV_ModStart> mode, const vpx_prob <S2SV_ModEnd> * probs )",1
+593,<S2SV_ModStart> int err ; kfree ( alink ) ; <S2SV_ModStart> ) goto err_delete <S2SV_ModEnd> ; } } <S2SV_ModStart>! match ) { kfree ( alink ) ; <S2SV_ModStart> - ENOMEM ; } <S2SV_ModStart> -> dscp_map ) ; kfree ( alink ),0
+594,<S2SV_ModStart> ) ; } if ( pass ) { <S2SV_ModStart> ; if ( <S2SV_ModEnd> stream -> cx_time <S2SV_ModStart> stats ) ; },0
+595,"<S2SV_ModStart> = g_strdup_printf ( ""%s"",",0
+596,<S2SV_ModStart> data_end ) { <S2SV_ModEnd> assert ( tile_rows <S2SV_ModStart> ) ) ; memset <S2SV_ModEnd> ( cm -> <S2SV_ModStart> ) ) ; memset <S2SV_ModEnd> ( cm -> <S2SV_ModStart> aligned_cols ) ; memset <S2SV_ModEnd> ( cm ->,0
+597,<S2SV_ModStart> vp9_decoder_create ( const VP9D_CONFIG <S2SV_ModEnd> * oxcf ) <S2SV_ModStart> vp9_decoder_create ( const VP9D_CONFIG <S2SV_ModEnd> * oxcf ) <S2SV_ModStart> vp9_decoder_create ( const VP9D_CONFIG <S2SV_ModEnd> * oxcf ) <S2SV_ModStart> * oxcf ) <S2SV_ModEnd> ; vpx_init_dequantizer (,0
+598,<S2SV_ModStart> dref ) { if (! ( ( GF_DataInformationBox * ) s ) -> dref ) { <S2SV_ModStart> ) ) ; },0
+599,<S2SV_ModStart> req ) { <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+600,"<S2SV_ModStart> tree2tok ( struct vpx_token <S2SV_ModEnd> * tokens, <S2SV_ModStart> tokens, const vpx_tree_index <S2SV_ModEnd> * tree, <S2SV_ModStart> do { const vpx_tree_index <S2SV_ModEnd> j = tree",0
+601,<S2SV_ModStart> ( img ) { <S2SV_ModStart> img ) ; },0
+602,"<S2SV_ModStart>, & len, 0",1
+603,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> static,0
+604,<S2SV_ModStart> int frame_max_bits ( <S2SV_ModEnd> ) { int64_t,0
+605,<S2SV_ModStart> in ) { jas_uchar <S2SV_ModEnd> magicbuf [ MIF_MAGICLEN,1
+606,,0
+607,<S2SV_ModStart> x ) { <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+608,"<S2SV_ModStart> range_max ) { return cbs_av1_read_uvlc <S2SV_ModEnd> ( gbc, <S2SV_ModStart> gbc ) ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>",0
+609,"<S2SV_ModStart> else if ( strchr <S2SV_ModEnd> ( ""!#$%&\'*+-.^_`|~"", <S2SV_ModStart> else if ( strchr <S2SV_ModEnd> ( ""!#$%&\'*+-.^_`|~"",",0
+610,"<S2SV_ModStart>, packet -> http_content_line. ptr = NULL, packet ->",0
+611,"<S2SV_ModStart>, y, UINT64_MAX <S2SV_ModEnd>, exception )",0
+612,"<S2SV_ModStart> int ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> length, MSG_NOSIGNAL ) <S2SV_ModStart> { ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> length, MSG_NOSIGNAL )",1
+613,<S2SV_ModStart> action ) { ( void ) w ;,0
+614,"<S2SV_ModStart> ) ) { sprintf ( outputbuffer <S2SV_ModEnd>, ""%12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> %12.3f <S2SV_blank> cm\\n"", <S2SV_ModStart> y ) ; sendClean ( outputbuffer ) ;",1
+615,"<S2SV_ModStart> return FALSE ; Stream_Read_UINT32 <S2SV_ModEnd> ( s,",0
+616,<S2SV_ModStart> -> above_context ; memcpy <S2SV_ModEnd> ( cm ->,0
+617,<S2SV_ModStart> # if CONFIG_MULTITHREAD <S2SV_ModEnd> vp8_decoder_remove_threads ( pbi,1
+618,<S2SV_ModStart> { if ( ( <S2SV_ModStart> xWantedSize > 0 ) && ( ( <S2SV_ModEnd> ( xWantedSize & <S2SV_ModStart> portBYTE_ALIGNMENT - ( ( <S2SV_ModStart> & portBYTE_ALIGNMENT_MASK ) ) <S2SV_ModStart> portBYTE_ALIGNMENT_MASK ) ) ),0
+619,"<S2SV_ModStart> tx_type, const tran_low_t <S2SV_ModEnd> * input,",1
+620,"<S2SV_ModStart> s ) { <S2SV_ModEnd> in_uint16_le ( s <S2SV_ModStart> ++ ) { in_uint16_le <S2SV_ModEnd> ( s, <S2SV_ModStart> ++ ) { in_uint16_le <S2SV_ModEnd> ( s,",0
+621,"<S2SV_ModStart> { option = ssplit <S2SV_ModEnd> ( option,",1
+622,"<S2SV_ModStart> tx_size, vpx_coeff_stats <S2SV_ModEnd> coef_branch_ct ) { <S2SV_ModStart> tx_size ] ; vpx_coeff_probs_model <S2SV_ModEnd> * coef_counts =",0
+623,<S2SV_ModStart> name ) ; if ( utf8 ),0
+624,<S2SV_ModStart> <S2SV_null> <S2SV_null> static void <S2SV_ModEnd> su3000_frontend_attach ( struct <S2SV_ModStart> d ) { <S2SV_ModEnd> u8 obuf [ <S2SV_ModStart> 0 } ; <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+625,<S2SV_ModStart> vpx_codec_enc_cfg_t * cfg __attribute__ ( ( unused ) ) <S2SV_ModStart> else if ( <S2SV_ModEnd> flags & VPX_CODEC_USE_XMA <S2SV_ModStart> flags & VPX_CODEC_USE_PSNR <S2SV_ModEnd> ) { ctx,0
+626,"<S2SV_ModStart> int stride, <S2SV_ModEnd> int mv_row, <S2SV_ModStart> const kernel = vpx_get_interp_kernel ( xd <S2SV_ModEnd> -> mi [ <S2SV_ModStart> ] -> mbmi <S2SV_ModEnd> ) ; enum <S2SV_ModStart> MV_PRECISION_Q3 ; } vpx_build_inter_predictor <S2SV_ModEnd> ( y_mb_ptr, <S2SV_ModStart> 256 ], <S2SV_ModEnd> uv_block_size, & <S2SV_ModStart> 256 ], <S2SV_ModEnd> uv_block_size, &",0
+627,<S2SV_ModStart> = TRUE ; <S2SV_ModEnd> bufp = find_optparam,0
+628,"<S2SV_ModStart> * cJSON_CreateFloatArray ( double <S2SV_ModEnd> * numbers,",0
+629,,0
+630,<S2SV_ModStart> * 0x101 ; # ifdef LIBRAW_LIBRARY_BUILD <S2SV_ModStart> ( ) ; # endif,0
+631,,0
+632,<S2SV_ModStart> -> error_code ) { <S2SV_ModStart> detail : NULL ; },0
+633,"<S2SV_ModStart>, * ps_cur_poc <S2SV_ModEnd> ; ps_dec ->",0
+634,<S2SV_ModStart> ssize_t ret = TEMP_FAILURE_RETRY ( <S2SV_ModStart> btpan_cb. congest_packet ),0
+635,<S2SV_ModStart> <S2SV_null> <S2SV_null> <S2SV_null> <S2SV_ModEnd> int getnum (,0
+636,<S2SV_ModStart> GCSpropagate ) ; <S2SV_ModEnd> psurvival = sweepgen,0
+637,<S2SV_ModStart> 0 ; else { kfree ( buf ) ; <S2SV_ModStart> - EIO ; },0
+638,<S2SV_ModStart> 'S' } ; <S2SV_ModEnd> if ( phase <S2SV_ModStart> ) return NULL ; ( void ) opt,0
+639,,0
+640,"<S2SV_ModStart> -> common ; memset <S2SV_ModEnd> ( cpi, <S2SV_ModStart> ; cpi -> <S2SV_ModEnd> frames_till_gf_update_due = 0",0
+641,"<S2SV_ModStart> ( ndo, ""%s"", mrt <S2SV_ModEnd> ) ) ;",0
+642,"<S2SV_ModStart> int mptctl_mpt_command ( MPT_ADAPTER * ioc, <S2SV_ModStart> struct mpt_ioctl_command karg <S2SV_ModEnd> ; int rc <S2SV_ModStart> EFAULT ; } <S2SV_ModEnd> rc = mptctl_do_mpt_command",0
+643,<S2SV_ModStart> Image * image <S2SV_ModEnd> ; assert (,0
+644,"<S2SV_ModStart> jas_eprintf ( ""cannot <S2SV_blank> write <S2SV_blank> SOC <S2SV_blank> marker\\n"" <S2SV_ModEnd> ) ; return",0
+645,<S2SV_ModStart> = strlen ( str_temp <S2SV_ModEnd> ) ; str_temp,0
+646,"<S2SV_ModStart> int decode_uniform ( vpx_reader <S2SV_ModEnd> * r ) <S2SV_ModStart> int v = vpx_read_literal <S2SV_ModEnd> ( r, <S2SV_ModStart> - m + vpx_read_bit <S2SV_ModEnd> ( r )",1
+647,"<S2SV_ModStart> costs, const vpx_prob <S2SV_ModEnd> * probs, <S2SV_ModStart> * probs, vpx_tree <S2SV_ModEnd> tree ) {",1
+648,"<S2SV_ModStart> * xd, vpx_reader <S2SV_ModEnd> * r ) <S2SV_ModStart> ( REFERENCE_MODE ) vpx_read <S2SV_ModEnd> ( r,",0
+649,"<S2SV_ModStart>! stream ) { <S2SV_ModStart> ""Failed <S2SV_blank> to <S2SV_blank> allocate <S2SV_blank> new <S2SV_blank> stream."" ) ; }",0
+650,"<S2SV_ModStart> ( ndo, ""%s"", <S2SV_ModStart> ( ndo, ""%s"",",0
+651,<S2SV_ModStart> re_ast ) -> root_node = NULL ; ( * re_ast ) ->,0
+652,"<S2SV_ModStart> ( path, <S2SV_ModEnd> key -> key <S2SV_ModStart> -> key, iter -> var_expand_table, & error ) ; <S2SV_ModEnd> ret = dict_lookup",0
+653,<S2SV_ModStart> ; tok -> type_comment = 0 ; tok ->,0
+654,<S2SV_ModStart> maxBitrate ; } <S2SV_ModEnd> } <S2SV_null> <S2SV_null>,0
+655,<S2SV_ModStart> ( dpbSize ) <S2SV_ModEnd> ; dpb ->,0
+656,<S2SV_ModStart> = 0 ; oe_socklen_t addrlen_in = 0 ; <S2SV_ModStart> (! sock ||! addr ) OE_RAISE_ERRNO ( OE_EINVAL ) ; if ( addrlen ) OE_RAISE_ERRNO ( OE_EINVAL ) ; if ( addrlen ) addrlen_in = * addrlen ; if ( addrlen ) <S2SV_ModEnd> addrlen_in = * <S2SV_ModStart> ; if ( <S2SV_ModEnd> oe_syscall_getpeername_ocall ( &,0
+657,,1
+658,"<S2SV_ModStart> FALSE ; } if (! <S2SV_ModStart>, s ) ) return FALSE",1
+659,<S2SV_ModStart> ( sk ) <S2SV_ModEnd> ; struct ipv6_txoptions <S2SV_ModStart> ( sk ) <S2SV_ModEnd> ; fl6.,0
+660,,0
+661,"<S2SV_ModStart> { dm9000WriteReg ( DM9000_EPAR <S2SV_ModEnd>, 0x40 | <S2SV_ModStart> ; dm9000WriteReg ( DM9000_EPCR, DM9000_EPCR_EPOS <S2SV_ModEnd> | EPCR_ERPRR ) <S2SV_ModStart> ( dm9000ReadReg ( DM9000_EPCR <S2SV_ModEnd> ) & EPCR_ERPRR <S2SV_ModStart> } dm9000WriteReg ( DM9000_EPCR, DM9000_EPCR_EPOS <S2SV_ModEnd> ) ; usleep",0
+662,"<S2SV_ModStart> pcmk_ok ) { memset ( private, 0, sizeof ( private ) ) ; <S2SV_ModStart> pcmk_ok ) { memset ( private, 0, sizeof ( private ) ) ;",0
+663,<S2SV_ModStart> ; msg. msg_namelen = sizeof ( struct sockaddr_storage <S2SV_ModEnd> ) ; if,0
+664,,0
+665,<S2SV_ModStart> filename ) ; <S2SV_ModEnd> if ( h,0
+666,,0
+667,"<S2SV_ModStart> one, offset = 0 <S2SV_ModStart>, pixel_info_length = 1 <S2SV_ModEnd> ; ssize_t count",0
+668,"<S2SV_ModStart>, comp -> block_size <S2SV_ModEnd> ) )!=",0
+669,"<S2SV_ModStart> { option = ssplit <S2SV_ModEnd> ( option,",1
+670,"<S2SV_ModStart> client = user_data <S2SV_ModEnd> ; num_clients -- <S2SV_ModStart> num_clients ) ; <S2SV_ModEnd> crm_trace ( ""Freed <S2SV_blank> the <S2SV_blank> cib <S2SV_blank> client""",0
+671,<S2SV_ModStart> * uv ; <S2SV_ModEnd> for ( uv <S2SV_ModStart> next ) { * p = thread -> twups ;,0
