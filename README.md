@@ -63,6 +63,12 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 
+## RQ4A
+
+![RQ4A-Top-10-ModelPerformance](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4A/RQ4A-Top10-ModelPerformance.png)
+
+
+
 ## RQ4B
 In this research question we first determined if the sampels have correct CWE tags. If the sample has incorrect CWE tag, we determine the correct tag based on manual analysis of the sample.
 We also deteming if the corresponding fix is complete based on the manual analsyis.
@@ -98,4 +104,4 @@ BF (Bug-Fix): The models are trained on the bug-fix dataset and tested on the RQ
 TL (Transfer Learning): The models are initially trained on the bug-fix dataset and subsequently fine-tuned on the RQ3B vulnerability dataset.
 
 
-![%PP as a Function of Beam Size for RQ5](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ5-Beam-Sizes.png)
+![%PP as a Function of Beam Size for RQ5](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ5/Transfer-Learning/RQ5-TL-Beam-Sizes.png)
