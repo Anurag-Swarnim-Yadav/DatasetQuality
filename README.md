@@ -140,7 +140,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 ### NO Duplicates Samples
-For this experiment, we removed Infile and Crossfile duplicates from the dataset. We reran the CodeT5 model and see that after beam size 15, the %PP goes down. This was not observed or reported in any previously published papers.
+For this experiment, we removed Infile and Crossfile duplicates from the dataset. We reran the CodeT5 model and observed that beyond a beam size of 15, %PP decreases. This was not observed nor reported in any previously published papers.
 
 ### Dataset Overview
 
