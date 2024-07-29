@@ -128,7 +128,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 
-![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png)
+<!-- ![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png) -->
 
 <img src="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png" alt="CodeT5: %PP as a Function of Beam Size" width="600" height="300"/>
 
@@ -148,6 +148,8 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 | 123456     	|  0.0491  	|  0.0699  	|  0.0878  	|  0.0923  	|  0.0952  	|   0.0982  	|   0.0952  	|   0.0952  	|   0.0833  	|   0.0804   	|
 | Average PP 	|  5.83\%  	|  8.17\%  	|  9.00\%  	|  9.50\%  	|  9.67\%  	|  10.00\%  	|  10.17\%  	|  10.00\%  	|   9.33\%  	|   9.00\%   	|
 
-![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_No_Duplicates.png)
+<!-- ![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_No_Duplicates.png) -->
+
+<img src="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_No_Duplicates.png" alt="CodeT5: %PP as a Function of Beam Size" width="600" height="300"/>
 
 
