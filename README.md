@@ -109,7 +109,13 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 ## CodeT5 Beam Analysis (New Work - Not Included In The Paper)
 
-<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated Impact of different Beam Size values. So we used the exact dataset provided by the authors and tried to replicate the result.
+<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated Impact of different Beam Size values. So we used the exact dataset provided by the authors and tried to replicate the result. As we can see, as the beam size increases, the %PP also increases.
+
+### Dataset Overview
+
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
 
 ### Replication Result
 
@@ -134,6 +140,21 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 ### NO Duplicates
+
+
+### Dataset Overview
+
+| Samples                           	| Train 	| Validation 	| Test         	|
+|-----------------------------------	|-------	|------------	|--------------	|
+| Total Samples (TS)                	| 5937  	| 839        	| 1706         	|
+| In-Set Duplicates (IS Dup)        	| 1418  	| 27         	| 111          	|
+| Sample Left(SL = TS - IS Dup)     	| 4519  	| 812        	| 1595         	|
+| Cross-Set Duplicates (TEST)       	| -     	| -          	| Tr:815,V:108 	|
+| Cross-Set Duplicates (VALIDATION) 	| -     	| Tr:413     	| -            	|
+| Unique Samples (US = SL - CS Dup) 	| 4519  	| 399        	| 672          	|
+
+
+For this experiment, we removed Infile and Crossfile duplicates from the dataset. We reran the CodeT5 model, and we can see that after beam size 15, the %PP goes down. This was not observed or reported in any previous published papers.
 
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
