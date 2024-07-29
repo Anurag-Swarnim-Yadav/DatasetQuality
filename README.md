@@ -114,7 +114,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated Impact of different Beam Size values. So we used the exact dataset provided by the authors and tried to replicate the result.
 
-# Replication 
+# Replication Result
 
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
@@ -128,7 +128,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 
-
+![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png)
 
 
 
@@ -146,5 +146,6 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 | 123456     	|  0.0491  	|  0.0699  	|  0.0878  	|  0.0923  	|  0.0952  	|   0.0982  	|   0.0952  	|   0.0952  	|   0.0833  	|   0.0804   	|
 | Average PP 	|  5.83\%  	|  8.17\%  	|  9.00\%  	|  9.50\%  	|  9.67\%  	|  10.00\%  	|  10.17\%  	|  10.00\%  	|   9.33\%  	|   9.00\%   	|
 
+![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_No_Duplicates.png)
 
 
