@@ -67,8 +67,8 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 ## RQ4B
-In this research question we first determined if the sampels have correct CWE tags. If the sample has incorrect CWE tag, we determine the correct tag based on manual analysis of the sample.
-We also deteming if the corresponding fix is complete based on the manual analsyis.
+In this research question, we first determined if the samples have correct CWE tags. If the sample has an incorrect CWE tag, we determine the correct tag based on manual analysis of the sample.
+We also determine if the corresponding fix is complete based on the manual analysis.
 <a href ="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4B/Top-10-CWEs-Manual-Analysis.csv"> Top 10 CWEs Analysis for Accuracy and Completeness</a>
 
 
@@ -110,8 +110,6 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 ## CodeT5 Beam Analysis (New Work - Not Included In The Paper)
 
 ### Replication
-***
-
 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated the impact of varying beam size values. To verify their findings, we utilized the same dataset provided by the authors and attempted to replicate the results. Our observations indicate that as the beam size increases, the %PP value goes up.
 
 ### Dataset Overview
@@ -121,7 +119,6 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 | Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
 
 ### Result
-
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
 | 26312      	|  0.3130  	|  0.3623  	|  0.3816  	|  0.3951  	|  0.3992  	|   0.4127  	|   0.4185  	|   0.4191  	|   0.4220  	|   0.4174   	|
@@ -142,8 +139,8 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 
-### NO Duplicates
-
+### NO Duplicates Samples
+For this experiment, we removed Infile and Crossfile duplicates from the dataset. We reran the CodeT5 model and see that after beam size 15, the %PP goes down. This was not observed or reported in any previously published papers.
 
 ### Dataset Overview
 
@@ -157,8 +154,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 | Unique Samples (US = SL - CS Dup) 	| 4519  	| 399        	| 672          	|
 
 
-For this experiment, we removed Infile and Crossfile duplicates from the dataset. We reran the CodeT5 model, and we can see that after beam size 15, the %PP goes down. This was not observed or reported in any previous published papers.
-
+### Result
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
 | 26312      	|  0.0536  	|  0.0759  	|  0.0818  	|  0.0863  	|  0.0908  	|   0.0878  	|   0.0893  	|   0.0878  	|   0.0848  	|   0.0789   	|
