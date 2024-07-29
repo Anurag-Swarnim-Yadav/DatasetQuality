@@ -109,6 +109,9 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 ## CodeT5 Beam Analysis (New Work - Not Included In The Paper)
 
+### Replication
+---
+
 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated the impact of varying beam size values. To verify their findings, we utilized the same dataset provided by the authors and attempted to replicate the results. Our observations indicate that as the beam size increases, the %PP value goes up.
 
 ### Dataset Overview
@@ -117,7 +120,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 |--------------------	|-------	|------------	|------	|
 | Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
 
-### Replication Result
+### Result
 
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
