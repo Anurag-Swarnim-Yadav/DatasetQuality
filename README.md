@@ -112,6 +112,8 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 ## CodeT5 Beam Analysis (New Work - Not Included In The Paper)
 
+<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated Impact of different Beam Size values. So we used the exact dataset provided by the authors and tried to replicate the result.
+
 # Replication 
 
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
