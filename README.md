@@ -130,7 +130,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 ![CodeT5: %PP as a Function of Beam Size](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png)
 
-<img src="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png" alt="CodeT5: %PP as a Function of Beam Size" width="600" height="400"/>
+<img src="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/CodeT5_Beam_Analysis/Beam_Analysis_Replication.png" alt="CodeT5: %PP as a Function of Beam Size" width="600" height="300"/>
 
 
 
