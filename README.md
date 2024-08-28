@@ -122,7 +122,7 @@ We also determine if the corresponding fix is complete based on the manual analy
 |      	|          	| Total                      	| 68           	| 30       	| 38       	| 21                  	|
 
 
-## RQ5
+## RQ5 (Transfer Learning)
 
 ### Bug-Fix Dataset Overview
 | Samples                           	| Train 	| Validation 	|
@@ -134,6 +134,9 @@ We also determine if the corresponding fix is complete based on the manual analy
 | Unique Samples (US = SL - CS Dup) 	| 528419  | 9996        |
 
 Note: The Bug-Fix dataset is available at  <https://github.com/ASSERT-KTH/VRepair/releases/download/v20240223/BugFix.tar.bz2>. Thanks to the author of VRepair.
+
+
+### For FineTuning, we used the RQ3B dataset.
 
 
 ### Result
