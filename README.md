@@ -4,9 +4,11 @@
 ## RQ1
 
 ### Dataset Overview
-| Samples            	| Train 	| Validation 	| Test 	|
-|--------------------	|-------	|------------	|------	|
-| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+| Samples            	| Train 	| Test       	| Comments 	|
+|--------------------	|-------	|------------	|-----------------------------	|
+| Total Samples (TS) 	| 6776  	| 1706        | Contains IS and CS Duplicates |
+
+Note: IS: In-Set and CS: Cross-Set Duplicates
 
 
 ### Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
@@ -24,9 +26,9 @@ Note: The trained models will be released separately.
 ## RQ2A
 
 ### Dataset Overview
-| Samples            	| Train 	| Validation 	| Test 	|
-|--------------------	|-------	|------------	|------	|
-| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+| Samples            	| Train 	| Test 	|
+|--------------------	|-------	|------	|
+| Total Samples (TS) 	| 4387  	| 1615 	|
 
 
 ### Result
@@ -45,9 +47,9 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 ## RQ2B
 
 ### Dataset Overview
-| Samples            	| Train 	| Validation 	| Test 	|
-|--------------------	|-------	|------------	|------	|
-| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+| Samples            	| Train 	| Test 	|
+|--------------------	|-------	|------	|
+| Total Samples (TS) 	| 5183  	| 819 	|
 
 
 ### Result
@@ -63,9 +65,9 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 ## RQ3A
 
 ### Dataset Overview
-| Samples            	| Train 	| Validation 	| Test 	|
-|--------------------	|-------	|------------	|------	|
-| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+| Samples            	| Train 	| Test 	|
+|--------------------	|-------	|------	|
+| Total Samples (TS) 	| 3995    | 1595 	|
 
 
 ### Result
@@ -80,9 +82,9 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 ## RQ3B
 
 ### Dataset Overview
-| Samples            	| Train 	| Validation 	| Test 	|
-|--------------------	|-------	|------------	|------	|
-| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+| Samples            	| Train 	| Test 	|
+|--------------------	|-------	|------	|
+| Total Samples (TS) 	| 4918  	| 672 	|
 
 
 ### Result
@@ -122,10 +124,14 @@ We also determine if the corresponding fix is complete based on the manual analy
 
 ## RQ5
 
-### Dataset Overview
-| Samples            	| Train 	| Validation 	| Test 	|
-|--------------------	|-------	|------------	|------	|
-| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+### Bug-Fix Dataset Overview
+| Samples                           	| Train 	| Validation 	|
+|-----------------------------------	|-------	|------------	|
+| Total Samples (TS)                	| 534858  | 10000       |
+| In-Set Duplicates (IS Dup)        	| 6192  	| 4         	|
+| Sample Left(SL = TS - IS Dup)     	| 528666  | 9996        |
+| Cross-Set Duplicates (Validation)   | 247     | -          	|
+| Unique Samples (US = SL - CS Dup) 	| 528419  | 9996        |
 
 
 ### Result
