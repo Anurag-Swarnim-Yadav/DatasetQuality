@@ -122,6 +122,13 @@ We also determine if the corresponding fix is complete based on the manual analy
 
 ## RQ5
 
+### Dataset Overview
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+
+
+### Result
 | Models        	| Beam = 1 	|       	| Beam = 3 	|       	| Beam = 5 	|       	| Beam = 50 	|        	|        	|
 |---------------	|----------	|-------	|----------	|-------	|----------	|-------	|-----------	|--------	|--------	|
 | Datasets      	| BF       	| TL    	| BF       	| TL    	| BF       	| TL    	| BF        	| VR     	| TL     	|
