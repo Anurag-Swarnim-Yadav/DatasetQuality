@@ -133,6 +133,8 @@ We also determine if the corresponding fix is complete based on the manual analy
 | Cross-Set Duplicates (Validation)   | 247     | -          	|
 | Unique Samples (US = SL - CS Dup) 	| 528419  | 9996        |
 
+Note: The Bug-Fix dataset is available at  <https://github.com/ASSERT-KTH/VRepair/releases/download/v20240223/BugFix.tar.bz2>. Thanks to the author of VRepair.
+
 
 ### Result
 | Models        	| Beam = 1 	|       	| Beam = 3 	|       	| Beam = 5 	|       	| Beam = 50 	|        	|        	|
