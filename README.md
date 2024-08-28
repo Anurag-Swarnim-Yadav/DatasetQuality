@@ -2,6 +2,12 @@
 
 
 ## RQ1
+
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+
+
 Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
 
 | Models           	| PP Reported 	| PP Replicated 	|
@@ -15,6 +21,12 @@ Note: The trained models will be released separately.
 
 
 ## RQ2A
+
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+
+
 
 | Models           	| PP RQ2A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
@@ -30,6 +42,12 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ## RQ2B
 
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+
+
+
 | Models           	| PP RQ2B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 13.17%  	| 33%              	|
@@ -41,6 +59,12 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ## RQ3A
 
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+
+
+
 | Models           	| PP RQ3A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 7.14%   	| 17%              	|
@@ -50,6 +74,12 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 ## RQ3B
+
+| Samples            	| Train 	| Validation 	| Test 	|
+|--------------------	|-------	|------------	|------	|
+| Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
+
+
 
 | Models           	| PP RQ3B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
