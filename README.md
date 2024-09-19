@@ -22,12 +22,15 @@
    `python --version`
 5) You should see: Python 3.10.12
 
-###  REQUIRED PACKAGES
+###  REQUIRED PACKAGES [GIT CLONE]
 1) First, install pip in your environment (if not already installed)<br>
    `conda install pip`
-2)  Install the packages listed in the requirements.txt file using pip<br>
+2)  Clone our repository to your machine<br>
+   `git clone https://github.com/username/repository.git`<br>
+   `cd `
+4)  Install the packages listed in the requirements.txt file using pip<br>
    `pip install -r requirements.txt`
-3) You can verify that the packages have been installed correctly by running<br>
+5) You can verify that the packages have been installed correctly by running<br>
    `pip list`
 
 
