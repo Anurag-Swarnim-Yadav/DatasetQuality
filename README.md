@@ -35,8 +35,9 @@
 
 
 
+## DATASET OVERVIEW
 
-## Table 1: Bug-Fix Dataset Analysis
+### Table 1: BUG-FIX DATASET ANALYSIS
 
 <table>
   <tr>
@@ -67,7 +68,7 @@
 
 
 
-## Table 2: VulRepair Dataset Analysis - Uniqueness
+### Table 2: VULREPAIR DATASET ANALYSIS - UNIQUENESS
 
 <table>
   <tr>
@@ -95,6 +96,41 @@
     <td colspan="2" align="center">796</td>
   </tr>
 </table>
+
+
+
+### Table 2: VULREPAIR DATASET ANALYSIS - CONSISTENCY
+
+<table>
+  <tr>
+    <th>Samples</th>
+    <th>Train</th>
+    <th>Test</th>
+  </tr>
+  <tr>
+    <td>Total Samples (TS)</td>
+    <td align="right">6,776</td>
+    <td align="right">1,706</td>
+  </tr>
+  <tr>
+    <td>In-Set Duplicates (IS Dup)</td>
+    <td align="right">1,858</td>
+    <td align="right">111</td>
+  </tr>
+  <tr>
+    <td>Samples Left (SL = TS - IS Dup)</td>
+    <td align="right">4,918</td>
+    <td align="right">1,595</td>
+  </tr>
+  <tr>
+    <td>Cross-Set Duplicates (CS Dup)</td>
+    <td colspan="2" align="center">923</td>
+  </tr>
+</table>
+
+
+
+
 
 
 
