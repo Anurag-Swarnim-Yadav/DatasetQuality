@@ -10,7 +10,7 @@
    `bash Anaconda3-2020.11-Linux-x86_64.sh`
 4) Once the installation is complete, to ensure that Conda 4.9.2 has been installed correctly, restart your terminal and run the following command<br>
    `conda --version`
-   You should see: conda 4.9.2
+5) You should see: conda 4.9.2
 
 ###  CONDA ENVIRONMENT SETUP [PYTHON 3.10.12]
 1) After Conda is installed and initialized, open your terminal.
@@ -20,7 +20,7 @@
    `conda activate <environment-name>`
 4) To make sure that the correct version of Python (3.10.12) is installed in the environment<br>
    `python --version`
-   You should see: Python 3.10.12
+5) You should see: Python 3.10.12
 
 ###  REQUIRED PACKAGES
 1) First, install pip in your environment (if not already installed)<br>
