@@ -1,6 +1,6 @@
 #  Security Vulnerability Dataset Quality is Critical
 
-## Table 1: Buf-Fix Dataset Analysis
+## Table 1: Bug-Fix Dataset Analysis
 
 | Samples                         |   Train | Validation |
 |---------------------------------|--------:|-----------:|
