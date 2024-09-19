@@ -131,11 +131,11 @@
 
 
 
+## EXPERIMENTS
 
 
 
-
-## RQ1
+### RQ1
 
 ### Dataset Overview
 | Samples            	| Train 	| Test       	| Comments 	|
@@ -157,7 +157,7 @@ Note: IS: In-Set and CS: Cross-Set Duplicates
 Note: The trained models will be released separately.
 
 
-## RQ2A
+### RQ2A
 
 ### Dataset Overview
 | Samples            	| Train 	| Test 	|
@@ -178,7 +178,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 
-## RQ2B
+### RQ2B
 
 ### Dataset Overview
 | Samples            	| Train 	| Test 	|
@@ -196,7 +196,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 
-## RQ3A
+### RQ3A
 
 ### Dataset Overview
 | Samples            	| Train 	| Test 	|
@@ -213,7 +213,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 | UniXcoder        	| 4.11%   	| 10.0%            	|
 
 
-## RQ3B
+### RQ3B
 
 ### Dataset Overview
 | Samples            	| Train 	| Test 	|
@@ -231,13 +231,13 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 
-## RQ4A
+### RQ4A
 
 ![RQ4A-Top-10-ModelPerformance](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4A/RQ4A-Top10-ModelPerformance.png)
 
 
 
-## RQ4B
+### RQ4B
 In this research question, we first determined if the samples have correct CWE tags. If the sample has an incorrect CWE tag, we determine the correct tag based on manual analysis of the sample.
 We also determine if the corresponding fix is complete based on the manual analysis.
 <a href ="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4B/Top-10-CWEs-Manual-Analysis.csv"> Top 10 CWEs Analysis for Accuracy and Completeness</a>
@@ -256,7 +256,7 @@ We also determine if the corresponding fix is complete based on the manual analy
 |      	|          	| Total                      	| 68           	| 30       	| 38       	| 21                  	|
 
 
-## RQ5 (Transfer Learning)
+### RQ5 (Transfer Learning)
 
 ### Bug-Fix Dataset Overview
 | Samples                           	| Train 	| Validation 	|
