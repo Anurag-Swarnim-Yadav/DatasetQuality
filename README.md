@@ -5,7 +5,7 @@
 ### CONDA SETUP [Anaconda3 4.9.2 Installer for Linux-64]
 1) Open your terminal.
 2) Use the following command to download the specific version of Anaconda3
-   curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+   `curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh`
 3) Once the installer has been downloaded, run it using the following command
    bash Anaconda3-2020.11-Linux-x86_64.sh
 4) Once the installation is complete, to ensure that Conda 4.9.2 has been installed correctly, restart your terminal and run the following command
@@ -21,6 +21,14 @@
 4) To make sure that the correct version of Python (3.10.12) is installed in the environment
    python --version
    You should see: Python 3.10.12
+
+###  REQUIRED PACKAGES
+1) First, install pip in your environment (if not already installed).
+   conda install pip
+2)  Install the packages listed in the requirements.txt file using pip
+   pip install -r requirements.txt
+3) You can verify that the packages have been installed correctly by running
+   pip list
 
 
 
