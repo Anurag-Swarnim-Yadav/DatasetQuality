@@ -15,9 +15,9 @@
 ###  CONDA ENVIRONMENT SETUP [PYTHON 3.10.12]
 1) After Conda is installed and initialized, open your terminal.
 2) Run the following command to create a new conda environment with Python 3.10.12<br>
-   `conda create --name <environment-name> python=3.10.12`
+   `conda create --name DataQuality python=3.10.12`
 3) Once the environment is created, activate it using the following command<br>
-   `conda activate <environment-name>`
+   `conda activate DataQuality`
 4) To make sure that the correct version of Python (3.10.12) is installed in the environment<br>
    `python --version`
 5) You should see: Python 3.10.12
