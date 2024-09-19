@@ -30,6 +30,39 @@
 </table>
 
 
+
+## Table 2: VulRepair Dataset Analysis - Uniqueness
+
+<table>
+  <tr>
+    <th>Samples</th>
+    <th>Train</th>
+    <th>Test</th>
+  </tr>
+  <tr>
+    <td>Total Samples (TS)</td>
+    <td align="right">6,776</td>
+    <td align="right">1,706</td>
+  </tr>
+  <tr>
+    <td>In-Set Duplicates (IS Dup)</td>
+    <td align="right">1,593</td>
+    <td align="right">91</td>
+  </tr>
+  <tr>
+    <td>Samples Left (Sl = TS - IS Dup)</td>
+    <td align="right">5,183</td>
+    <td align="right">1,615</td>
+  </tr>
+  <tr>
+    <td>Cross-Set Duplicates (CS Dup)</td>
+    <td colspan="2" align="center">796</td>
+  </tr>
+</table>
+
+
+
+
 ## RQ1
 
 ### Dataset Overview
