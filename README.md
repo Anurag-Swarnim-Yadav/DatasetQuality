@@ -12,15 +12,28 @@
 
 <table>
   <tr>
-    <th colspan="2">Merged Header</th>
+    <th>Samples</th>
+    <th>Train</th>
+    <th>Validation</th>
   </tr>
   <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
+    <td>Total Samples (TS)</td>
+    <td align="right">534,858</td>
+    <td align="right">10,000</td>
   </tr>
   <tr>
-    <td>Row 1, Col 1</td>
-    <td>Row 1, Col 2</td>
+    <td>In-Set Duplicates (IS Dup)</td>
+    <td align="right">6,192</td>
+    <td align="right">4</td>
+  </tr>
+  <tr>
+    <td>Samples Left (Sl = TS - IS Dup)</td>
+    <td align="right">528,666</td>
+    <td align="right">9,996</td>
+  </tr>
+  <tr>
+    <td>Cross-Set Duplicates (CS Dup)</td>
+    <td colspan="2" align="center">247</td>
   </tr>
 </table>
 
