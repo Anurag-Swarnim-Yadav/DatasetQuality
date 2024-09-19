@@ -147,12 +147,12 @@ Note: IS: In-Set and CS: Cross-Set Duplicates
 
 ### Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
 
-| Models           	| PP Reported 	| PP Replicated 	|
-|------------------	|-------------	|---------------	|
-| VulRepair/CodeT5 	| 44% <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3549098">Fu et al.</a> ; 44.96% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>  	| 40.42%        	|
-| CodeBERT         	| 31% <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3549098">Fu et al.</a> ; 32.94% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>  	| 33.20%        	|
-| GraphCodeBERT    	| 37.98% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>       | 38.51%        	|
-| UniXcoder        	| 40.62% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>      	| 40.96%        	|
+| Models           	| PP Reported 	| PP Replicated 	| change 	|
+|------------------	|-------------	|---------------	|---------------	|
+| VulRepair/CodeT5 	| 44% <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3549098">Fu et al.</a> ; 44.96% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>  	| 40.42%        	| -3.58%; -4.54%  |
+| CodeBERT         	| 31% <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3549098">Fu et al.</a> ; 32.94% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>  	| 33.20%        	| +2.20%; +0.74%  |
+| GraphCodeBERT    	| 37.98% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>       | 38.51%        	| +0.53%        	|
+| UniXcoder        	| 40.62% <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a>      	| 40.96%        	| +0.34%        	|
 
 Note: The trained models will be released separately.
 
