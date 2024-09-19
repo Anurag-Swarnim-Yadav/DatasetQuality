@@ -4,30 +4,30 @@
 
 ### CONDA SETUP [Anaconda3 4.9.2 Installer for Linux-64]
 1) Open your terminal.
-2) Use the following command to download the specific version of Anaconda3
+2) Use the following command to download the specific version of Anaconda3<br>
    `curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh`
-3) Once the installer has been downloaded, run it using the following command
+3) Once the installer has been downloaded, run it using the following command<br>
    `bash Anaconda3-2020.11-Linux-x86_64.sh`
-4) Once the installation is complete, to ensure that Conda 4.9.2 has been installed correctly, restart your terminal and run the following command
+4) Once the installation is complete, to ensure that Conda 4.9.2 has been installed correctly, restart your terminal and run the following command<br>
    `conda --version`
    You should see: conda 4.9.2
 
 ###  CONDA ENVIRONMENT SETUP [PYTHON 3.10.12]
 1) After Conda is installed and initialized, open your terminal.
-2) Run the following command to create a new conda environment with Python 3.10.12
+2) Run the following command to create a new conda environment with Python 3.10.12<br>
    `conda create --name <environment-name> python=3.10.12`
-3) Once the environment is created, activate it using the following command
+3) Once the environment is created, activate it using the following command<br>
    `conda activate <environment-name>`
-4) To make sure that the correct version of Python (3.10.12) is installed in the environment
+4) To make sure that the correct version of Python (3.10.12) is installed in the environment<br>
    `python --version`
    You should see: Python 3.10.12
 
 ###  REQUIRED PACKAGES
-1) First, install pip in your environment (if not already installed).
+1) First, install pip in your environment (if not already installed)<br>
    `conda install pip`
-2)  Install the packages listed in the requirements.txt file using pip
+2)  Install the packages listed in the requirements.txt file using pip<br>
    `pip install -r requirements.txt`
-3) You can verify that the packages have been installed correctly by running
+3) You can verify that the packages have been installed correctly by running<br>
    `pip list`
 
 
