@@ -137,10 +137,10 @@
 
 ### RQ1
 
-### Dataset Overview
+### Dataset
 | Samples            	| Train 	| Test       	| Comments 	|
 |--------------------	|-------	|------------	|-----------------------------	|
-| Total Samples (TS) 	| 6776  	| 1706        | Contains IS and CS Duplicates |
+| Total Samples (TS) 	| 6,776  	| 1,706        | Contains IS and CS Duplicates |
 
 Note: IS: In-Set and CS: Cross-Set Duplicates
 
