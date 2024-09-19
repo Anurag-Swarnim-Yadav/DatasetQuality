@@ -132,7 +132,8 @@
 
 
 ## EXPERIMENTS
-
+In an attempt to provide robust performance evaluations, each result is reported as the mean performance of six networks trained using different random seeds.<br>
+`Six random Seeds are: 26312, 43511, 67732, 70757, 95541, and 123456` 
 
 
 ### RQ1
