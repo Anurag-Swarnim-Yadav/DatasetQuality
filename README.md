@@ -19,7 +19,7 @@
     <td align="right">4</td>
   </tr>
   <tr>
-    <td>Samples Left (Sl = TS - IS Dup)</td>
+    <td>Samples Left (SL = TS - IS Dup)</td>
     <td align="right">528,666</td>
     <td align="right">9,996</td>
   </tr>
@@ -50,7 +50,7 @@
     <td align="right">91</td>
   </tr>
   <tr>
-    <td>Samples Left (Sl = TS - IS Dup)</td>
+    <td>Samples Left (SL = TS - IS Dup)</td>
     <td align="right">5,183</td>
     <td align="right">1,615</td>
   </tr>
