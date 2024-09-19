@@ -10,7 +10,19 @@
 | Cross-Set Duplicates (CS Dup)   |     247             |
 
 
-
+<table>
+  <tr>
+    <th colspan="2">Merged Header</th>
+  </tr>
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </tr>
+  <tr>
+    <td>Row 1, Col 1</td>
+    <td>Row 1, Col 2</td>
+  </tr>
+</table>
 
 
 ## RQ1
