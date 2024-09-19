@@ -1,8 +1,8 @@
 #  Security Vulnerability Dataset Quality is Critical
 
-### ENVIRONMENT SETUP
+## ENVIRONMENT SETUP
 
-## CONDA SETUP
+### CONDA SETUP
 Step 1: Download the Anaconda3 4.9.2 Installer for Linux-64
 1) Open your terminal.
 2) Use the following command to download the specific version of Anaconda3
@@ -13,7 +13,7 @@ Step 1: Download the Anaconda3 4.9.2 Installer for Linux-64
    conda --version
    You should see: conda 4.9.2
 
-##  CONDA ENVIRONMENT WITH A SPECIFIC VERSION OF PYTHON (PYTHON 3.10.12)
+###  CONDA ENVIRONMENT WITH A SPECIFIC VERSION OF PYTHON (PYTHON 3.10.12)
 1) After Conda is installed and initialized, open your terminal.
 2) Run the following command to create a new conda environment with Python 3.10.12
    conda create --name <environment-name> python=3.10.12
