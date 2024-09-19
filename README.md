@@ -2,14 +2,6 @@
 
 ## Table 1: Bug-Fix Dataset Analysis
 
-| Samples                         |   Train | Validation |
-|---------------------------------|--------:|-----------:|
-| Total Samples (TS)              | 534,858 |     10,000 |
-| In-Set Duplicates (IS Dup)      |   6,192 |          4 |
-| Samples Left (Sl = TS - IS Dup) | 528,666 |      9,996 |
-| Cross-Set Duplicates (CS Dup)   |     247             |
-
-
 <table>
   <tr>
     <th>Samples</th>
