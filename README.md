@@ -26,8 +26,8 @@
 1) First, install pip in your environment (if not already installed)<br>
    `conda install pip`
 2)  Clone our repository to your machine<br>
-   `git clone https://github.com/username/repository.git`<br>
-   `cd `
+   `git clone https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair.git`<br>
+   `cd Security-Vulnerability-Repair`
 4)  Install the packages listed in the requirements.txt file using pip<br>
    `pip install -r requirements.txt`
 5) You can verify that the packages have been installed correctly by running<br>
