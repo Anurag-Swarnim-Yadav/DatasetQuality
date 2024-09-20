@@ -138,7 +138,7 @@ In an attempt to provide robust performance evaluations, each result is reported
 
 ### RQ1
 
-### Dataset
+### DATASET
 | Samples            	| Train 	| Test       	| Comments 	|
 |--------------------	|-------	|------------	|-----------------------------	|
 | Total Samples (TS) 	| 6,776  	| 1,706        | Contains IS and CS Duplicates |
@@ -146,14 +146,19 @@ In an attempt to provide robust performance evaluations, each result is reported
 Note: IS: In-Set and CS: Cross-Set Duplicates
 
 
-#### TO TRAIN THE RQ1 EXPERIMENT
+#### TO RUN THE RQ1 EXPERIMENT
 
 `cd RQ1`<br>
 
-To train the VulRepair Model. Run the following command in your terminal<br>
-`sh run_VulRepair_train.sh`<br>
-To test the VulRepair Model. Run the following command in your terminal<br>
+#### VULREPAIR
+
+1) To train the VulRepair Model. Run the following command in your terminal<br>
+`sh run_VulRepair_train.sh`
+2) Once the model is trained. If you navigate to 'cd RQ1-Code/VulRepair/'. You will see the VulRepair_model folder where the mode will be saved. You will also see the VulRepair_train.log file.
+3) To test the VulRepair Model. Go back to `cd ../..` and Run the following command in your terminal<br>
 `sh run_VulRepair_test.sh`<br>
+4) Once tested, navigate to `cd RQ1-Code/VulRepair/`, and you will see VulRepair_test.log as well as the new folder raw_predictions, which will have the model prediction.
+
 
 ### For CodeBEERT
 `run_CodeBERT_train.sh`
