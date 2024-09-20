@@ -154,10 +154,10 @@ Note: IS: In-Set and CS: Cross-Set Duplicates
 
 1) To train the VulRepair Model. Run the following command in your terminal<br>
 `sh run_VulRepair_train.sh`
-2) Once the model is trained. If you navigate to 'cd RQ1-Code/VulRepair/'. You will see the VulRepair_model folder where the mode will be saved. You will also see the VulRepair_train.log file.
-3) To test the VulRepair Model. Go back to `cd ../..` and Run the following command in your terminal<br>
-`sh run_VulRepair_test.sh`<br>
-4) Once tested, navigate to `cd RQ1-Code/VulRepair/`, and you will see VulRepair_test.log as well as the new folder raw_predictions, which will have the model prediction.
+2) Once the model is trained, navigate to `cd RQ1-Code/VulRepair/` to see the VulRepair_train.log file and the new folder VulRepair_model, where the mode will be saved.
+3) To test the VulRepair Model. Go back to `cd ../..` and run the following command in your terminal<br>
+`sh run_VulRepair_test.sh`
+4) Once finished, navigate to `cd RQ1-Code/VulRepair/`, and you will see VulRepair_test.log as well as the new folder raw_predictions, which will have the model prediction.
 
 
 ### For CodeBEERT
