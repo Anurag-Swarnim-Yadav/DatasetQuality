@@ -146,12 +146,14 @@ In an attempt to provide robust performance evaluations, each result is reported
 Note: IS: In-Set and CS: Cross-Set Duplicates
 
 
-### To run the RQ1 experiment
-`cd RQ1`
+#### TO TRAIN THE RQ1 EXPERIMENT
 
-### For VulRepair
-`run_VulRepair_train.sh`
-`run_VulRepair_test.sh`
+`cd RQ1`<br>
+
+To train the VulRepair Model. Run the following command in your terminal<br>
+`sh run_VulRepair_train.sh`<br>
+To test the VulRepair Model. Run the following command in your terminal<br>
+`sh run_VulRepair_test.sh`<br>
 
 ### For CodeBEERT
 `run_CodeBERT_train.sh`
