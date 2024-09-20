@@ -44,7 +44,7 @@ class TextDataset(Dataset):
             sources = val_data["source"].tolist()
             labels = val_data["target"].tolist()
         elif file_type == "test":
-            data = pd.read_csv("test-Unique-Entries.csv")
+            data = pd.read_csv(args.test_data_file)
             sources = data["source"]
             labels = data["target"]
         self.examples = []
@@ -291,17 +291,21 @@ def test(args, model, tokenizer, test_dataset, best_threshold=0.5):
     test_result = round(sum(accuracy) / len(accuracy), 4)
     logger.info("***** Test results *****")
     logger.info(f"Test Accuracy: {str(test_result)}")
-
+    
     # write prediction to file
-    df = pd.DataFrame({"raw_predictions": [], "correctly_predicted": []})
-    df["raw_predictions"] = raw_predictions
-    df["correctly_predicted"] = accuracy
-    df.to_csv("./raw_predictions/GraphCodeBERT_raw_preds.csv")
+    filename = f"./RQ1-Code/GraphCodeBERT/raw_predictions/GraphCodeBERT_raw_preds_beam_{args.beam_size}.csv"
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    df = pd.DataFrame({"raw_predictions": raw_predictions, "correctly_predicted": accuracy})
+    df.to_csv(filename)
 
 
 def main():
     parser = argparse.ArgumentParser()
     # Params
+    parser.add_argument("--train_data_file", default=None, type=str, required=False,
+                        help="The input training data file (a csv file).")
+    parser.add_argument("--test_data_file", default=None, type=str,
+                        help="An optional input evaluation data file to evaluate the perplexity on (a text file).")
     parser.add_argument("--output_dir", default=None, type=str, required=False,
                         help="The output directory where the model predictions and checkpoints will be written.")
     # Other parameters
@@ -402,13 +406,13 @@ def main():
     logger.info("Training/evaluation parameters %s", args)
     # Training
     if args.do_train:
-        train_data_whole = pd.read_csv("train-whole.csv")
+        train_data_whole = pd.read_csv(args.train_data_file)
         df = pd.DataFrame(
             {"source": train_data_whole["source"], "target": train_data_whole["target"]})
         train_data, val_data = train_test_split(
             df, test_size=0.1238, random_state=42)
-        train_data.to_csv('train_data.csv', index=False)
-        val_data.to_csv('val_data.csv', index=False)
+        train_data.to_csv('./RQ1-Code/GraphCodeBERT/train_data.csv', index=False)
+        val_data.to_csv('./RQ1-Code/GraphCodeBERT/val_data.csv', index=False)
         train_dataset = TextDataset(
             tokenizer, args, train_data, val_data, file_type='train')
         eval_dataset = TextDataset(
