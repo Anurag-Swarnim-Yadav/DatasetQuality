@@ -160,17 +160,29 @@ Note: IS: In-Set and CS: Cross-Set Duplicates
 4) Once finished, navigate to `cd RQ1-Code/VulRepair/`, and you will see VulRepair_test.log as well as the new folder raw_predictions, which will have the model prediction.
 
 
-### For CodeBEERT
-`run_CodeBERT_train.sh`
-`run_CodeBERT_test.sh`
+#### CODEBERT
+1) To train the CodeBERT Model. Run the following command in your terminal<br>
+`sh run_CodeBERT_train.sh`
+2) Once the model is trained, navigate to `cd RQ1-Code/CodeBERT/` to see the CodeBERT_train.log file and the new folder CodeBERT_model, where the mode will be saved.
+3) To test the CodeBERT Model. Go back to `cd ../..` and run the following command in your terminal<br>
+`sh run_CodeBERT_test.sh`
+4) Once finished, navigate to `cd RQ1-Code/CodeBERT/`, and you will see CodeBERT_test.log as well as the new folder raw_predictions, which will have the model prediction.
 
-### For GraphCodeBEERT
-`run_GraphCodeBERT_train.sh`
-`run_GraphCodeBERT_test.sh`
+#### GRAPHCODEBERT
+1) To train the GraphCodeBERT Model. Run the following command in your terminal<br>
+`sh run_GraphCodeBERT_train.sh`
+2) Once the model is trained, navigate to `cd RQ1-Code/GraphCodeBERT/` to see the GraphCodeBERT_train.log file and the new folder GraphCodeBERT_model, where the mode will be saved.
+3) To test the GraphCodeBERT Model. Go back to `cd ../..` and run the following command in your terminal<br>
+`sh run_GraphCodeBERT_test.sh`
+4) Once finished, navigate to `cd RQ1-Code/GraphCodeBERT/`, and you will see GraphCodeBERT_test.log as well as the new folder raw_predictions, which will have the model prediction.
 
-### For UniXcoder
-`run_UniXcoder_train.sh`
-`run_UniXcoder_test.sh`
+#### UNIXCODER
+1) To train the UniXcoder Model. Run the following command in your terminal<br>
+`sh run_UniXcoder_train.sh`
+2) Once the model is trained, navigate to `cd RQ1-Code/UniXcoder/` to see the UniXcoder_train.log file and the new folder UniXcoder_model, where the mode will be saved.
+3) To test the UniXcoder Model. Go back to `cd ../..` and run the following command in your terminal<br>
+`sh run_UniXcoder_test.sh`
+4) Once finished, navigate to `cd RQ1-Code/UniXcoder/`, and you will see UniXcoder_test.log as well as the new folder raw_predictions, which will have the model prediction.
 
 
 
