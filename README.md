@@ -146,6 +146,29 @@ In an attempt to provide robust performance evaluations, each result is reported
 Note: IS: In-Set and CS: Cross-Set Duplicates
 
 
+To run the RQ1 experiment
+`cd RQ1`
+For VulRepair
+`run_VulRepair_train.sh`
+`run_VulRepair_test.sh`
+
+For CodeBEERT
+`run_CodeBERT_train.sh`
+`run_CodeBERT_test.sh`
+
+For GraphCodeBEERT
+`run_GraphCodeBERT_train.sh`
+`run_GraphCodeBERT_test.sh`
+
+For UniXcoder
+`run_UniXcoder_train.sh`
+`run_UniXcoder_test.sh`
+
+
+
+
+
+
 ### Replication result of VulRepair, CodeBERT, GraphCodeBERT and UniXcoder.
 
 | Models           	| PP Reported 	| PP Replicated 	| Change 	|
