@@ -12,7 +12,7 @@
    `conda --version`
 5) You should see: conda 4.9.2
 
-###  CONDA ENVIRONMENT SETUP [PYTHON 3.10.12]
+####  CONDA ENVIRONMENT SETUP [PYTHON 3.10.12]
 1) After Conda is installed and initialized, open your terminal.
 2) Run the following command to create a new conda environment with Python 3.10.12<br>
    `conda create --name DataQuality python=3.10.12`
@@ -22,7 +22,7 @@
    `python --version`
 5) You should see: Python 3.10.12
 
-###  REQUIRED PACKAGES [GIT CLONE]
+####  REQUIRED PACKAGES [GIT CLONE]
 1) First, install pip in your environment (if not already installed)<br>
    `conda install pip`
 2)  Clone our repository to your machine<br>
