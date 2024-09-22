@@ -2,7 +2,7 @@
 
 ## ENVIRONMENT SETUP
 
-### CONDA SETUP [Anaconda3 4.9.2 Installer for Linux-64]
+#### CONDA SETUP [Anaconda3 4.9.2 Installer for Linux-64]
 1) Open your terminal.
 2) Use the following command to download the specific version of Anaconda3<br>
    `curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh`
