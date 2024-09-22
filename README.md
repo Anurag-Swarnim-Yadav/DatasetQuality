@@ -37,7 +37,79 @@
 
 ## DATASET OVERVIEW
 
-### BUG-FIX DATASET ANALYSIS
+
+
+### VULREPAIR DATASET [RQ1]
+
+| Samples            	| Train 	| Test       	|
+|--------------------	|-------	|------------	|
+| Total Samples (TS) 	| 6,776  	| 1,706     |
+
+
+
+### VULREPAIR DATASET ANALYSIS - UNIQUENESS [RQ2A AND RQ2B]
+
+<table>
+  <tr>
+    <th>Samples</th>
+    <th>Train</th>
+    <th>Test</th>
+  </tr>
+  <tr>
+    <td>Total Samples (TS)</td>
+    <td align="right">6,776</td>
+    <td align="right">1,706</td>
+  </tr>
+  <tr>
+    <td>In-Set Duplicates (IS Dup)</td>
+    <td align="right">1,593</td>
+    <td align="right">91</td>
+  </tr>
+  <tr>
+    <td>Samples Left (SL = TS - IS Dup)</td>
+    <td align="right">5,183</td>
+    <td align="right">1,615</td>
+  </tr>
+  <tr>
+    <td>Cross-Set Duplicates (CS Dup)</td>
+    <td colspan="2" align="center">796</td>
+  </tr>
+</table>
+
+
+### VULREPAIR DATASET ANALYSIS - CONSISTENCY [RQ3A AND RQ3B]
+
+<table>
+  <tr>
+    <th>Samples</th>
+    <th>Train</th>
+    <th>Test</th>
+  </tr>
+  <tr>
+    <td>Total Samples (TS)</td>
+    <td align="right">6,776</td>
+    <td align="right">1,706</td>
+  </tr>
+  <tr>
+    <td>In-Set Duplicates (IS Dup)</td>
+    <td align="right">1,858</td>
+    <td align="right">111</td>
+  </tr>
+  <tr>
+    <td>Samples Left (SL = TS - IS Dup)</td>
+    <td align="right">4,918</td>
+    <td align="right">1,595</td>
+  </tr>
+  <tr>
+    <td>Cross-Set Duplicates (CS Dup)</td>
+    <td colspan="2" align="center">923</td>
+  </tr>
+</table>
+
+
+
+
+### BUG-FIX DATASET ANALYSIS [RQ5]
 
 <table>
   <tr>
@@ -68,65 +140,7 @@
 
 
 
-### VULREPAIR DATASET ANALYSIS - UNIQUENESS
 
-<table>
-  <tr>
-    <th>Samples</th>
-    <th>Train</th>
-    <th>Test</th>
-  </tr>
-  <tr>
-    <td>Total Samples (TS)</td>
-    <td align="right">6,776</td>
-    <td align="right">1,706</td>
-  </tr>
-  <tr>
-    <td>In-Set Duplicates (IS Dup)</td>
-    <td align="right">1,593</td>
-    <td align="right">91</td>
-  </tr>
-  <tr>
-    <td>Samples Left (SL = TS - IS Dup)</td>
-    <td align="right">5,183</td>
-    <td align="right">1,615</td>
-  </tr>
-  <tr>
-    <td>Cross-Set Duplicates (CS Dup)</td>
-    <td colspan="2" align="center">796</td>
-  </tr>
-</table>
-
-
-
-### VULREPAIR DATASET ANALYSIS - CONSISTENCY
-
-<table>
-  <tr>
-    <th>Samples</th>
-    <th>Train</th>
-    <th>Test</th>
-  </tr>
-  <tr>
-    <td>Total Samples (TS)</td>
-    <td align="right">6,776</td>
-    <td align="right">1,706</td>
-  </tr>
-  <tr>
-    <td>In-Set Duplicates (IS Dup)</td>
-    <td align="right">1,858</td>
-    <td align="right">111</td>
-  </tr>
-  <tr>
-    <td>Samples Left (SL = TS - IS Dup)</td>
-    <td align="right">4,918</td>
-    <td align="right">1,595</td>
-  </tr>
-  <tr>
-    <td>Cross-Set Duplicates (CS Dup)</td>
-    <td colspan="2" align="center">923</td>
-  </tr>
-</table>
 
 
 
