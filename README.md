@@ -39,7 +39,7 @@
 
 
 
-### VULREPAIR DATASET [RQ1]
+#### VULREPAIR DATASET [RQ1]
 
 | Samples            	| Train 	| Test       	|
 |--------------------	|-------	|------------	|
@@ -47,7 +47,7 @@
 
 
 
-### VULREPAIR DATASET ANALYSIS - UNIQUENESS [RQ2A AND RQ2B]
+#### VULREPAIR DATASET ANALYSIS - UNIQUENESS [RQ2A AND RQ2B]
 
 <table>
   <tr>
@@ -77,7 +77,7 @@
 </table>
 
 
-### VULREPAIR DATASET ANALYSIS - CONSISTENCY [RQ3A AND RQ3B]
+#### VULREPAIR DATASET ANALYSIS - CONSISTENCY [RQ3A AND RQ3B]
 
 <table>
   <tr>
@@ -109,7 +109,7 @@
 
 
 
-### BUG-FIX DATASET ANALYSIS [RQ5]
+#### BUG-FIX DATASET ANALYSIS [RQ5]
 
 <table>
   <tr>
