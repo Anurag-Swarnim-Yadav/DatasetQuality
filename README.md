@@ -264,10 +264,10 @@ To verify our results, within the RQ2A folder, we have six different seed subfol
 
 | Models           	| PP RQ2A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
-| VulRepair/CodeT5 	| 8.91%   	| 22%              	|
-| CodeBERT         	| 5.58%   	| 17%              	|
-| GraphCodeBERT    	| 5.31%   	| 13%              	|
-| UniXcoder        	| 4.82%   	| 12%              	|
+| VulRepair/CodeT5 	| 8.91%   	| 22% (8.91/40.42)   |
+| CodeBERT         	| 5.58%   	| 17% (5.58/33.20)   |
+| GraphCodeBERT    	| 5.31%   	| 13% (5.31/38.51)   |
+| UniXcoder        	| 4.82%   	| 12% (4.82/40.96)   |
 
 Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and 
 % of Replication shows the fraction of perfect prediction in our replicated results from the VulRepair dataset.
