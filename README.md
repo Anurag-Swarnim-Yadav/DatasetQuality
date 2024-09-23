@@ -276,13 +276,51 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ### RQ2B
 
-### Dataset Overview
+### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
-| Total Samples (TS) 	| 5183  	| 819 	|
+| Unique Samples       	| 5183  	| 819 	|
 
 
-### Result
+#### TO RUN THE RQ2B EXPERIMENT
+
+`cd RQ2B`<br>
+
+#### VULREPAIR
+1) To train<br>
+`sh run_VulRepair_train.sh`
+2) To test<br>
+`sh run_VulRepair_test.sh`
+
+
+#### CODEBERT
+1) To train<br>
+`sh run_CodeBERT_train.sh`
+2) To test<br>
+`sh run_CodeBERT_test.sh`
+
+
+#### GRAPHCODEBERT
+1) To train<br>
+`sh run_GraphCodeBERT_train.sh`
+2) To test<br>
+`sh run_GraphCodeBERT_test.sh`
+
+
+
+#### UNIXCODER
+1) To train<br>
+`sh run_UniXcoder_train.sh`
+2) To test<br>
+`sh run_UniXcoder_test.sh`
+
+
+
+
+
+#### RESULT
+To verify our results, within the RQ2B folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+
 | Models           	| PP RQ2B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 13.17%  	| 33%              	|
@@ -294,13 +332,51 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ### RQ3A
 
-### Dataset Overview
+### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
 | Total Samples (TS) 	| 3995    | 1595 	|
 
 
-### Result
+#### TO RUN THE RQ3A EXPERIMENT
+
+`cd RQ3A`<br>
+
+#### VULREPAIR
+1) To train<br>
+`sh run_VulRepair_train.sh`
+2) To test<br>
+`sh run_VulRepair_test.sh`
+
+
+#### CODEBERT
+1) To train<br>
+`sh run_CodeBERT_train.sh`
+2) To test<br>
+`sh run_CodeBERT_test.sh`
+
+
+#### GRAPHCODEBERT
+1) To train<br>
+`sh run_GraphCodeBERT_train.sh`
+2) To test<br>
+`sh run_GraphCodeBERT_test.sh`
+
+
+
+#### UNIXCODER
+1) To train<br>
+`sh run_UniXcoder_train.sh`
+2) To test<br>
+`sh run_UniXcoder_test.sh`
+
+
+
+
+
+#### RESULT
+To verify our results, within the RQ3A folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+
 | Models           	| PP RQ3A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 7.14%   	| 17%              	|
@@ -311,13 +387,51 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ### RQ3B
 
-### Dataset Overview
+### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
 | Total Samples (TS) 	| 4918  	| 672 	|
 
 
-### Result
+#### TO RUN THE RQ3B EXPERIMENT
+
+`cd RQ3B`<br>
+
+#### VULREPAIR
+1) To train<br>
+`sh run_VulRepair_train.sh`
+2) To test<br>
+`sh run_VulRepair_test.sh`
+
+
+#### CODEBERT
+1) To train<br>
+`sh run_CodeBERT_train.sh`
+2) To test<br>
+`sh run_CodeBERT_test.sh`
+
+
+#### GRAPHCODEBERT
+1) To train<br>
+`sh run_GraphCodeBERT_train.sh`
+2) To test<br>
+`sh run_GraphCodeBERT_test.sh`
+
+
+
+#### UNIXCODER
+1) To train<br>
+`sh run_UniXcoder_train.sh`
+2) To test<br>
+`sh run_UniXcoder_test.sh`
+
+
+
+
+
+#### RESULT
+To verify our results, within the RQ3B folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+
 | Models           	| PP RQ3B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 10.27%  	| 25%              	|
