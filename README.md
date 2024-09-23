@@ -223,7 +223,7 @@ Note: The trained models will be released separately.
 | Unique Samples	      | 4387  	| 1615 	|
 
 
-#### TO RUN THE RQ1 EXPERIMENT
+#### TO RUN THE RQ2A EXPERIMENT
 
 `cd RQ2A`<br>
 
