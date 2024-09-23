@@ -217,13 +217,51 @@ Note: The trained models will be released separately.
 
 ### RQ2A
 
-### Dataset Overview
+### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
-| Total Samples (TS) 	| 4387  	| 1615 	|
+| Unique Samples	      | 4387  	| 1615 	|
 
 
-### Result
+#### TO RUN THE RQ1 EXPERIMENT
+
+`cd RQ2A`<br>
+
+#### VULREPAIR
+1) To train<br>
+`sh run_VulRepair_train.sh`
+2) To test<br>
+`sh run_VulRepair_test.sh`
+
+
+#### CODEBERT
+1) To train<br>
+`sh run_CodeBERT_train.sh`
+2) To test<br>
+`sh run_CodeBERT_test.sh`
+
+
+#### GRAPHCODEBERT
+1) To train<br>
+`sh run_GraphCodeBERT_train.sh`
+2) To test<br>
+`sh run_GraphCodeBERT_test.sh`
+
+
+
+#### UNIXCODER
+1) To train<br>
+`sh run_UniXcoder_train.sh`
+2) To test<br>
+`sh run_UniXcoder_test.sh`
+
+
+
+
+
+#### RESULT
+To verify our results, within the RQ2A folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+
 | Models           	| PP RQ2A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
 | VulRepair/CodeT5 	| 8.91%   	| 22%              	|
