@@ -264,10 +264,10 @@ To verify our results, within the RQ2A folder, we have six different seed subfol
 
 | Models           	| PP RQ2A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
-| VulRepair/CodeT5 	| 8.91%   	| 22% (8.91/40.42)   |
-| CodeBERT         	| 5.58%   	| 17% (5.58/33.20)   |
-| GraphCodeBERT    	| 5.31%   	| 13% (5.31/38.51)   |
-| UniXcoder        	| 4.82%   	| 12% (4.82/40.96)   |
+| VulRepair/CodeT5 	| 8.91%   	| 22.0% (8.91/40.42) |
+| CodeBERT         	| 5.58%   	| 16.8% (5.58/33.20) |
+| GraphCodeBERT    	| 5.31%   	| 13.7% (5.31/38.51) |
+| UniXcoder        	| 4.82%   	| 11.8% (4.82/40.96) |
 
 Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and 
 % of Replication shows the fraction of perfect prediction in our replicated results from the VulRepair dataset.
@@ -379,10 +379,10 @@ To verify our results, within the RQ3A folder, we have six different seed subfol
 
 | Models           	| PP RQ3A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
-| VulRepair/CodeT5 	| 7.14%   	| 17%              	|
-| CodeBERT         	| 3.59%   	| 10.8%            	|
-| GraphCodeBERT    	| 3.75%   	| 9.7%             	|
-| UniXcoder        	| 4.11%   	| 10.0%            	|
+| VulRepair/CodeT5 	| 7.14%   	| 17.7% (7.14/40.42) |
+| CodeBERT         	| 3.59%   	| 10.8% (3.59/33.20) |
+| GraphCodeBERT    	| 3.75%   	| 9.7% (3.75/38.51)  |
+| UniXcoder        	| 4.11%   	| 10.0% (4.11/40.96) |
 
 
 ### RQ3B
@@ -434,10 +434,10 @@ To verify our results, within the RQ3B folder, we have six different seed subfol
 
 | Models           	| PP RQ3B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
-| VulRepair/CodeT5 	| 10.27%  	| 25%              	|
-| CodeBERT         	| 5.38%   	| 16%              	|
-| GraphCodeBERT    	| 6.25%   	| 16%              	|
-| UniXcoder        	| 6.18%   	| 15%              	|
+| VulRepair/CodeT5 	| 10.27%  	| 25.5% (10.27/40.24)|
+| CodeBERT         	| 5.38%   	| 16.2% (5.38/33.20) |
+| GraphCodeBERT    	| 6.25%   	| 16.2% (6.25/38.51) |
+| UniXcoder        	| 6.18%   	| 15.0% (6.18/40.96) |
 
 
 
