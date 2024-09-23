@@ -323,10 +323,10 @@ To verify our results, within the RQ2B folder, we have six different seed subfol
 
 | Models           	| PP RQ2B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
-| VulRepair/CodeT5 	| 13.17%  	| 33%              	|
-| CodeBERT         	| 8.83%   	| 27%              	|
-| GraphCodeBERT    	| 9.22%   	| 24%              	|
-| UniXcoder        	| 9.10%   	| 22%              	|
+| VulRepair/CodeT5 	| 13.17%  	| 33% (13.17/40.42)  |
+| CodeBERT         	| 8.83%   	| 27% (8.83/33.20)   |
+| GraphCodeBERT    	| 9.22%   	| 24% (9.22/38.51)   |
+| UniXcoder        	| 9.10%   	| 22% (9.10/40.96)   |
 
 
 
@@ -335,7 +335,7 @@ To verify our results, within the RQ2B folder, we have six different seed subfol
 ### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
-| Total Samples (TS) 	| 3995    | 1595 	|
+| Unique Samples       	| 3995    | 1595 	|
 
 
 #### TO RUN THE RQ3A EXPERIMENT
@@ -390,7 +390,7 @@ To verify our results, within the RQ3A folder, we have six different seed subfol
 ### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
-| Total Samples (TS) 	| 4918  	| 672 	|
+| Unique Samples       	| 4918  	| 672 	|
 
 
 #### TO RUN THE RQ3B EXPERIMENT
