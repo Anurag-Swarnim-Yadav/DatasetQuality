@@ -292,12 +292,11 @@ def test(args, model, tokenizer, test_dataset, best_threshold=0.5):
     logger.info("***** Test results *****")
     logger.info(f"Test Accuracy: {str(test_result)}")
 
-    
-    
     # write prediction to file
-    filename = f"./RQ1-Code/UniXcoder/raw_predictions/UniXcoder_raw_preds_beam_{args.beam_size}.csv"
+    filename = f"./RQ3A-Code/UniXcoder/raw_predictions/UniXcoder_raw_preds_beam_{args.beam_size}.csv"
     os.makedirs(os.path.dirname(filename), exist_ok=True)
-    df = pd.DataFrame({"raw_predictions": raw_predictions, "correctly_predicted": accuracy})
+    df = pd.DataFrame({"raw_predictions": raw_predictions,
+                       "correctly_predicted": accuracy})
     df.to_csv(filename)
 
 
@@ -407,18 +406,23 @@ def main():
     # Training
     if args.do_train:
         train_data_whole = pd.read_csv(args.train_data_file)
-        df = pd.DataFrame({"source": train_data_whole["source"], "target": train_data_whole["target"]})
-        train_data, val_data = train_test_split(df, test_size=0.1238, random_state=42)
-        train_data.to_csv('./RQ1-Code/UniXcoder/train_data.csv', index=False)
-        val_data.to_csv('./RQ1-Code/UniXcoder/val_data.csv', index=False)
-        train_dataset = TextDataset(tokenizer, args, train_data, val_data, file_type='train')
-        eval_dataset = TextDataset(tokenizer, args, train_data, val_data, file_type='eval')
+        df = pd.DataFrame(
+            {"source": train_data_whole["source"], "target": train_data_whole["target"]})
+        train_data, val_data = train_test_split(
+            df, test_size=0.1238, random_state=42)
+        train_data.to_csv('./RQ3A-Code/UniXcoder/train_data.csv', index=False)
+        val_data.to_csv('./RQ3A-Code/UniXcoder/val_data.csv', index=False)
+        train_dataset = TextDataset(
+            tokenizer, args, train_data, val_data, file_type='train')
+        eval_dataset = TextDataset(
+            tokenizer, args, train_data, val_data, file_type='eval')
         train(args, train_dataset, model, tokenizer, eval_dataset)
     # Evaluation
     results = {}
     if args.do_test:
         checkpoint_prefix = f'checkpoint-best-loss/{args.model_name}'
-        output_dir = os.path.join(args.output_dir, '{}'.format(checkpoint_prefix))
+        output_dir = os.path.join(
+            args.output_dir, '{}'.format(checkpoint_prefix))
         model.load_state_dict(torch.load(output_dir, map_location=args.device))
         test_dataset = TextDataset(tokenizer, args, file_type='test')
         test(args, model, tokenizer, test_dataset, best_threshold=0.5)

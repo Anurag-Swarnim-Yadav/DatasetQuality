@@ -1,11 +1,11 @@
-python ./RQ1-Code/UniXcoder/unixcoder_main.py \
+python ./RQ3B-Code/UniXcoder/unixcoder_main.py \
     --beam_size 50 \
-    --output_dir=./RQ1-Code/UniXcoder/UniXcoder_model/saved_models \
+    --output_dir=./RQ3B-Code/UniXcoder/UniXcoder_model/saved_models \
     --model_name=model.bin \
     --do_test \
-    --test_data_file=./RQ1-Dataset/test.csv \
+    --test_data_file=./RQ3B-Dataset/test.csv \
     --encoder_block_size 512 \
     --decoder_block_size 256 \
     --eval_batch_size 1 \
     --n_gpu 1 \
-    --seed 26312  2>&1 | tee ./RQ1-Code/UniXcoder/UniXcoder_test.log
+    --seed 26312  2>&1 | tee ./RQ3B-Code/UniXcoder/UniXcoder_test.log

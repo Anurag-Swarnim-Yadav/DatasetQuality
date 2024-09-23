@@ -1,11 +1,11 @@
-python ./RQ1-Code/CodeBERT/codebert_main.py \
-    --output_dir=./RQ1-Code/CodeBERT/CodeBERT_model/saved_models \
+python ./RQ3A-Code/CodeBERT/codebert_main.py \
+    --output_dir=./RQ3A-Code/CodeBERT/CodeBERT_model/saved_models \
     --model_name=model.bin \
     --tokenizer_name=microsoft/codebert-base \
     --model_name_or_path=microsoft/codebert-base \
     --do_train \
-    --train_data_file=./RQ1-Dataset/train-whole.csv \
-    --test_data_file=./RQ1-Dataset/test.csv \
+    --train_data_file=./RQ3A-Dataset/train-whole.csv \
+    --test_data_file=./RQ3A-Dataset/test.csv \
     --epochs 75 \
     --encoder_block_size 512 \
     --decoder_block_size 256 \
@@ -15,4 +15,4 @@ python ./RQ1-Code/CodeBERT/codebert_main.py \
     --max_grad_norm 1.0 \
     --n_gpu 1 \
     --evaluate_during_training \
-    --seed 26312  2>&1 | tee ./RQ1-Code/CodeBERT/CodeBERT_train.log
+    --seed 26312  2>&1 | tee ./RQ3A-Code/CodeBERT/CodeBERT_train.log

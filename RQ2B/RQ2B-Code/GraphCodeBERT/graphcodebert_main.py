@@ -291,11 +291,12 @@ def test(args, model, tokenizer, test_dataset, best_threshold=0.5):
     test_result = round(sum(accuracy) / len(accuracy), 4)
     logger.info("***** Test results *****")
     logger.info(f"Test Accuracy: {str(test_result)}")
-    
+
     # write prediction to file
-    filename = f"./RQ1-Code/GraphCodeBERT/raw_predictions/GraphCodeBERT_raw_preds_beam_{args.beam_size}.csv"
+    filename = f"./RQ2B-Code/GraphCodeBERT/raw_predictions/GraphCodeBERT_raw_preds_beam_{args.beam_size}.csv"
     os.makedirs(os.path.dirname(filename), exist_ok=True)
-    df = pd.DataFrame({"raw_predictions": raw_predictions, "correctly_predicted": accuracy})
+    df = pd.DataFrame({"raw_predictions": raw_predictions,
+                       "correctly_predicted": accuracy})
     df.to_csv(filename)
 
 
@@ -411,8 +412,9 @@ def main():
             {"source": train_data_whole["source"], "target": train_data_whole["target"]})
         train_data, val_data = train_test_split(
             df, test_size=0.1238, random_state=42)
-        train_data.to_csv('./RQ1-Code/GraphCodeBERT/train_data.csv', index=False)
-        val_data.to_csv('./RQ1-Code/GraphCodeBERT/val_data.csv', index=False)
+        train_data.to_csv(
+            './RQ2B-Code/GraphCodeBERT/train_data.csv', index=False)
+        val_data.to_csv('./RQ2B-Code/GraphCodeBERT/val_data.csv', index=False)
         train_dataset = TextDataset(
             tokenizer, args, train_data, val_data, file_type='train')
         eval_dataset = TextDataset(

@@ -1,9 +1,9 @@
-python ./RQ1-Code/GraphCodeBERT/graphcodebert_main.py \
-    --output_dir=./RQ1-Code/GraphCodeBERT/GraphCodeBERT_model/saved_models \
+python ./RQ2B-Code/GraphCodeBERT/graphcodebert_main.py \
+    --output_dir=./RQ2B-Code/GraphCodeBERT/GraphCodeBERT_model/saved_models \
     --model_name=model.bin \
     --do_train \
-    --train_data_file=./RQ1-Dataset/train-whole.csv \
-    --test_data_file=./RQ1-Dataset/test.csv \
+    --train_data_file=./RQ2B-Dataset/train-whole.csv \
+    --test_data_file=./RQ2B-Dataset/test.csv \
     --epochs 75 \
     --encoder_block_size 512 \
     --decoder_block_size 256 \
@@ -13,4 +13,4 @@ python ./RQ1-Code/GraphCodeBERT/graphcodebert_main.py \
     --max_grad_norm 1.0 \
     --n_gpu 1 \
     --evaluate_during_training \
-    --seed 26312  2>&1 | tee ./RQ1-Code/GraphCodeBERT/GraphCodeBERT_train.log
+    --seed 26312  2>&1 | tee ./RQ2B-Code/GraphCodeBERT/GraphCodeBERT_train.log

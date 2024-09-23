@@ -1,11 +1,11 @@
-python ./RQ1-Code/GraphCodeBERT/graphcodebert_main.py \
+python ./RQ3A-Code/GraphCodeBERT/graphcodebert_main.py \
     --beam_size 50 \
-    --output_dir=./RQ1-Code/GraphCodeBERT/GraphCodeBERT_model/saved_models \
+    --output_dir=./RQ3A-Code/GraphCodeBERT/GraphCodeBERT_model/saved_models \
     --model_name=model.bin \
     --do_test \
-    --test_data_file=./RQ1-Dataset/test.csv \
+    --test_data_file=./RQ3A-Dataset/test.csv \
     --encoder_block_size 512 \
     --decoder_block_size 256 \
     --eval_batch_size 1 \
     --n_gpu 1 \
-    --seed 26312  2>&1 | tee ./RQ1-Code/GraphCodeBERT/GraphCodeBERT_test.log
+    --seed 26312  2>&1 | tee ./RQ3A-Code/GraphCodeBERT/GraphCodeBERT_test.log
