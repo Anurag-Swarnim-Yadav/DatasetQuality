@@ -442,6 +442,7 @@ To verify our results, within the RQ3B folder, we have six different seed subfol
 
 
 ### RQ4A
+In this research question, we report the performance of each of the models studied on the top 10 CWEs, showing their performance when duplicate and inconsistent samples are removed from consideration
 
 ![RQ4A-Top-10-ModelPerformance](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4A/RQ4A-Top10-ModelPerformance.png)
 
