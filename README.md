@@ -450,7 +450,8 @@ In this research question, we report the performance of each of the models studi
 
 ### RQ4B
 In this research question, we first assessed whether the samples had the correct CWE tags. If a sample was found to have an incorrect CWE tag, we identified the correct tag through manual analysis of the sample. Additionally, we evaluated whether the corresponding fix was complete based on manual analysis.<br>
-Manual analysis report: <a href ="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4B/Top-10-CWEs-Manual-Analysis.csv"> Top 10 CWEs Analysis for Accuracy and Completeness</a>
+
+#### MANUAL ANALYSIS REPORT: <a href ="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ4B/Top-10-CWEs-Manual-Analysis.csv"> Top 10 CWEs Analysis for Accuracy and Completeness</a>
 
 
 | Rank 	| CWE Type 	| Name                       	| RQ2B Samples 	| Accurate 	| Complete 	| Accurate & Complete 	|
