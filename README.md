@@ -139,7 +139,9 @@
 </table>
 
 
-
+**Note:** The Bug-Fix dataset is available at<br>  
+<https://github.com/ASSERT-KTH/VRepair/releases/download/v20240223/BugFix.tar.bz2>.<br>
+Thanks to the author of VRepair.
 
 
 
@@ -152,7 +154,7 @@ In an attempt to provide robust performance evaluations, each result is reported
 
 ### RQ1
 
-### DATASET
+#### DATASET
 | Samples            	| Train 	| Test       	| Comments 	|
 |--------------------	|-------	|------------	|-----------------------------	|
 | Total Samples (TS) 	| 6,776  	| 1,706        | Contains IS and CS Duplicates |
@@ -217,7 +219,7 @@ Note: The trained models will be released separately.
 
 ### RQ2A
 
-### DATASET
+#### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
 | Unique Samples	      | 4387  	| 1615 	|
@@ -276,7 +278,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ### RQ2B
 
-### DATASET
+#### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
 | Unique Samples       	| 5183  	| 819 	|
@@ -332,7 +334,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ### RQ3A
 
-### DATASET
+#### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
 | Unique Samples       	| 3995    | 1595 	|
@@ -387,7 +389,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 ### RQ3B
 
-### DATASET
+#### DATASET
 | Samples            	| Train 	| Test 	|
 |--------------------	|-------	|------	|
 | Unique Samples       	| 4918  	| 672 	|
@@ -467,21 +469,17 @@ In this research question, we first assessed whether the samples had the correct
 |      	|          	| Total                      	| 68           	| 30       	| 38       	| 21                  	|
 
 
-### RQ5 (Transfer Learning)
+### RQ5 [TRANSFER LEARNING]
 
-### Bug-Fix Dataset Overview
+#### BUG-FIX DATASET
 | Samples                           	| Train 	| Validation 	|
 |-----------------------------------	|-------	|------------	|
-| Total Samples (TS)                	| 534858  | 10000       |
-| In-Set Duplicates (IS Dup)        	| 6192  	| 4         	|
-| Sample Left(SL = TS - IS Dup)     	| 528666  | 9996        |
-| Cross-Set Duplicates (Validation)   | 247     | -          	|
-| Unique Samples (US = SL - CS Dup) 	| 528419  | 9996        |
-
-Note: The Bug-Fix dataset is available at  <https://github.com/ASSERT-KTH/VRepair/releases/download/v20240223/BugFix.tar.bz2>. Thanks to the author of VRepair.
+| Unique Samples                      	| 528419  | 9996        |
 
 
-### For FineTuning, we used the RQ3B dataset.
+
+
+#### FOR FINETUNING, WE USED RQ3B DATASET.
 
 
 ### Result
