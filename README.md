@@ -202,7 +202,7 @@ Note: IS: In-Set and CS: Cross-Set Duplicates
 
 
 #### REPLICATION RESULT OF VULREPAIR, CODEBERT, GRAPHCODEBERT AND UNIXCODER.
-To verify our results, within the RQ1 folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+**TO VERIFY OUR RESULTS**, within the RQ1 folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
 
 
 | Models           	| PP Reported 	| PP Replicated 	| Change 	|
