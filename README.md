@@ -483,6 +483,7 @@ In this research question, we first assessed whether the samples had the correct
 
 
 #### Result
+**TO VERIFY OUR RESULTS**, the RQ5 folder is organized into two subfolders: Bug-Fix and Transfer-Learning. The Bug-Fix subfolder contains one seed folder, while the Transfer-Learning subfolder includes six distinct seed folders, each holding the raw prediction file for the corresponding model.
 
 | Models        	| Beam = 1 	|       	| Beam = 3 	|       	| Beam = 5 	|       	| Beam = 50 	|        	|        	|
 |---------------	|----------	|-------	|----------	|-------	|----------	|-------	|-----------	|--------	|--------	|
