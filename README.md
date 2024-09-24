@@ -139,9 +139,9 @@
 </table>
 
 
-**Note:** The Bug-Fix dataset is available at<br>  
+**Note:** The Bug-Fix dataset is available at<br>
 <https://github.com/ASSERT-KTH/VRepair/releases/download/v20240223/BugFix.tar.bz2>.<br>
-Thanks to the author of VRepair.
+Thanks to the authors of VRepair.
 
 
 
