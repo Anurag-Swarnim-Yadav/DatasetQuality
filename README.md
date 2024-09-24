@@ -482,7 +482,8 @@ In this research question, we first assessed whether the samples had the correct
 #### FOR FINETUNING, WE USED RQ3B DATASET.
 
 
-### Result
+#### Result
+
 | Models        	| Beam = 1 	|       	| Beam = 3 	|       	| Beam = 5 	|       	| Beam = 50 	|        	|        	|
 |---------------	|----------	|-------	|----------	|-------	|----------	|-------	|-----------	|--------	|--------	|
 | Datasets      	| BF       	| TL    	| BF       	| TL    	| BF       	| TL    	| BF        	| VR     	| TL     	|
@@ -503,18 +504,19 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 
-## CodeT5 Beam Analysis (New Work - Not Included In The Paper)
+## CODET5 BEAM ANALYSIS [NEW WORK - NOT INCLUDED IN THE PAPER]
 
-### Replication
+### REPLICATION
 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867">Zhang et al.</a> investigated the impact of varying beam size values. To verify their findings, we utilized the same dataset provided by the authors and attempted to replicate the results. Our observations indicate that as the beam size increases, the %PP value goes up.
 
-### Dataset Overview
+#### DATASET
 
 | Samples            	| Train 	| Validation 	| Test 	|
 |--------------------	|-------	|------------	|------	|
 | Total Samples (TS) 	| 5937  	| 839        	| 1706 	|
 
-### Result
+
+#### RESULT
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
 | 26312      	|  0.3130  	|  0.3623  	|  0.3816  	|  0.3951  	|  0.3992  	|   0.4127  	|   0.4185  	|   0.4191  	|   0.4220  	|   0.4174   	|
@@ -535,10 +537,10 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 
 
-### No Duplicates Samples
+### NO DUPLICATE SAMPLES
 For this experiment, we removed Infile and Crossfile duplicates from the dataset. We reran the CodeT5 model and observed that beyond a beam size of 15, %PP decreases. We were unable to find reported in any previously published papers.
 
-### Dataset Overview
+#### DATASET
 
 | Samples                           	| Train 	| Validation 	| Test         	|
 |-----------------------------------	|-------	|------------	|--------------	|
@@ -550,7 +552,7 @@ For this experiment, we removed Infile and Crossfile duplicates from the dataset
 | Unique Samples (US = SL - CS Dup) 	| 4519  	| 399        	| 672          	|
 
 
-### Result
+#### RESULT
 | Seed       	| Beam = 1 	| Beam = 2 	| Beam = 3 	| Beam = 4 	| Beam = 5 	| Beam = 10 	| Beam = 15 	| Beam = 20 	| Beam = 50 	| Beam = 100 	|
 |------------	|:--------:	|:--------:	|:--------:	|:--------:	|:--------:	|:---------:	|:---------:	|:---------:	|:---------:	|:----------:	|
 | 26312      	|  0.0536  	|  0.0759  	|  0.0818  	|  0.0863  	|  0.0908  	|   0.0878  	|   0.0893  	|   0.0878  	|   0.0848  	|   0.0789   	|
