@@ -260,7 +260,7 @@ Note: The trained models will be released separately.
 
 
 #### RESULT
-To verify our results, within the RQ2A folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+**TO VERIFY OUR RESULTS**, within the RQ2A folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
 
 | Models           	| PP RQ2A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
@@ -319,7 +319,7 @@ Note: PP RQ2A shows perfect prediction scores on running on RQ2A dataset and
 
 
 #### RESULT
-To verify our results, within the RQ2B folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+**TO VERIFY OUR RESULTS**, within the RQ2B folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
 
 | Models           	| PP RQ2B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
@@ -375,7 +375,7 @@ To verify our results, within the RQ2B folder, we have six different seed subfol
 
 
 #### RESULT
-To verify our results, within the RQ3A folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+**TO VERIFY OUR RESULTS**, within the RQ3A folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
 
 | Models           	| PP RQ3A 	| % of Replication 	|
 |------------------	|---------	|------------------	|
@@ -430,7 +430,7 @@ To verify our results, within the RQ3A folder, we have six different seed subfol
 
 
 #### RESULT
-To verify our results, within the RQ3B folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
+**TO VERIFY OUR RESULTS**, within the RQ3B folder, we have six different seed subfolders, each containing the raw prediction file for its respective model.
 
 | Models           	| PP RQ3B 	| % of Replication 	|
 |------------------	|---------	|------------------	|
