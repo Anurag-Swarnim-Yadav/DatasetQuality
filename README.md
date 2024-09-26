@@ -28,10 +28,10 @@
 2)  Clone our repository to your machine<br>
    `git clone https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair.git`<br>
    `cd Security-Vulnerability-Repair`
-4)  Install the required requirements packages using pip
+4)  Install the necessary packages using pip
       - For NVIDIA A100-SXM4-80GB<br>
       `pip install -r requirements.txt`
-      - Otherwise<br>
+      - For other setups<br>
       `pip install -r requirements-small.txt`
 5) You can verify that the packages have been installed correctly by running<br>
    `pip list`
