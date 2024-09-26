@@ -505,7 +505,11 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 ![%PP as a Function of Beam Size for RQ5](https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/blob/main/RQ5/Transfer-Learning/RQ5-TL-Beam-Sizes.png)
 
 
+## RELATED WORK
 
+#### VISION TRANSFORMER INSPIRED AUTOMATED VULNERABILITY REPAIR PAPER
+A brief analysis of both the pre-training bug-fix dataset and VQM vulnerability fine-tuning dataset used in that paper. The pre-training dataset contains 21,246 training samples and 2,362 validation samples. Our review revealed 18,622 duplicated entries in the training set and 782 duplicates in the validation set. After removing those, 1,579 cross-set duplicates (in both train and validation) were identified, which were all of the validation set code samples present in the training set. Additionally, our analysis uncovered a substantial overlap between the bug-fix dataset and the VQM vulnerability fine-tuning dataset. Specifically, there were 511 matching entries in the test set, 243 in the validation set, and 1,747 in the training set of the vulnerability dataset that overlapped with the bug-fix dataset.
+#### REPORT: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10232867"> Detailed Analysis </a>
 
 
 ## CODET5 BEAM ANALYSIS [NEW WORK - NOT INCLUDED IN THE PAPER]
