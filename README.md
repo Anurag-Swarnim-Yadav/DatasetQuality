@@ -1,5 +1,8 @@
 #  R+R: Security Vulnerability Dataset Quality Is Critical
 ### ACSAC 2024: TECHNICAL PAPER - PAPER #300
+### To BE PRESENTED AT THE <a href="https://www.acsac.org/">ACSAC 2024, DECEMBER 9-13, 2024</a>
+
+
 ## ENVIRONMENT SETUP
 
 #### CONDA SETUP [Anaconda3 4.9.2 Installer for Linux-64]
