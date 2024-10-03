@@ -512,7 +512,7 @@ TL (Transfer Learning): The models are initially trained on the bug-fix dataset 
 
 #### VISION TRANSFORMER INSPIRED AUTOMATED VULNERABILITY REPAIR PAPER <a href="https://dl.acm.org/doi/10.1145/3632746">[VQM]</a>
 We conducted a brief analysis of both the pre-training bug-fix dataset and VQM vulnerability fine-tuning dataset used in that paper. The pre-training dataset contains 21,246 training samples and 2,362 validation samples. Our review revealed 18,622 duplicated entries in the training set and 782 duplicates in the validation set. After removing those, 1,579 cross-set duplicates (in both train and validation) were identified, which were all of the validation set code samples present in the training set. Additionally, our analysis uncovered a substantial overlap between the bug-fix dataset and the VQM vulnerability fine-tuning dataset. Specifically, there were 511 matching entries in the test set, 243 in the validation set, and 1,747 in the training set of the vulnerability dataset that overlapped with the bug-fix dataset.
-#### RESULT: <a href="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/tree/main/VQM_Analysis_Report"> Detailed Analysis and Report </a>
+#### RESULT: <a href="https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair/tree/main/VQM_Analysis_Report">DETAILED ANALYSIS AND REPORT</a>
 
 
 ## CODET5 BEAM ANALYSIS [NEW WORK - NOT INCLUDED IN THE PAPER]
