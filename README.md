@@ -18,9 +18,9 @@
 ####  CONDA ENVIRONMENT SETUP [PYTHON 3.10.12]
 1) After Conda is installed and initialized, open your terminal.
 2) Run the following command to create a new conda environment with Python 3.10.12<br>
-   `conda create --name DataQuality python=3.10.12`
+   `conda create --name DatasetQuality python=3.10.12`
 3) Once the environment is created, activate it using the following command<br>
-   `conda activate DataQuality`
+   `conda activate DatasetQuality`
 4) To make sure that the correct version of Python (3.10.12) is installed in the environment<br>
    `python --version`
 5) You should see: Python 3.10.12
@@ -29,8 +29,8 @@
 1) First, install pip in your environment (if not already installed)<br>
    `conda install pip`
 2)  Clone our repository to your machine<br>
-   `git clone https://github.com/Anurag-Swarnim-Yadav/Security-Vulnerability-Repair.git`<br>
-   `cd Security-Vulnerability-Repair`
+   `git clone https://github.com/Anurag-Swarnim-Yadav/DatasetQuality.git`<br>
+   `cd DatasetQuality`
 4)  Install the necessary packages using pip
       - For NVIDIA A100-SXM4-80GB<br>
       `pip install -r requirements.txt`
