@@ -1,6 +1,6 @@
 #  R+R: Security Vulnerability Dataset Quality Is Critical
 ### ACSAC 2024: TECHNICAL PAPER - PAPER #300
-### To BE PRESENTED AT THE <a href="https://www.acsac.org/">ACSAC 2024, DECEMBER 9-13, 2024</a>
+### To BE PRESENTED AT THE <a href="https://www.acsac.org/">ACSAC 2024</a>, DECEMBER 9-13, 2024
 
 
 ## ENVIRONMENT SETUP
