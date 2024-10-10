@@ -493,7 +493,12 @@ We have released all the models at `https://doi.org/10.5281/zenodo.11582874`<br>
 Unzip the folder using `unzip filename.zip`
 
 #### PRE-TRAINING
-Pretraning is done on Seed 26312. So download VulRepairRQ5_Seed26312, CodeBERTRQ5_Seed26312, GraphCodeBERTRQ5_Seed26312 and UniXcoderRQ5_Seed26312
+Pretraning is done on `Seed 26312`.<br>
+Download 
+`VulRepairRQ5_Seed26312`<br>
+`CodeBERTRQ5_Seed26312`<br>
+`GraphCodeBERTRQ5_Seed26312`<br>
+`UniXcoderRQ5_Seed26312`
 
 #### VULREPAIR
 1) To train<br>
