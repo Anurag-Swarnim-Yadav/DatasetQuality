@@ -529,6 +529,37 @@ Download<br>
 `sh run_pretrain_test.sh`
 
 #### TRANSFER LEARNING
+Transfer learning is done on six random Seeds: 26312, 43511, 67732, 70757, 95541, and 123456`<br>
+Download all the folders.
+
+
+#### VULREPAIR
+1) To train<br>
+`sh run_train.sh`
+2) To test<br>
+`sh run_test.sh`
+
+
+#### CODEBERT
+1) To train<br>
+`sh run_train.sh`
+2) To test<br>
+`sh run_test.sh`
+
+
+#### GRAPHCODEBERT
+1) To train<br>
+`sh run_train.sh`
+2) To test<br>
+`sh run_test.sh`
+
+
+
+#### UNIXCODER
+1) To train<br>
+`sh run_train.sh`
+2) To test<br>
+`sh run_test.sh`
 
 
 
