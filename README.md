@@ -490,6 +490,44 @@ In this research question, we first assessed whether the samples had the correct
 
 #### RESULT
 We have released all the models at `https://doi.org/10.5281/zenodo.11582874`<br>
+Unzip the folder using `unzip filename.zip`
+
+#### PRE-TRAINING
+Pretraning is done on Seed 26312. So download VulRepairRQ5_Seed26312, CodeBERTRQ5_Seed26312, GraphCodeBERTRQ5_Seed26312 and UniXcoderRQ5_Seed26312
+
+#### VULREPAIR
+1) To train<br>
+`sh run_pretrain.sh`
+2) To test<br>
+`sh run_pretrain_test.sh`
+
+
+#### CODEBERT
+1) To train<br>
+`sh run_pretrain.sh`
+2) To test<br>
+`sh run_pretrain_test.sh`
+
+
+#### GRAPHCODEBERT
+1) To train<br>
+`sh run_pretrain.sh`
+2) To test<br>
+`sh run_pretrain_test.sh`
+
+
+
+#### UNIXCODER
+1) To train<br>
+`sh run_pretrain.sh`
+2) To test<br>
+`sh run_pretrain_test.sh`
+
+#### TRANSFER LEARNING
+
+
+
+
 **TO VERIFY OUR RESULTS**, the RQ5 folder is organized into two subfolders: Bug-Fix and Transfer-Learning. The Bug-Fix subfolder contains one seed folder, while the Transfer-Learning subfolder includes six distinct seed folders, each holding the raw prediction file for the corresponding model.
 
 | Models        	| Beam = 1 	|       	| Beam = 3 	|       	| Beam = 5 	|       	| Beam = 50 	|        	|        	|
