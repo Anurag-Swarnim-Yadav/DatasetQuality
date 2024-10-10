@@ -494,7 +494,7 @@ Unzip the folder using `unzip filename.zip`
 
 #### PRE-TRAINING
 Pretraning is done on `Seed 26312`.<br>
-Download 
+Download<br>
 `VulRepairRQ5_Seed26312`<br>
 `CodeBERTRQ5_Seed26312`<br>
 `GraphCodeBERTRQ5_Seed26312`<br>
