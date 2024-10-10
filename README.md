@@ -529,8 +529,9 @@ Download<br>
 `sh run_pretrain_test.sh`
 
 #### TRANSFER LEARNING
-Transfer learning is done on six random Seeds: 26312, 43511, 67732, 70757, 95541, and 123456`<br>
-Download all the folders.
+Transfer learning is done on six random `Seeds: 26312, 43511, 67732, 70757, 95541, and 123456`<br>
+Download all the folders.<br>
+Testing is done on `beam sizes: 1, 3, 5, 10, 20, 30, 40, 50`
 
 
 #### VULREPAIR
