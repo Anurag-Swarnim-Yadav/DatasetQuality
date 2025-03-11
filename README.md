@@ -2,6 +2,8 @@
 ### ACSAC 2024: TECHNICAL PAPER - PAPER #300
 ### TO BE PRESENTED AT THE <a href="https://www.acsac.org/">ACSAC 2024</a>, DECEMBER 9-13, 2024
 
+#### Paper: https://arxiv.org/abs/2503.06387
+
 
 ## ENVIRONMENT SETUP
 
